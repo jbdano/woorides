@@ -3,56 +3,64 @@
   color: #FFC02F; }
 
 /* line 2, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_font.scss */
-h1, h2, h3, h4, h5, h6, p, a {
+h1, h2, h3, h4, h5, h6 {
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   font-weight: bold;
   color: #132747;
   margin: 0; }
 
-/* line 11, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_font.scss */
+/* line 10, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_font.scss */
+p, a {
+  color: #132747; }
+
+/* line 15, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_font.scss */
 body {
   font-size: 16px;
   line-height: 1.5;
   font-family: 'Mina', sans-serif; }
   @media screen and (min-width: 768px) {
-    /* line 11, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_font.scss */
+    /* line 15, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_font.scss */
     body {
       font-size: 17px; } }
 
-/* line 21, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_font.scss */
+/* line 25, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_font.scss */
 h1 {
   font-size: 3.0em; }
 
-/* line 22, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_font.scss */
+/* line 26, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_font.scss */
 h2 {
   font-size: 2.2em; }
 
-/* line 23, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_font.scss */
+/* line 27, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_font.scss */
 h3 {
   font-size: 1.9em; }
 
-/* line 24, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_font.scss */
+/* line 28, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_font.scss */
 h4 {
   font-size: 1.6em; }
 
-/* line 25, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_font.scss */
+/* line 29, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_font.scss */
 h5 {
   font-size: 1.3em; }
 
-/* line 26, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_font.scss */
+/* line 30, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_font.scss */
 h6 {
   font-size: 1em; }
 
-/* line 28, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_font.scss */
+/* line 32, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_font.scss */
 p {
   font-size: 1em; }
 
-/* line 29, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_font.scss */
+/* line 33, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_font.scss */
 a {
   font-size: 1em; }
 
-/* line 30, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_font.scss */
+/* line 34, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_font.scss */
+strong {
+  font-size: 1em; }
+
+/* line 35, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_font.scss */
 label {
   font-size: 0.83em;
   font-weight: bold; }
@@ -256,5 +264,63 @@ label {
   /* line 103, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
   .carousel-caption a {
     font-size: 1.6em; }
+
+/* line 2, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_definition.scss */
+#definition-banner {
+  display: grid;
+  background-color: #B9E2DF;
+  grid-template-columns: 100vw;
+  padding: 75px 0px; }
+  @media screen and (min-width: 768px) {
+    /* line 2, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_definition.scss */
+    #definition-banner {
+      grid-template-columns: 35% 65%;
+      grid-template-rows: 300px;
+      padding: 0; } }
+
+/* line 15, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_definition.scss */
+.defBan-img-cell {
+  justify-self: center;
+  align-self: center; }
+  @media screen and (min-width: 768px) {
+    /* line 15, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_definition.scss */
+    .defBan-img-cell {
+      justify-self: end; } }
+  /* line 22, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_definition.scss */
+  .defBan-img-cell img {
+    max-width: 150px;
+    height: auto;
+    margin: 0px auto 50px;
+    display: block; }
+    @media screen and (min-width: 768px) {
+      /* line 22, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_definition.scss */
+      .defBan-img-cell img {
+        margin: 0 50px 0 0;
+        max-width: 200px; } }
+
+/* line 34, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_definition.scss */
+.defBan-def-cell {
+  justify-self: start;
+  align-self: center;
+  max-width: 600px;
+  margin: 0 auto; }
+  @media screen and (min-width: 768px) {
+    /* line 34, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_definition.scss */
+    .defBan-def-cell {
+      max-width: 700px;
+      margin: 0; } }
+  /* line 44, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_definition.scss */
+  .defBan-def-cell p {
+    font-size: 1.3em;
+    padding: 0px 15px; }
+    @media screen and (min-width: 768px) {
+      /* line 44, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_definition.scss */
+      .defBan-def-cell p {
+        margin: 0; } }
+  @media screen and (min-width: 768px) {
+    /* line 51, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_definition.scss */
+    .defBan-def-cell strong {
+      font-size: 1.2em;
+      margin-bottom: 0px; } }
 
 /*# sourceMappingURL=../custom.map */
