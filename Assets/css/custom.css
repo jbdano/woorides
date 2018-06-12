@@ -1,715 +1,260 @@
-
+/* line 3, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_variables.scss */
 .theme-color-yellow {
-	color: #FFC02F;
-}
+  color: #FFC02F; }
 
-.theme-color-green-dark {
-	color: #40AFA7;
-}
-
-.theme-color-green-light {
-	color: #B9E2DF;
-}
-
-.theme-color-blue {
-	color: #132747;
-}
-
+/* line 2, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_font.scss */
 h1, h2, h3, h4, h5, h6, p, a {
-	color: #132747;
-}
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-weight: bold;
+  color: #132747;
+  margin: 0; }
 
+/* line 11, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_font.scss */
+body {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: 'Mina', sans-serif; }
+  @media screen and (min-width: 768px) {
+    /* line 11, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_font.scss */
+    body {
+      font-size: 17px; } }
+
+/* line 21, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_font.scss */
+h1 {
+  font-size: 3.0em; }
+
+/* line 22, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_font.scss */
+h2 {
+  font-size: 2.2em; }
+
+/* line 23, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_font.scss */
+h3 {
+  font-size: 1.9em; }
+
+/* line 24, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_font.scss */
+h4 {
+  font-size: 1.6em; }
+
+/* line 25, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_font.scss */
+h5 {
+  font-size: 1.3em; }
+
+/* line 26, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_font.scss */
+h6 {
+  font-size: 1em; }
+
+/* line 28, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_font.scss */
+p {
+  font-size: 1em; }
+
+/* line 29, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_font.scss */
+a {
+  font-size: 1em; }
+
+/* line 30, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_font.scss */
+label {
+  font-size: 0.83em;
+  font-weight: bold; }
+
+/* line 2, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
 .navbar {
-	background: linear-gradient(#224070 50%, #1c3863 50%);
-	margin-bottom: 0px;
-	/*background-color: blue;
-	height: 62px;*/
-}
+  background: linear-gradient(#224070 50%, #1c3863 50%);
+  margin-bottom: 0px; }
+  @media screen and (min-width: 768px) {
+    /* line 2, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
+    .navbar {
+      height: 62px; } }
 
+/* line 10, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
+.navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
+  max-height: 500px; }
+
+/* line 14, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
+.navbar-default .navbar-toggle.collapsed .icon-bar {
+  background-color: #ddd; }
+
+/* line 18, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #888; }
+
+/* line 22, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
 .navbar-brand {
-	padding: 0px;
-	padding-left: 25px;
-}
+  padding: 5px;
+  padding-left: 25px; }
+  @media screen and (min-width: 768px) {
+    /* line 22, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
+    .navbar-brand {
+      padding-left: 100px;
+      height: 60px; } }
+  /* line 30, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
+  .navbar-brand img {
+    height: 40px; }
+    @media screen and (min-width: 768px) {
+      /* line 30, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
+      .navbar-brand img {
+        height: 50px; } }
 
-.navbar-brand img {
-	height: 40px;
-	margin-top: 5px;
-}
+/* line 38, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
+.navbar-nav > li > a {
+  padding-top: 20px;
+  padding-bottom: 20px; }
 
-@media screen and (min-width: 768px) {
-	.navbar-brand {
-		padding-left: 100px;
-	}
-	.navbar {
-		height: 62px;
-	}
-	.navbar-brand img {
-		height: 50px;
-		margin-top: 5px;
-	}
-	.carousel-inner .item .carousel-graphic {
-		margin-top: 60px;
-		grid-template-rows: calc(100vh - 60px);
-	}
-}
+/* line 43, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
+.navbar-default .navbar-nav > li > a {
+  color: white;
+  font-weight: bold; }
+  /* line 46, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
+  .navbar-default .navbar-nav > li > a:hover {
+    color: white; }
 
-.navbar-nav>li>a {
-	padding-top: 20px;
-	padding-bottom: 20px;	
-}
-
-.navbar-default .navbar-nav>li>a {
-	color: white;
-	font-weight: bold;
-}
-
-.navbar-nav>li>a.navbar_contact_btn {
-	margin: 8px 15px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	border: 2px solid white;
-	text-transform: uppercase;
-}
-
-#home_hero_section {
-	background-image: url('../img/home_hero.jpg');
-	margin-top: 60px;
-	height: calc(100vh - 60px);
-	width: 100vw;
-}
-
-.carousel-inner .item .carousel-graphic {
-	display: grid;
-	margin-top: 50px;
-	grid-template-rows: calc(100vh - 50px);
-	grid-template-columns: 100vw;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: 75% 0%;
-}
-
-.carousel-inner .item .graphic-1 {
-	background-image: url('../img/home_hero.jpg');
-}
-
-.carousel-inner .item .graphic-2 {
-	background-image: url('../img/home_hero.jpg');
-}
-
-.carousel-inner .item .graphic-3 {
-	background-image: url('../img/home_hero.jpg');
-}
-
-.carousel-inner .item .graphic-4 {
-	background-image: url('../img/home_hero.jpg');	
-}
-
-.carousel-indicators .active {
-	height: 20px;
-	width: 20px;
-	margin-left: 25px;
-	background-color: #FFC02F;
-	border-color: #FFC02F;
-}
-
-.carousel-indicators li {
-	height: 20px;
-	width: 20px;
-	margin-left: 25px;
-	background-color: white;
-	border-color: white;
-}
-
-.carousel-indicators li:first-child {
-	margin-left: 0px;
-}
-
-
-.carousel-caption {
-	left: 100px;
-	top: 0px;
-	right: auto;
-	bottom: auto;
-	text-align: left;
-	font-weight: bold;
-}
-
-.carousel-caption h1 {
-	font-size: 60px;
-	color: rgb(255, 255, 255);
-}
-
-.carousel-caption p {
-	margin-bottom: 40px;
-	font-size: 25px;
-	color: rgb(255, 255, 255);
-}
-
-.carousel-caption a {
-	font-size: 25px;
-}
-
-/*
-* DEFINITION BANNER
-*/
-
-#definition-banner {
-	display: grid;
-	background-color: #B9E2DF;
-	grid-template-columns: 100vw;
-	grid-template-rows: 300px auto;
-}
-
-.defBan-img-cell {
-	justify-self: center;
-	align-self: center;
-}
-
-.defBan-img-cell img {
-	max-width: 80%;
-	max-height: 80%;
-	margin: 0px auto;
-	display: block;
-}
-
-.defBan-def-cell {
-	justify-self: start;
-	align-self: center;
-}
-
-.defBan-def-cell p {
-	font-size: 30px;
-	padding: 0px 15px;
-}
-
-@media screen and (min-width: 768px) {
-	#definition-banner {
-		grid-template-columns: 35% 65%;	
-		grid-template-rows: 350px;
-	}
-	.defBan-img-cell {
-		justify-self: end;
-	}
-	.defBan-img-cell img {
-		margin-right: 75px;
-		margin-left: 15px;
-	}
-}
-
-/********************************************************************
-*
-* OUR SERVICES
-*
-*/
-
-#services-section {
-	padding: 40px 0px;
-	max-width: 100vw;
-}
-
-.section-header {
-	text-align: center;
-	text-transform: uppercase;
-	font-weight: bold;
-	margin-bottom: 40px;
-}
-
-#services-section .nav-tabs > li {
-    float: none;
-    display: block;
-    zoom: 1;
-    padding: 0 20px;
-    color: #132747;
-}
-
-#services-section .nav-tabs > li > a {
-	font-weight: bold;
-	padding: 10px 0px 2px;
-	font-size: 20px;
-}
-
-@media screen and (min-width: 600px) {
-	
-	#services-section .nav-tabs > li {
-    	display: inline-block;
-	}
-}
-
-#services-section .nav-tabs {
-    text-align: center;
-    border: 0;
-}
-
-.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
-	border: 1px solid transparent;
-	border-bottom-width: 3px;
-	border-bottom-color: #FFC02F; 
-}
-
-.overview-rides {
-	display: grid;
-	margin-top: 50px;
-	max-width: 100vw;
-}
-
-.overview-rides-img {
-	height: 100%;
-}
-
-.overview-rides-img img {
-	display: block;
-	margin: 0 auto;
-	height: 200px;
-	width: auto;
-}
-
-.overview-rides-content {
-	padding: 0px 15px;
-}
-
-.overview-rides-content-title {
-	text-transform: uppercase;
-}
-
-.overview-rides-content p {
-	margin-bottom: 40px;
-}
-
-@media screen and (min-width: 768px) {
-	
-	.overview-rides {
-		grid-template-columns: 1fr 1fr;
-	}
-	.overview-rides-img {
-		padding: 0 20px 0 0;
-	}
-	.overview-rides-img img {
-		margin: 0 0 0 auto;
-	}
-	.overview-rides-content {
-		padding: 0;
-		margin: 0 0 0 20px;
-		width: 350px;
-	}
-}
-
-.reviews-ruler {
-	max-width: 100vw;
-	position: relative;
-	margin: 70px 0px;
-}
-
-.revRul-line {
-	border-top: 2px solid #FFC02F;
-	width: 80vw;
-	margin-top: 0px;
-	margin-bottom: 0px;
-}
-
-.revRul-title {
-	position: absolute;
-	top: 0px;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	margin: 0;
-	background-color: white;
-	padding: 0 15px;
-	font-weight: bold;
-	white-space: nowrap;
-}
-
-.review {
-	display: grid;
-	margin-bottom: 50px;
-}
-
-.review-headshot img {
-	height: 150px;
-	width: 150px;
-	border-radius: 50%;
-	margin: 0 auto;
-	display: block;
-}
-
-.review-rating i {
-	color: #FFC02F;
-}
-
-.review-content {
-	justify-self: center;
-	margin-top: 30px;
-	width: 300px;
-}
-
-@media screen and (min-width: 500px) {
-	.revRul-title {
-		padding: 0 50px;
-	}
-	.review-content {
-		width: 350px;
-	}
-}
-
-@media screen and (min-width: 1200px) {
-	.overview-rides-content {
-		width: 400px;
-	}
-	.review {
-		grid-template-columns: 150px 1fr;
-		width: 550px;
-	}
-	.review-one {
-		float: right;
-	}
-	.review-headshot {
-		justify-self: end;
-	}
-	.review-content {
-		margin-top: 0;
-		align-self: center;
-		justify-self: start;
-		padding-left: 30px;
-		width: 250px;
-	}
-}
-
-/********************************************************************
-*
-* CONTACT FORM
-*
-*/
-
-#contact-form-section {
-	background-color: #132747;
-	padding: 50px 0;
-}
-
-#contact-form-section .content-title {
-	color: #FFC02F;
-	text-align: center;
-	margin-bottom: 50px;
-}
-
-#contact-form .form-group {
-	margin: 0;
-}
-
-#contact-form .contact-form-label {
-	margin: 4px 0 0 0;
-}
-
-#contact-form label {
-	color: white;
-}
-
-#contact-form input,
-#contact-form textarea {
-	color: white;
-	background-color: transparent;
-	border-radius: 0px;
-}
-
-#contact-form input:focus,
-#contact-form textarea:focus {
-	border-color: #FFC02F;
-	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(255, 192, 47,.6);
-	box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(255, 192, 47,.6);
-}
-
-#contact-form textarea {
-	height: 93px;
-	resize: none;
-}
-
-#contact-form-submit {
-	margin: 30px auto;
-	display: block;
-	text-align: center;
-	width: 150px;
-	border: 3px solid #FFC02F;
-	color: #FFC02F;
-}
-
-/* Customize the label (the container) */
-.service-item {
-  display: block;
-  position: relative;
-  padding-left: 25px;
-  margin: 10px 20px 10px 0;
-  cursor: pointer;
-  font-size: 14px;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-
-/* Hide the browser's default radio button */
-.service-item input {
-  position: absolute;
-  top: 0;
-  left: 0;
-  opacity: 0;
-}
-
-/* Create a custom radio button */
-.checkmark {
-  position: absolute;
-  top: 2px;
-  left: 0;
-  height: 15px;
-  width: 15px;
+/* line 51, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
+.navbar-nav > li > a.navbar_contact_btn {
+  margin: 8px 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 2px solid white;
+  text-transform: uppercase;
   background-color: transparent;
-  border: 1px solid white;
-  border-radius: 50%;
-}
+  transition: background-color 0.2s ease-out; }
+  /* line 59, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
+  .navbar-nav > li > a.navbar_contact_btn:hover {
+    color: white;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: background-color 0.2s ease-out; }
 
-/* On mouse-over, add a grey background color */
-.service-item:hover input ~ .checkmark {
-  background-color: #ccc;
-}
+/* line 2, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_buttons.scss */
+.theme-btn-cta-secondary {
+  border: 3px solid white;
+  color: white;
+  border-radius: 0px;
+  padding: 4px 35px;
+  text-transform: uppercase;
+  background-color: transparent;
+  transition: background-color 0.2s ease-out; }
+  /* line 10, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_buttons.scss */
+  .theme-btn-cta-secondary:hover {
+    color: white;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: background-color 0.2s ease-out; }
 
-/* When the radio button is checked, add a blue background */
-.service-item input:checked ~ .checkmark {
+/* line 18, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_buttons.scss */
+.theme-btn-cta-primary {
+  border: 3px solid #40AFA7;
+  color: white;
+  border-radius: 0px;
+  padding: 4px 35px;
+  text-transform: uppercase;
+  background-color: #40AFA7; }
+
+/* line 2, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
+#home_hero_section {
+  background-image: url("../img/home_hero.jpg");
+  margin-top: 60px;
+  height: calc(100vh - 60px);
+  width: 100vw; }
+
+/* line 11, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
+.carousel-inner .item .carousel-graphic {
+  display: grid;
+  margin-top: 50px;
+  grid-template-rows: calc(100vh - 50px);
+  grid-template-columns: 100vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 75% 0%; }
+  @media screen and (min-width: 768px) {
+    /* line 11, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
+    .carousel-inner .item .carousel-graphic {
+      margin-top: 60px;
+      grid-template-rows: calc(100vh - 60px); } }
+
+/* line 24, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
+.carousel-inner .item .graphic-1 {
+  background-image: url("../img/home_hero.jpg"); }
+
+/* line 27, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
+.carousel-inner .item .graphic-2 {
+  background-image: url("../img/home_hero.jpg"); }
+
+/* line 30, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
+.carousel-inner .item .graphic-3 {
+  background-image: url("../img/home_hero.jpg"); }
+
+/* line 33, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
+.carousel-inner .item .graphic-4 {
+  background-image: url("../img/home_hero.jpg"); }
+
+/* line 36, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
+.carousel-inner .item .carousel-caption {
+  opacity: 0;
+  transition: all 0.2s ease-out; }
+
+/* line 41, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
+.carousel-inner .item.active .carousel-caption {
+  opacity: 1;
+  transition: all 0.2s ease-out; }
+  @media screen and (min-width: 768px) {
+    /* line 41, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
+    .carousel-inner .item.active .carousel-caption {
+      left: 20px; } }
+
+/* line 53, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
+.carousel-indicators .active {
+  height: 20px;
+  width: 20px;
+  margin-left: 25px;
   background-color: #FFC02F;
-  border: 1px solid #FFC02F;
-}
+  border-color: #FFC02F; }
 
-@media screen and (min-width: 1000px) {
-	.service-item {
-		display: inline-block;
-		margin: 7px 20px 7px 0;
-	}
-	.form-container {
-		width: 900px;
-		margin: 0 auto;
-	}
-}
+/* line 60, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
+.carousel-indicators li {
+  height: 20px;
+  width: 20px;
+  margin-left: 25px;
+  background-color: white;
+  border-color: white; }
+  /* line 67, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
+  .carousel-indicators li:first-child {
+    margin-left: 0px; }
 
-/********************************************************************
-*
-* OUR VALUES
-*
-*/
+/* line 73, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
+.carousel-caption {
+  left: 0px;
+  top: 0px;
+  right: auto;
+  bottom: auto;
+  max-width: 100vw;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: left;
+  font-weight: bold; }
+  @media screen and (min-width: 768px) {
+    /* line 73, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
+    .carousel-caption {
+      max-width: 750px;
+      top: 20px;
+      left: 40px; } }
+  /* line 89, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
+  .carousel-caption h1 {
+    color: white; }
+    @media screen and (min-width: 768px) {
+      /* line 89, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
+      .carousel-caption h1 {
+        font-size: 5em; } }
+    @media screen and (min-width: 1200px) {
+      /* line 89, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
+      .carousel-caption h1 {
+        font-size: 6em; } }
+  /* line 98, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
+  .carousel-caption p {
+    margin-bottom: 40px;
+    font-size: 1.6em;
+    color: white; }
+  /* line 103, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
+  .carousel-caption a {
+    font-size: 1.6em; }
 
-#values-section {
-	padding: 40px 0px;
-	max-width: 100vw;
-}
-
-#values-section .content-title {
-	font-weight: bold;
-	text-align: center;
-	margin-bottom: 15px;
-}
-
-#values-section .content-description {
-	padding: 0 10px;
-	line-height: 1.6;
-	margin-bottom: 50px;
-}
-
-#values-description-img {
-	width: 100%;
-}
-
-.values-icon {
-	width: 100px;
-	display: block;
-	margin-top: 75px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 25px;
-}
-
-.values-title {
-	text-align: center;
-	text-transform: uppercase;
-}
-
-.values-description {
-	text-align: center;
-}
-
-@media screen and (min-width: 992px) {
-	
-	#values-section .content-description {
-		padding: 0;
-		width: 450px;
-		margin: 0 auto;
-	}
-}
-
-/********************************************************************
-*
-* WORK WITH US
-*
-*/
-
-#work-with-us {
-	background-color: #B9E2DF;
-	padding: 75px 0;
-}
-
-#wwu-title {
-	text-align: center;
-	color: white;
-	margin-top: 0;
-	margin-bottom: 30px;
-}
-
-#wwu-content {
-	text-align: center;
-	max-width: 300px;
-	margin: 0 auto;
-}
-
-#wwu-btn {
-	margin: 50px auto;
-	margin-bottom: 0;
-	display: block;
-	width: 280px;
-	text-align: center;
-	background-color: #132747;
-	border: 3px solid #132747;
-	color: white;
-}
-
-@media screen and (min-width: 768px) {
-	#work-with-us {
-		padding: 25px 0;
-	}
-	#wwu-content {
-		text-align: right;
-		width: 300px;
-		margin: 0 0 0 auto;
-	}
-	#wwu-btn {
-		margin: 4px auto 0 0;
-	}
-}
-
-@media screen and (min-width: 1000px) {
-	#work-with-us {
-		padding: 40px 0;
-	}
-}
-
-/********************************************************************
-*
-* AS SEEN IN
-*
-*/
-#as-seen-in-section {
-	padding-bottom: 140px;	
-}
-
-#asi-grid {
-	display: grid;
-	width: 100vw;
-	grid-row-gap: 50px;
-}
-
-.asi-img {
-	width: 100%;
-	max-width: 300px;
-	padding-bottom: 200px;
-	margin: 0 auto;
-	background: url('../../Assets/img/Ali_Valentine_Yaovi.jpg') center center;
-	background-size: cover;
-	position: relative;
-}
-
-.asi-img:before{
-  position: absolute;
-  content:" ";
-  top:0;
-  left:0;
-  width:100%;
-  height:100%;
-  display: block;
-  z-index:0;
-  background-color: rgba(19, 39, 71, 0.7);
-}
-
-.asi-text-overlay {
-	color: white;
-	position: absolute;
-	margin: 0;
-	top:50%;
-	left:50%;
-	transform: translate(-50%, -50%);
-	width: 100%;
-	padding: 0 15px;
-	text-align: center;
-	font-weight: bold;
-	line-height: 2;
-}
-
-.asi-item a:hover .asi-img:before {
-	background-color: rgba(185, 226, 223, 0.6);
-	transition: all 0.2s ease-out
-}
-
-@media screen and (min-width: 1000px) {
-	#asi-grid {
-		grid-template-columns: repeat(3, 1fr);
-		grid-column-gap: 15px;
-		width: 980px;
-		margin: 0 auto;
-	}
-}
-
-@media screen and (min-width: 1366px) {
-	#asi-grid {
-		width: 1100px;
-	}
-}
-
-/********************************************************************
-*
-* FOOTER
-*
-*/
-#footer {
-	background-color: #132747;
-	width: 100vw;
-	padding: 20px 0;
-}
-#foot-grid {
-	display: grid;
-	width: 100%;
-	grid-template-columns: 1fr;
-}
-
-#foot-site-links {
-	padding-left: 15px;
-	max-width: 400px;
-}
-
-#foot-site-links ul {
-	list-style-type: none;
-	margin: 0 0 25px 0;
-	padding-left: 0px;
-}
-
-#foot-site-links ul li {
-	margin: 5px 30px 5px 0;
-	display: inline-block;
-	font-weight: bold;
-	color: rgb(185, 191, 201);
-}
-
-#foot-site-info p {
-	color: rgb(185, 191, 201);
-	margin-bottom: 5px;
-}
-
-@media screen and (min-width: 768px) {
-	#foot-grid {
-		grid-template-columns: 1fr 1fr;
-	}
-	#foot-site-links {
-		padding-left: 40px;
-	}
-}
+/*# sourceMappingURL=../custom.map */

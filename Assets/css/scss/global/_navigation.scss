@@ -1,0 +1,65 @@
+
+.navbar {
+	background: linear-gradient(#224070 50%, #1c3863 50%);
+	margin-bottom: 0px;
+	@media screen and (min-width: 768px) {
+		height: 62px;
+	}
+}
+
+.navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
+	max-height: 500px;
+}
+
+.navbar-default .navbar-toggle.collapsed .icon-bar {
+	background-color: #ddd;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #888;
+}
+
+.navbar-brand {
+	padding: 5px;
+	padding-left: 25px;
+	@media screen and (min-width: 768px) {
+		padding-left: 100px;
+		height: 60px;
+	}
+	
+	img {
+		height: 40px;
+		@media screen and (min-width: 768px) {
+			height: 50px;
+		}
+	}
+}
+
+.navbar-nav>li>a {
+	padding-top: 20px;
+	padding-bottom: 20px;	
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: white;
+	font-weight: bold;
+	&:hover {
+		color: white;
+	}
+}
+
+.navbar-nav>li>a.navbar_contact_btn {
+	margin: 8px 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: 2px solid white;
+	text-transform: uppercase;
+	background-color: transparent;
+	transition: background-color 0.2s ease-out;
+	&:hover {
+		color: rgb(255, 255, 255);
+		text-decoration: none;
+		background-color: rgba(255, 255, 255, 0.3);
+		transition: background-color 0.2s ease-out;
+	}
+}
