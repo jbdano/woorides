@@ -80,10 +80,14 @@
 	position: absolute;
 	top: 50px;
 	display: none;
+	user-select: none;
 	@media screen and (min-width: 600px) {
 		display: block;
 	}
 	
+	&:hover {
+		cursor: pointer;
+	}
 	&.serv-navTab-left {
 		left: 0px;
 	}
@@ -122,6 +126,7 @@
 	height: auto;
 	width: 80%;
 	max-width: 300px;
+	user-select: none;
 	@media screen and (min-width: 768px) {
 		max-width: 400px;
 	}
@@ -172,6 +177,11 @@
 	@media screen and (min-width: 768px) {
 		margin: 0;
 	}
+	
+	&:hover {
+		color: white;
+		text-decoration: none;
+	}
 }
 
 
@@ -215,6 +225,7 @@
 				display: block;
 				border-radius: 50%;
 				height: auto;
+				user-select: none;
 			}
 		}
 		.review-content {
