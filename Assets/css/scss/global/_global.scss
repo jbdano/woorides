@@ -1,0 +1,25 @@
+
+.ruler-break {
+	max-width: 100vw;
+	position: relative;
+	margin: 100px 0px;
+}
+
+.ruler-break-line {
+	border-top: 2px solid #FFC02F;
+	width: 80vw;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.ruler-break-title {
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin: 0;
+	background-color: white;
+	padding: 0 15px;
+	font-weight: bold;
+	white-space: nowrap;
+}
