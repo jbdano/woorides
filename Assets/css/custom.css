@@ -156,7 +156,8 @@ label {
   padding: 4px 35px;
   text-transform: uppercase;
   background-color: #40AFA7;
-  display: inline-block; }
+  display: inline-block;
+  line-height: 1.8; }
 
 /* line 2, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_global.scss */
 .ruler-break {
@@ -809,5 +810,66 @@ label {
     /* line 32, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_work-with-us.scss */
     #wwu-btn {
       margin: 15px auto 0 0; } }
+
+/* line 2, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_press.scss */
+#as-seen-in-section {
+  padding-bottom: 140px; }
+
+/* line 6, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_press.scss */
+#asi-grid {
+  display: grid;
+  width: 100vw;
+  grid-row-gap: 50px; }
+  @media screen and (min-width: 1000px) {
+    /* line 6, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_press.scss */
+    #asi-grid {
+      grid-template-columns: repeat(3, 1fr);
+      grid-column-gap: 30px;
+      width: 980px;
+      margin: 0 auto; } }
+  @media screen and (min-width: 1366px) {
+    /* line 6, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_press.scss */
+    #asi-grid {
+      width: 1100px; } }
+
+/* line 21, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_press.scss */
+.asi-img {
+  width: 100%;
+  max-width: 400px;
+  padding-bottom: 300px;
+  margin: 0 auto;
+  background: url("../../Assets/img/Ali_Valentine_Yaovi.jpg") center center;
+  background-size: cover;
+  position: relative; }
+  /* line 29, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_press.scss */
+  .asi-img:before {
+    position: absolute;
+    content: " ";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    z-index: 0;
+    background-color: rgba(19, 39, 71, 0.7); }
+
+/* line 42, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_press.scss */
+.asi-text-overlay {
+  color: white;
+  position: absolute;
+  margin: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 0 15px;
+  text-align: center;
+  font-weight: bold;
+  line-height: 2; }
+
+/* line 56, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_press.scss */
+.asi-item a:hover .asi-img:before {
+  background-color: rgba(185, 226, 223, 0.6);
+  transition: all 0.2s ease-out; }
 
 /*# sourceMappingURL=../custom.map */
