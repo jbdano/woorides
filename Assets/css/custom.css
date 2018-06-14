@@ -590,4 +590,114 @@ label {
     #reviews-section .review .review-content .review-rating i {
       color: #FFC02F; }
 
+/* line 2, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_contact.scss */
+#contact-form-section {
+  background-color: #132747;
+  padding: 50px 0; }
+  /* line 6, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_contact.scss */
+  #contact-form-section .content-title {
+    color: #FFC02F;
+    text-align: center;
+    margin-bottom: 50px; }
+
+/* line 16, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_contact.scss */
+#contact-form .form-group {
+  margin: 0; }
+
+/* line 19, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_contact.scss */
+#contact-form .form-container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 500px; }
+  @media screen and (min-width: 992px) {
+    /* line 19, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_contact.scss */
+    #contact-form .form-container {
+      max-width: 900px; } }
+
+/* line 27, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_contact.scss */
+#contact-form .contact-form-label {
+  margin: 4px 0 0 0; }
+
+/* line 30, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_contact.scss */
+#contact-form label {
+  color: white; }
+
+/* line 33, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_contact.scss */
+#contact-form input, #contact-form textarea {
+  color: white;
+  background-color: transparent;
+  border-radius: 0px; }
+  /* line 38, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_contact.scss */
+  #contact-form input:focus, #contact-form textarea:focus {
+    border-color: #FFC02F;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 192, 47, 0.6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 192, 47, 0.6); }
+
+/* line 44, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_contact.scss */
+#contact-form textarea {
+  height: 93px;
+  resize: none; }
+
+/* line 48, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_contact.scss */
+#contact-form #contact-form-submit {
+  margin: 30px auto;
+  display: block;
+  text-align: center;
+  width: 150px;
+  border: 3px solid #FFC02F;
+  color: #FFC02F; }
+  /* line 56, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_contact.scss */
+  #contact-form #contact-form-submit:hover {
+    background-color: rgba(255, 192, 47, 0.3); }
+
+/* Customize the label (the container) */
+/* line 65, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_contact.scss */
+.service-item {
+  display: block;
+  position: relative;
+  padding-left: 25px;
+  margin: 10px 20px 10px 0;
+  cursor: pointer;
+  font-size: 14px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+  @media screen and (min-width: 992px) {
+    /* line 65, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_contact.scss */
+    .service-item {
+      display: inline-block;
+      margin: 7px 20px 7px 0; } }
+
+/* Hide the browser's default radio button */
+/* line 83, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_contact.scss */
+.service-item input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0; }
+
+/* Create a custom radio button */
+/* line 91, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_contact.scss */
+.checkmark {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  height: 15px;
+  width: 15px;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 50%; }
+
+/* On mouse-over, add a grey background color */
+/* line 103, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_contact.scss */
+.service-item:hover input ~ .checkmark {
+  background-color: #ccc; }
+
+/* When the radio button is checked, add a blue background */
+/* line 108, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_contact.scss */
+.service-item input:checked ~ .checkmark {
+  background-color: #FFC02F;
+  border: 1px solid #FFC02F; }
+
 /*# sourceMappingURL=../custom.map */
