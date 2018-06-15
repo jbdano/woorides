@@ -102,5 +102,17 @@
 	}
 	a {
 		font-size: 1.6em;
+		&.webLink {
+			display: none;
+			@media screen and (min-width: 400px) {
+				display: inline;
+			}
+		}
+		&.teleLink {
+			display: inline;
+			@media screen and (min-width: 400px) {
+				display: none;
+			}
+		}
 	}
 }

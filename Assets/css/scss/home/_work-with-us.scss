@@ -38,6 +38,9 @@
 	border: 3px solid #132747;
 	color: white;
 	font-weight: bold;
+	&:hover {
+		text-decoration: none;
+	}
 	@media screen and (max-width: 350px) {
 		padding: 4px 20px;
 		width: auto;

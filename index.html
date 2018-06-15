@@ -3,10 +3,11 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>Woo Rides</title>
+    <title>Woorides</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
-    <meta name="keywords" content="">	
+    <meta name="keywords" content="">
+    <link rel="icon" href="Assets/img/woorides_logo.jpg">	
     
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -17,8 +18,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Mina:400,700" rel="stylesheet">
 	
 	<!-- font awesome -->
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/solid.css" integrity="sha384-Rw5qeepMFvJVEZdSo1nDQD5B6wX0m7c5Z/pLNvjkB14W6Yki1hKbSEQaX9ffUbWe" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/fontawesome.css" integrity="sha384-GVa9GOgVQgOk+TNYXu7S/InPTfSDTtBalSgkgqQ7sCik56N9ztlkoTr2f/T44oKV" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
   </head>
   <body>
@@ -39,12 +39,11 @@
 	    <!-- Collect the nav links, forms, and other content for toggling -->
 	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 	      <ul class="nav navbar-nav navbar-right">
-	        <li class=""><a href="#">Services <span class="sr-only">(current)</span></a></li>
-	        <li><a href="#">Values</a></li>
-	        <li><a href="#">Shop</a></li>
-	        <li><a href="#">Press</a></li>
-	        <li><a href="#">FAQs</a></li>
-	        <li><a href="#" class="navbar_contact_btn">Book Tour</a></li>
+	        <li class=""><a href="#services-section" id="navItem-services" class="smoothScroll">Services <span class="sr-only">(current)</span></a></li>
+	        <li><a href="#values-section" id="navItem-values" class="smoothScroll">Values</a></li>
+	        <li><a href="#as-seen-in-section" id="navItem-press" class="smoothScroll">Press</a></li>
+	        <li><a href="#" id="navItem-faqs" class="smoothScroll">FAQs</a></li>
+	        <li><a href="#" id="navItem-cta" class="navbar_contact_btn smoothScroll">Book Tour</a></li>
 	      </ul>
 	    </div><!-- /.navbar-collapse -->
 	  </div><!-- /.container-fluid -->
@@ -66,7 +65,8 @@
     	<div class="carousel-caption">
     		<h1><span class="theme-color-yellow">WOO</span>RIDES</h1>
     		<p>Worcester's premier pedicab service.<br>A new way to get around the <i class="fas fa-heart theme-color-yellow"></i> of the Commonwealth.</p>
-   			<a class="theme-btn-cta-secondary" href="#">TAKE THE RIDE</a>
+   			<a class="theme-btn-cta-secondary webLink" href="#">TAKE THE RIDE</a>
+   			<a class="theme-btn-cta-secondary teleLink" href="tel:1-555-555-5555">TAKE THE RIDE</a>
    		</div>
     </div>
     <div class="item">
@@ -74,7 +74,8 @@
  	    <div class="carousel-caption">
     		<h1><span class="theme-color-yellow">WOO</span>RIDES</h1>
     		<p>Worcester's premier pedicab service.<br>A new way to get around the <i class="fas fa-heart theme-color-yellow"></i> of the Commonwealth.</p>
-   			<a class="theme-btn-cta-secondary" href="#">TAKE THE RIDE</a>
+   			<a class="theme-btn-cta-secondary webLink" href="#">TAKE THE RIDE</a>
+   			<a class="theme-btn-cta-secondary teleLink" href="tel:1-555-555-5555">TAKE THE RIDE</a>
    		</div>
     </div>
     <div class="item">
@@ -82,7 +83,8 @@
 		<div class="carousel-caption">
 			<h1><span class="theme-color-yellow">WOO</span>RIDES</h1>
 			<p>Worcester's premier pedicab service.<br>A new way to get around the <i class="fas fa-heart theme-color-yellow"></i> of the Commonwealth.</p>
-			<a class="theme-btn-cta-secondary" href="#">TAKE THE RIDE</a>
+   			<a class="theme-btn-cta-secondary webLink" href="#">TAKE THE RIDE</a>
+   			<a class="theme-btn-cta-secondary teleLink" href="tel:1-555-555-5555">TAKE THE RIDE</a>
 		</div>      
     </div>
     <div class="item">
@@ -90,9 +92,10 @@
 		<div class="carousel-caption">
 			<h1><span class="theme-color-yellow">WOO</span>RIDES</h1>
 			<p>Worcester's premier pedicab service.<br>A new way to get around the <i class="fas fa-heart theme-color-yellow"></i> of the Commonwealth.</p>
-			<a class="theme-btn-cta-secondary" href="#">TAKE THE RIDE</a>
+   			<a class="theme-btn-cta-secondary webLink" href="#">TAKE THE RIDE</a>
+   			<a class="theme-btn-cta-secondary teleLink" href="tel:1-555-555-5555">TAKE THE RIDE</a>
 		</div>       	
-    </div> 
+    </div>
   </div>
  </div>
  
@@ -183,14 +186,13 @@
 		    <div id="tours" class="tab-pane fade">
 		      <div class="overview-rides">
 		      	<div class="overview-rides-img">
-		      		<img src="Assets/img/Ali_Valentine_Yaovi.jpg">
+		      		<img src="Assets/img/Priscilla_Messinger.jpg">
 		      	</div>
 		      	<div class="overview-rides-content">
 		      		<h5 class="overview-rides-content-title"><span class="theme-color-yellow">YOU</span>RIDES</h5>
-		      		<p>Want a fun ride to your favorite venue, restaurant, or bar in the Canal District, City Square, 
-		      		or on Shrewsbury Street? Take our pedicabs! Operating Thursday through Saturday nights 
-		      		from 10:00pm to 2:00am. Starting at just $5!</p>
-		      		<a href="#" class="theme-btn-cta-primary serv-overview-btn">BOOK A RIDE</a>
+		      		<p>Book one of our four custom tours with us on weekends and see Worcester like
+		      		 you’ve never seen the city before.</p>
+		      		<a href="#" class="theme-btn-cta-primary serv-overview-btn">SCHEDULE A TOUR</a>
 		      	</div>
 		      </div>
 		      
@@ -242,14 +244,13 @@
 		    <div id="events" class="tab-pane fade">
 		      <div class="overview-rides">
 		      	<div class="overview-rides-img">
-		      		<img src="Assets/img/Ali_Valentine_Yaovi.jpg">
+		      		<img src="Assets/img/Resized_20170811.jpg">
 		      	</div>
 		      	<div class="overview-rides-content">
 		      		<h5 class="overview-rides-content-title"><span class="theme-color-yellow">YOU</span>RIDES</h5>
-		      		<p>Want a fun ride to your favorite venue, restaurant, or bar in the Canal District, City Square, 
-		      		or on Shrewsbury Street? Take our pedicabs! Operating Thursday through Saturday nights 
-		      		from 10:00pm to 2:00am. Starting at just $5!</p>
-		      		<a href="#" class="theme-btn-cta-primary serv-overview-btn">BOOK A RIDE</a>
+		      		<p>Getting a crowd together? Shutting down the block? Book our services for your event to give
+		      		 your guests an extra special experience</p>
+		      		<a href="#" class="theme-btn-cta-primary serv-overview-btn">BOOK AN EVENT</a>
 		      	</div>
 		      </div>
 		      
@@ -301,14 +302,13 @@
 		    <div id="advertising" class="tab-pane fade">
 		      <div class="overview-rides">
 		      	<div class="overview-rides-img">
-		      		<img src="Assets/img/Ali_Valentine_Yaovi.jpg">
+		      		<img src="Assets/img/WR.jpg">
 		      	</div>
 		      	<div class="overview-rides-content">
 		      		<h5 class="overview-rides-content-title"><span class="theme-color-yellow">YOU</span>RIDES</h5>
-		      		<p>Want a fun ride to your favorite venue, restaurant, or bar in the Canal District, City Square, 
-		      		or on Shrewsbury Street? Take our pedicabs! Operating Thursday through Saturday nights 
-		      		from 10:00pm to 2:00am. Starting at just $5!</p>
-		      		<a href="#" class="theme-btn-cta-primary serv-overview-btn">BOOK A RIDE</a>
+		      		<p>Our pedicabs provide the unique opportunity for local businesses to reach customers in Worcester. Advertise with
+		      		 us to reach your next customers across the city.</p>
+		      		<a href="#" class="theme-btn-cta-primary serv-overview-btn">ADVERTISE WITH US</a>
 		      	</div>
 		      </div>
 		      
@@ -508,17 +508,16 @@
 			</div>
 		</div>
  	</div>
-  <!--
+ 
  	<div id="footer">
  		<div id="foot-grid">
  			<div id="foot-site-links">
  				<ul>
- 					<li>Services</li>
- 					<li>About</li>
- 					<li>Press</li>
- 					<li>Contact</li>
- 					<li>Shop</li>
- 					<li>FAQs</li>
+ 					<li><a href="#services-section" class="smoothScroll">Services</a></li>
+ 					<li><a href="#">About</a></li>
+ 					<li><a href="#as-seen-in-section" class="smoothScroll">Press</a></li>
+ 					<li><a href="#contact-form-section" class="smoothScroll">Contact</a></li>
+ 					<li><a href="#">FAQs</a></li>
  				</ul>
  				<div id="foot-site-info">
  					<p>WooRides</p>
@@ -527,10 +526,41 @@
  					<p>Hours: M-Th 9 am - 6 pm, Fri.-Sun. 10 am - 11 pm</p>
  				</div>
  			</div>
- 			<div id="foot-social"></div>
+ 			
+ 			<div id="foot-social">
+ 				<ul>
+ 					<li>
+ 						<a href="#"><div class="social-item">
+							<i class="fab fa-youtube"></i>
+						</div></a>
+					</li>
+ 					<li>
+ 						<a href="#"><div class="social-item">
+ 							<i class="fab fa-facebook-f"></i>
+ 						</div></a>
+					</li>
+ 					<li>
+ 						<a href="#"><div class="social-item">
+ 							<i class="fab fa-twitter"></i>
+ 						</div></a>
+					</li>
+ 					<li>
+	 					<a href="#"><div class="social-item">
+	 						<i class="fab fa-instagram"></i>
+	 					</div></a>
+ 					</li>
+ 					<li>
+	 					<a href="tel:1-555-555-5555"><div class="social-item">
+	 						<i class="fas fa-phone-volume"></i>
+	 					</div></a>
+ 					</li>
+ 				</ul>
+ 				<p>Made with <i class="far fa-heart"></i> by Told.Design</p>
+ 			</div>
+ 			 
  		</div>
  	</div>
-  -->
+  
   
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
