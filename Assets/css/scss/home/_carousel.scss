@@ -1,23 +1,16 @@
 
-#home_hero_section {
-	background-image: url('../img/home_hero.jpg');
-	margin-top: 60px;
-	height: calc(100vh - 60px);
-	width: 100vw;
-}
-
 .carousel-inner .item {
 	
 	.carousel-graphic {
 		display: grid;
-		margin-top: 50px;
+		/*margin-top: 50px;*/
 		grid-template-rows: calc(100vh - 50px);
 		grid-template-columns: 100vw;
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: 75% 0%;
 		@media screen and (min-width: 768px) {
-			margin-top: 60px;
+			/*margin-top: 60px;*/
 			grid-template-rows: calc(100vh - 60px);
 		}
 	}
