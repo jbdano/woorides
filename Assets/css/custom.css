@@ -295,52 +295,49 @@ body {
       #foot-social .social-item i:hover {
         color: #132747; }
 
-/* line 4, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
-.carousel-inner .item .carousel-graphic {
-  display: grid;
-  /*margin-top: 50px;*/
-  grid-template-rows: calc(100vh - 50px);
-  grid-template-columns: 100vw;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 75% 0%; }
-  @media screen and (min-width: 768px) {
-    /* line 4, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
-    .carousel-inner .item .carousel-graphic {
-      /*margin-top: 60px;*/
-      grid-template-rows: calc(100vh - 60px); } }
+/* line 2, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
+.carousel-inner .item {
+  /*
+	.graphic-1 {
+		background-image: url('../img/home_hero.jpg');
+	}
+	.graphic-2 {
+		background-image: url('../img/home_hero.jpg');
+	}
+	.graphic-3 {
+		background-image: url('../img/home_hero.jpg');
+	}
+	.graphic-4 {
+		background-image: url('../img/home_hero.jpg');	
+	}
+	*/ }
+  /* line 4, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
+  .carousel-inner .item .carousel-graphic {
+    display: grid;
+    /*margin-top: 50px;*/
+    grid-template-rows: calc(100vh - 50px);
+    grid-template-columns: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 75% 0%; }
+    @media screen and (min-width: 768px) {
+      /* line 4, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
+      .carousel-inner .item .carousel-graphic {
+        grid-template-rows: calc(100vh - 60px); } }
+  /* line 30, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
+  .carousel-inner .item .carousel-caption {
+    opacity: 0;
+    transition: all 0.2s ease-out; }
+  /* line 35, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
+  .carousel-inner .item.active .carousel-caption {
+    opacity: 1;
+    transition: all 0.2s ease-out; }
+    @media screen and (min-width: 768px) {
+      /* line 35, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
+      .carousel-inner .item.active .carousel-caption {
+        left: 20px; } }
 
-/* line 17, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
-.carousel-inner .item .graphic-1 {
-  background-image: url("../img/home_hero.jpg"); }
-
-/* line 20, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
-.carousel-inner .item .graphic-2 {
-  background-image: url("../img/home_hero.jpg"); }
-
-/* line 23, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
-.carousel-inner .item .graphic-3 {
-  background-image: url("../img/home_hero.jpg"); }
-
-/* line 26, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
-.carousel-inner .item .graphic-4 {
-  background-image: url("../img/home_hero.jpg"); }
-
-/* line 29, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
-.carousel-inner .item .carousel-caption {
-  opacity: 0;
-  transition: all 0.2s ease-out; }
-
-/* line 34, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
-.carousel-inner .item.active .carousel-caption {
-  opacity: 1;
-  transition: all 0.2s ease-out; }
-  @media screen and (min-width: 768px) {
-    /* line 34, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
-    .carousel-inner .item.active .carousel-caption {
-      left: 20px; } }
-
-/* line 46, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
+/* line 47, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
 .carousel-indicators .active {
   height: 20px;
   width: 20px;
@@ -348,18 +345,18 @@ body {
   background-color: #FFC02F;
   border-color: #FFC02F; }
 
-/* line 53, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
+/* line 54, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
 .carousel-indicators li {
   height: 20px;
   width: 20px;
   margin-left: 25px;
   background-color: white;
   border-color: white; }
-  /* line 60, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
+  /* line 61, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
   .carousel-indicators li:first-child {
     margin-left: 0px; }
 
-/* line 66, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
+/* line 67, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
 .carousel-caption {
   left: 0px;
   top: 0px;
@@ -371,42 +368,42 @@ body {
   text-align: left;
   font-weight: bold; }
   @media screen and (min-width: 768px) {
-    /* line 66, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
+    /* line 67, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
     .carousel-caption {
       max-width: 750px;
       top: 20px;
       left: 40px; } }
-  /* line 82, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
+  /* line 83, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
   .carousel-caption h1 {
     color: white; }
     @media screen and (min-width: 768px) {
-      /* line 82, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
+      /* line 83, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
       .carousel-caption h1 {
         font-size: 5em; } }
     @media screen and (min-width: 1200px) {
-      /* line 82, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
+      /* line 83, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
       .carousel-caption h1 {
         font-size: 6em; } }
-  /* line 91, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
+  /* line 92, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
   .carousel-caption p {
     margin-bottom: 40px;
     font-size: 1.6em;
     color: white; }
-  /* line 96, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
+  /* line 97, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
   .carousel-caption a {
     font-size: 1.6em; }
-    /* line 98, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
+    /* line 99, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
     .carousel-caption a.webLink {
       display: none; }
       @media screen and (min-width: 400px) {
-        /* line 98, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
+        /* line 99, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
         .carousel-caption a.webLink {
           display: inline; } }
-    /* line 104, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
+    /* line 105, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
     .carousel-caption a.teleLink {
       display: inline; }
       @media screen and (min-width: 400px) {
-        /* line 104, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
+        /* line 105, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
         .carousel-caption a.teleLink {
           display: none; } }
 
