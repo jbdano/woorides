@@ -50,11 +50,25 @@
 	}
 	.tab-content {
 		position: relative;
+		transition-duration: 0s;
+	}
+	.tab-pane {
+		&.fade {
+			margin-left: 200px;
+			transition: none;
+		}
+		&.fade.active.in {
+			margin-left: 0px;
+			transition: 
+			margin-left 0.8s ease-out,
+			opacity 0.4s linear
+		}
 	}
 }
 
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
-	border: none;	
+	border: none;
+	color: #132747;
 }
 
 .nav-tabs>li>a, .nav-tabs>li>a:focus, .nav-tabs>li>a:hover {
