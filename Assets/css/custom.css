@@ -2,6 +2,10 @@
 .theme-color-yellow {
   color: #FFC02F; }
 
+/* line 9, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_variables.scss */
+.theme-color-blue {
+  color: #132747; }
+
 /* line 2, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_font.scss */
 h1, h2, h3, h4, h5, h6 {
   -webkit-font-smoothing: antialiased;
@@ -310,6 +314,20 @@ body {
 	.graphic-4 {
 		background-image: url('../img/home_hero.jpg');	
 	}
+	
+	.carousel-caption {
+		opacity: 0;
+		transition: 
+		all 0.2s ease-out;
+	}
+	&.active .carousel-caption {
+		opacity: 1;
+		transition: 
+		all 0.2s ease-out;
+		@media screen and (min-width: 768px) {
+			left: 20px;
+		}
+	}
 	*/ }
   /* line 4, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
   .carousel-inner .item .carousel-graphic {
@@ -324,20 +342,8 @@ body {
       /* line 4, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
       .carousel-inner .item .carousel-graphic {
         grid-template-rows: calc(100vh - 60px); } }
-  /* line 30, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
-  .carousel-inner .item .carousel-caption {
-    opacity: 0;
-    transition: all 0.2s ease-out; }
-  /* line 35, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
-  .carousel-inner .item.active .carousel-caption {
-    opacity: 1;
-    transition: all 0.2s ease-out; }
-    @media screen and (min-width: 768px) {
-      /* line 35, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
-      .carousel-inner .item.active .carousel-caption {
-        left: 20px; } }
 
-/* line 47, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
+/* line 48, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
 .carousel-indicators .active {
   height: 20px;
   width: 20px;
@@ -345,66 +351,84 @@ body {
   background-color: #FFC02F;
   border-color: #FFC02F; }
 
-/* line 54, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
+/* line 55, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
 .carousel-indicators li {
   height: 20px;
   width: 20px;
   margin-left: 25px;
   background-color: white;
   border-color: white; }
-  /* line 61, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
+  /* line 62, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
   .carousel-indicators li:first-child {
     margin-left: 0px; }
 
-/* line 67, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
-.carousel-caption {
-  left: 0px;
-  top: 0px;
+/* line 68, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
+#home-hero-caption {
+  position: absolute;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+  left: 20px;
+  top: 30px;
   right: auto;
   bottom: auto;
   max-width: 100vw;
   padding-left: 15px;
   padding-right: 15px;
   text-align: left;
-  font-weight: bold; }
+  font-weight: bold;
+  opacity: 0;
+  width: 325px; }
+  /* line 82, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
+  #home-hero-caption.show {
+    opacity: 1;
+    left: 0px;
+    transition: all 1s ease-out; }
+    @media screen and (min-width: 768px) {
+      /* line 82, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
+      #home-hero-caption.show {
+        top: 40px;
+        left: 40px; } }
+  @media screen and (min-width: 500px) {
+    /* line 68, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
+    #home-hero-caption {
+      width: 475px; } }
   @media screen and (min-width: 768px) {
-    /* line 67, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
-    .carousel-caption {
-      max-width: 750px;
-      top: 20px;
-      left: 40px; } }
-  /* line 83, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
-  .carousel-caption h1 {
+    /* line 68, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
+    #home-hero-caption {
+      width: 750px;
+      top: 40px;
+      left: 80px; } }
+  /* line 100, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
+  #home-hero-caption h1 {
     color: white; }
     @media screen and (min-width: 768px) {
-      /* line 83, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
-      .carousel-caption h1 {
+      /* line 100, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
+      #home-hero-caption h1 {
         font-size: 5em; } }
     @media screen and (min-width: 1200px) {
-      /* line 83, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
-      .carousel-caption h1 {
+      /* line 100, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
+      #home-hero-caption h1 {
         font-size: 6em; } }
-  /* line 92, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
-  .carousel-caption p {
+  /* line 109, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
+  #home-hero-caption p {
     margin-bottom: 40px;
     font-size: 1.6em;
     color: white; }
-  /* line 97, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
-  .carousel-caption a {
+  /* line 114, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
+  #home-hero-caption a {
     font-size: 1.6em; }
-    /* line 99, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
-    .carousel-caption a.webLink {
+    /* line 116, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
+    #home-hero-caption a.webLink {
       display: none; }
       @media screen and (min-width: 400px) {
-        /* line 99, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
-        .carousel-caption a.webLink {
+        /* line 116, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
+        #home-hero-caption a.webLink {
           display: inline; } }
-    /* line 105, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
-    .carousel-caption a.teleLink {
+    /* line 122, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
+    #home-hero-caption a.teleLink {
       display: inline; }
       @media screen and (min-width: 400px) {
-        /* line 105, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
-        .carousel-caption a.teleLink {
+        /* line 122, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
+        #home-hero-caption a.teleLink {
           display: none; } }
 
 /* line 2, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_definition.scss */
