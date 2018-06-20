@@ -23,27 +23,22 @@
 
 #wwu-content {
 	text-align: center;
-	max-width: 300px;
+	width: auto;
 	margin: 0 auto;
-	@media screen and (min-width: 768px) {
-		width: 300px;
-	}
 }
 
 #wwu-btn {
 	margin: 35px auto 0;
 	display: block;
-	width: 290px;
+	width: auto;
+	max-width: 300px;
 	text-align: center;
 	background-color: #132747;
 	border: 3px solid #132747;
 	color: white;
 	font-weight: bold;
+	padding: 4px 20px;
 	&:hover {
 		text-decoration: none;
-	}
-	@media screen and (max-width: 350px) {
-		padding: 4px 20px;
-		width: auto;
 	}
 }
