@@ -33,6 +33,7 @@
 				color: rgb(185, 191, 201);
 				&:hover {
 					text-decoration: none;
+					color: rgb(255, 255, 255);
 				}
 			}
 		}
@@ -68,17 +69,37 @@
 	li {
 		display: inline-block;
 	}
-	p {
-		color: rgb(185, 191, 201);
-		font-weight: bold;
+	#author-plug {
+	
+		p {
+			color: rgb(185, 191, 201);
+			font-weight: bold;
+		}
+		&:hover {
+			text-decoration: none;
+			p {
+				color: rgb(255, 255, 255);
+			}
+		}
 	}
 	.social-item {
-		width: 60px;
-		height: 60px;
+		width: 45px;
+		height: 45px;
 		margin: 5px;
 		border-radius: 50%;
 		background-color: rgb(185, 191, 201);
 		position: relative;
+		&:hover {
+			background-color: rgb(255, 255, 255);
+		}
+		@media screen and (min-width: 850px) {
+			width: 50px;
+			height: 50px;
+		}
+		@media screen and (min-width: 1000px) {
+			width: 60px;
+			height: 60px;
+		}
 		@media screen and (min-width: 1200px) {
 			margin: 5px 15px;
 		}
@@ -87,9 +108,15 @@
 			position: absolute;
 			top: 50%;
 			left: 50%;
-			font-size: 30px;
+			font-size: 20px;
 			transform: translate(-50%, -50%);
 			color: #132747;
+			@media screen and (min-width: 850px) {
+				font-size: 25px;
+			}
+			@media screen and (min-width: 1000px) {
+				font-size: 30px;
+			}
 			&:hover {
 				color: #132747;
 			}

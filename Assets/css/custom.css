@@ -72,59 +72,60 @@ label {
 /* line 2, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
 .navbar {
   background: linear-gradient(#224070 50%, #1c3863 50%);
-  margin-bottom: 0px; }
+  margin-bottom: 0px;
+  border-color: #224070; }
   @media screen and (min-width: 768px) {
     /* line 2, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
     .navbar {
       height: 62px; } }
 
-/* line 10, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
+/* line 11, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
 .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
   max-height: 500px; }
 
-/* line 14, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
+/* line 15, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
 .navbar-default .navbar-toggle.collapsed .icon-bar {
   background-color: #ddd; }
 
-/* line 18, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
+/* line 19, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #888; }
 
-/* line 22, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
+/* line 23, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
 .navbar-brand {
   padding: 5px;
   padding-left: 25px; }
   @media screen and (min-width: 768px) {
-    /* line 22, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
+    /* line 23, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
     .navbar-brand {
       padding-left: 100px;
       height: 60px; } }
-  /* line 30, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
+  /* line 31, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
   .navbar-brand img {
     height: 40px; }
     @media screen and (min-width: 768px) {
-      /* line 30, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
+      /* line 31, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
       .navbar-brand img {
         height: 50px; } }
 
-/* line 38, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
+/* line 39, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
 .navbar-nav > li > a {
   padding-top: 20px;
   padding-bottom: 20px; }
 
-/* line 43, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
+/* line 44, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
 .navbar-default .navbar-nav > li > a {
   color: white;
   font-weight: bold; }
-  /* line 46, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
+  /* line 47, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
   .navbar-default .navbar-nav > li > a:hover {
     color: white; }
 
-/* line 51, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
+/* line 52, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
 .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
   color: white; }
 
-/* line 55, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
+/* line 56, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
 .navbar-nav > li > a.navbar_contact_btn {
   margin: 8px 15px;
   padding-top: 10px;
@@ -133,7 +134,7 @@ label {
   text-transform: uppercase;
   background-color: transparent;
   transition: background-color 0.2s ease-out; }
-  /* line 63, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
+  /* line 64, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
   .navbar-nav > li > a.navbar_contact_btn:hover {
     color: white;
     text-decoration: none;
@@ -239,63 +240,91 @@ body {
         color: #b9bfc9; }
         /* line 34, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_footer.scss */
         #foot-site-links ul li a:hover {
-          text-decoration: none; }
+          text-decoration: none;
+          color: white; }
 
-/* line 42, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_footer.scss */
+/* line 43, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_footer.scss */
 #foot-site-info p {
   color: #b9bfc9;
   margin-bottom: 5px; }
 
-/* line 47, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_footer.scss */
+/* line 48, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_footer.scss */
 #foot-social {
   padding: 0 10px; }
   @media screen and (min-width: 768px) {
-    /* line 47, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_footer.scss */
+    /* line 48, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_footer.scss */
     #foot-social {
       padding-left: 40px;
       justify-self: end; } }
-  /* line 54, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_footer.scss */
+  /* line 55, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_footer.scss */
   #foot-social ul {
     list-style-type: none;
     padding-left: 0px;
     margin: 30px 0; }
     @media screen and (min-width: 768px) {
-      /* line 58, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_footer.scss */
+      /* line 59, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_footer.scss */
       #foot-social ul li:first-child .social-item {
         margin-left: 0; } }
     @media screen and (min-width: 768px) {
-      /* line 54, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_footer.scss */
+      /* line 55, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_footer.scss */
       #foot-social ul {
         margin: 0 0 20px;
         padding-right: 40px; } }
-  /* line 68, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_footer.scss */
+  /* line 69, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_footer.scss */
   #foot-social li {
     display: inline-block; }
-  /* line 71, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_footer.scss */
-  #foot-social p {
+  /* line 74, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_footer.scss */
+  #foot-social #author-plug p {
     color: #b9bfc9;
     font-weight: bold; }
-  /* line 75, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_footer.scss */
+  /* line 78, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_footer.scss */
+  #foot-social #author-plug:hover {
+    text-decoration: none; }
+    /* line 80, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_footer.scss */
+    #foot-social #author-plug:hover p {
+      color: white; }
+  /* line 85, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_footer.scss */
   #foot-social .social-item {
-    width: 60px;
-    height: 60px;
+    width: 45px;
+    height: 45px;
     margin: 5px;
     border-radius: 50%;
     background-color: #b9bfc9;
     position: relative; }
+    /* line 92, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_footer.scss */
+    #foot-social .social-item:hover {
+      background-color: white; }
+    @media screen and (min-width: 850px) {
+      /* line 85, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_footer.scss */
+      #foot-social .social-item {
+        width: 50px;
+        height: 50px; } }
+    @media screen and (min-width: 1000px) {
+      /* line 85, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_footer.scss */
+      #foot-social .social-item {
+        width: 60px;
+        height: 60px; } }
     @media screen and (min-width: 1200px) {
-      /* line 75, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_footer.scss */
+      /* line 85, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_footer.scss */
       #foot-social .social-item {
         margin: 5px 15px; } }
-    /* line 86, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_footer.scss */
+    /* line 107, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_footer.scss */
     #foot-social .social-item i {
       position: absolute;
       top: 50%;
       left: 50%;
-      font-size: 30px;
+      font-size: 20px;
       transform: translate(-50%, -50%);
       color: #132747; }
-      /* line 93, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_footer.scss */
+      @media screen and (min-width: 850px) {
+        /* line 107, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_footer.scss */
+        #foot-social .social-item i {
+          font-size: 25px; } }
+      @media screen and (min-width: 1000px) {
+        /* line 107, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_footer.scss */
+        #foot-social .social-item i {
+          font-size: 30px; } }
+      /* line 120, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_footer.scss */
       #foot-social .social-item i:hover {
         color: #132747; }
 
