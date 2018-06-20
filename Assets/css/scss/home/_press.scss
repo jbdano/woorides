@@ -53,6 +53,15 @@
 	line-height: 2;
 }
 
+img.asi-src-logo {
+	position: absolute;
+	bottom: 5px;
+	left: 50%;
+	transform: translateX(-50%);
+	height: 75px;
+	width: auto;
+}
+
 .asi-item a:hover .asi-img:before {
 	background-color: rgba(185, 226, 223, 0.6);
 	transition: all 0.2s ease-out

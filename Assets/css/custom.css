@@ -1053,6 +1053,15 @@ body {
   line-height: 2; }
 
 /* line 56, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_press.scss */
+img.asi-src-logo {
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 75px;
+  width: auto; }
+
+/* line 65, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_press.scss */
 .asi-item a:hover .asi-img:before {
   background-color: rgba(185, 226, 223, 0.6);
   transition: all 0.2s ease-out; }
