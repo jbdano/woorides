@@ -13,34 +13,6 @@
 			grid-template-rows: calc(100vh - 60px);
 		}
 	}
-	/*
-	.graphic-1 {
-		background-image: url('../img/home_hero.jpg');
-	}
-	.graphic-2 {
-		background-image: url('../img/home_hero.jpg');
-	}
-	.graphic-3 {
-		background-image: url('../img/home_hero.jpg');
-	}
-	.graphic-4 {
-		background-image: url('../img/home_hero.jpg');	
-	}
-	
-	.carousel-caption {
-		opacity: 0;
-		transition: 
-		all 0.2s ease-out;
-	}
-	&.active .carousel-caption {
-		opacity: 1;
-		transition: 
-		all 0.2s ease-out;
-		@media screen and (min-width: 768px) {
-			left: 20px;
-		}
-	}
-	*/
 }
 
 .carousel-indicators {
@@ -62,6 +34,20 @@
 		&:first-child {
 			margin-left: 0px;
 		}
+	}
+}
+
+.carousel-clickzone {
+	position: absolute;
+	top: 0;
+	width: 30vw;
+	height: 100%;
+	background-color: transparent;
+	&-left {
+		left: 0;
+	}
+	&-right {
+		right: 0;
 	}
 }
 

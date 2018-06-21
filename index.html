@@ -76,12 +76,9 @@
     <div id="home-hero-caption">
    		<h1><span class="theme-color-yellow">WOO</span>RIDES</h1>
    		<p>Worcester's premier pedicab service.</p>
-   		<!-- 
-   		<br>A new way to get around the <i class="fas fa-heart theme-color-yellow"></i> of the Commonwealth.</p>
-		<a class="theme-btn-cta-secondary webLink" href="booking.html">TAKE THE RIDE</a>
-		<a class="theme-btn-cta-secondary teleLink" href="tel:1-555-555-5555">TAKE THE RIDE</a>
-		 -->
   	</div>
+  	<div class="carousel-clickzone carousel-clickzone-left"></div>
+  	<div class="carousel-clickzone carousel-clickzone-right"></div>
    		
   </div>
  </div>
@@ -503,6 +500,84 @@
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<script src="Assets/js/custom.js"></script>
+	
+	<script>
+	
+	$(document).ready(function() {
+		
+		
+		$('.carousel-clickzone-left').on('click', function(e) {
+			$("#myCarousel").carousel("prev");
+		});
+		
+		$('.carousel-clickzone-right').on('click', function(e) {
+			$("#myCarousel").carousel("next");
+		});
+		
+		// credit: http://www.javascriptkit.com/javatutors/touchevents2.shtml
+		function swipedetect(el, callback){
+		  
+		    var touchsurface = el,
+		    swipedir,
+		    startX,
+		    startY,
+		    distX,
+		    distY,
+		    threshold = 150, //required min distance traveled to be considered swipe
+		    restraint = 100, // maximum distance allowed at the same time in perpendicular direction
+		    allowedTime = 300, // maximum time allowed to travel that distance
+		    elapsedTime,
+		    startTime,
+		    handleswipe = callback || function(swipedir){}
+		  
+		    touchsurface.addEventListener('touchstart', function(e){
+		        var touchobj = e.changedTouches[0]
+		        swipedir = 'none'
+		        dist = 0
+		        startX = touchobj.pageX
+		        startY = touchobj.pageY
+		        startTime = new Date().getTime() // record time when finger first makes contact with surface
+		        // e.preventDefault()
+		    }, false)
+		  /*
+		    touchsurface.addEventListener('touchmove', function(e){
+		        e.preventDefault() // prevent scrolling when inside DIV
+		    }, false)
+		  */
+		    touchsurface.addEventListener('touchend', function(e){
+		        var touchobj = e.changedTouches[0]
+		        distX = touchobj.pageX - startX // get horizontal dist traveled by finger while in contact with surface
+		        distY = touchobj.pageY - startY // get vertical dist traveled by finger while in contact with surface
+		        elapsedTime = new Date().getTime() - startTime // get time elapsed
+		        if (elapsedTime <= allowedTime){ // first condition for awipe met
+		            if (Math.abs(distX) >= threshold && Math.abs(distY) <= restraint){ // 2nd condition for horizontal swipe met
+		                swipedir = (distX < 0)? 'left' : 'right' // if dist traveled is negative, it indicates left swipe
+		            }
+		            else if (Math.abs(distY) >= threshold && Math.abs(distX) <= restraint){ // 2nd condition for vertical swipe met
+		                swipedir = (distY < 0)? 'up' : 'down' // if dist traveled is negative, it indicates up swipe
+		            }
+		        }
+		        handleswipe(swipedir)
+		        // e.preventDefault()
+		    }, false)
+		}
+		  
+		//USAGE:
+
+		var el = document.getElementById('myCarousel');
+		swipedetect(el, function(swipedir){
+			
+		    if (swipedir == 'right') {
+		    	$("#myCarousel").carousel("prev");
+		    }
+		    else if (swipedir == 'left') {
+		    	$("#myCarousel").carousel("next");
+		    }
+
+		});
+	});
+	
+	</script>
 	
   </body>
 </html>
