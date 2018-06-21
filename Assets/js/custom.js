@@ -8,7 +8,6 @@ $(document).ready(function() {
 		var firstTab = $('#services-section .nav-tabs')[0].firstElementChild;
 		var lastTab = $('#services-section .nav-tabs')[0].lastElementChild;
 		var activeTabHash = $('#services-section .nav-tabs li.active a')[0].hash;
-		console.log(activeTabHash);
 		
 		if ( e.currentTarget.classList.contains('serv-navTab-left') ) {
 			
@@ -49,7 +48,7 @@ $(document).ready(function() {
 
 	      // Using jQuery's animate() method to add smooth page scroll
 	      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-	      var anchor = $(hash).offset().top - 60;
+	      var anchor = $(hash).offset().top;
 	      $('html, body').animate({
 	        scrollTop: anchor
 	      }, 800, function(){
