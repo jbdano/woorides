@@ -13,6 +13,9 @@
 		background-color: rgba(255, 255, 255, 0.3);
 		transition: background-color 0.2s ease-out;
 	}
+	&:focus {
+		text-decoration: none;
+	}
 }
 
 .theme-btn-cta-primary {
@@ -23,5 +26,8 @@
 	text-transform: uppercase;
 	background-color: #40AFA7;
 	display: inline-block;
-	line-height: 1.8;
+	line-height: 1;
+	&:focus {
+		text-decoration: none;
+	}	
 }

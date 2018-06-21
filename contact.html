@@ -57,6 +57,10 @@
 			 			<div class="col-sm-12">
 			 				<h4 class="content-title">Call XXX-XXX-XXXX or fill out the form below for all inquiries.</h4>
 			 				
+			 				<div class="alert alert-success hidden" id="contact-submit-message">
+							  <strong>Thank you for your request.</strong><br>It is being reviewed by our staff and we will get back to you shortly.
+							</div>
+			 				
 			 				<div class="form-group">
 		 					    <label for="contact-form-firstName" class="contact-form-label">First Name</label>
 		    					<input type="text" class="form-control" id="contact-form-firstName">
@@ -107,7 +111,7 @@
 			 				</div>	 								
 			 			</div>
  			 			<div class="col-sm-12">
-							<a href="#" class="theme-btn-cta-secondary" id="contact-form-submit">Submit</a>
+							<a href="#" type="submit" class="theme-btn-cta-secondary" id="contact-form-submit">Submit</a>
  						</div>  
 	 				</div>
 	 			</div>	
@@ -181,6 +185,17 @@
   	<script>
   	$(document).ready(function() {
   		$('#contact-section').removeClass('preload-hide');
+  		
+  		$('#contact-form-submit').on('click', function(e) {
+  			e.preventDefault();
+  			
+  		    document.body.scrollTop = 0; // For Safari
+  		    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+  			
+  			setTimeout(function(){
+  				$('#contact-submit-message').removeClass('hidden');
+  			}, 50);
+  		});
   	});
   	</script>
   

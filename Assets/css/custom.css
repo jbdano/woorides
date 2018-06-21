@@ -156,8 +156,11 @@ label {
     text-decoration: none;
     background-color: rgba(255, 255, 255, 0.3);
     transition: background-color 0.2s ease-out; }
+  /* line 16, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_buttons.scss */
+  .theme-btn-cta-secondary:focus {
+    text-decoration: none; }
 
-/* line 18, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_buttons.scss */
+/* line 21, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_buttons.scss */
 .theme-btn-cta-primary {
   border: 3px solid #40AFA7;
   color: white;
@@ -166,7 +169,10 @@ label {
   text-transform: uppercase;
   background-color: #40AFA7;
   display: inline-block;
-  line-height: 1.8; }
+  line-height: 1; }
+  /* line 30, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_buttons.scss */
+  .theme-btn-cta-primary:focus {
+    text-decoration: none; }
 
 /* line 2, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_global.scss */
 body {
@@ -707,7 +713,7 @@ body {
   width: 230px;
   font-weight: bold;
   text-align: center;
-  padding: 7px 35px; }
+  padding: 12px 35px 8px; }
   @media screen and (min-width: 768px) {
     /* line 184, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
     .serv-overview-btn {
@@ -874,7 +880,7 @@ body {
   border: 3px solid #132747;
   color: white;
   font-weight: bold;
-  padding: 4px 20px; }
+  padding: 12px 20px 8px; }
   /* line 41, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_work-with-us.scss */
   #wwu-btn:hover {
     text-decoration: none; }
@@ -1046,39 +1052,42 @@ img.asi-src-logo {
     color: #FFC02F;
     text-align: center;
     margin-bottom: 50px; }
-  /* line 22, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/contact/_contact.scss */
+  /* line 21, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/contact/_contact.scss */
+  #contact-section #contact-submit-message {
+    text-align: center; }
+  /* line 24, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/contact/_contact.scss */
   #contact-section #contact-form {
     padding: 0 15px; }
-    /* line 25, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/contact/_contact.scss */
+    /* line 27, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/contact/_contact.scss */
     #contact-section #contact-form .form-container {
       margin: 0 auto;
       width: 100%;
       max-width: 400px; }
       @media screen and (min-width: 768px) {
-        /* line 25, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/contact/_contact.scss */
+        /* line 27, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/contact/_contact.scss */
         #contact-section #contact-form .form-container {
           max-width: 500px; } }
-    /* line 33, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/contact/_contact.scss */
+    /* line 35, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/contact/_contact.scss */
     #contact-section #contact-form .contact-form-label {
       margin: 4px 0 0 0; }
-    /* line 36, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/contact/_contact.scss */
+    /* line 38, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/contact/_contact.scss */
     #contact-section #contact-form label {
       color: #132747; }
-    /* line 39, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/contact/_contact.scss */
+    /* line 41, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/contact/_contact.scss */
     #contact-section #contact-form input, #contact-section #contact-form textarea {
       color: #132747;
       background-color: transparent;
       border-radius: 0px; }
-      /* line 44, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/contact/_contact.scss */
+      /* line 46, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/contact/_contact.scss */
       #contact-section #contact-form input:focus, #contact-section #contact-form textarea:focus {
         border-color: #FFC02F;
         -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 192, 47, 0.6);
         box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 192, 47, 0.6); }
-    /* line 50, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/contact/_contact.scss */
+    /* line 52, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/contact/_contact.scss */
     #contact-section #contact-form textarea {
       height: 200px;
       resize: none; }
-    /* line 54, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/contact/_contact.scss */
+    /* line 56, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/contact/_contact.scss */
     #contact-section #contact-form #contact-form-submit {
       margin: 30px auto;
       display: block;
@@ -1086,8 +1095,9 @@ img.asi-src-logo {
       width: 150px;
       border: 3px solid #FFC02F;
       color: white;
+      padding: 12px 20px 8px;
       background-color: #FFC02F; }
-  /* line 68, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/contact/_contact.scss */
+  /* line 71, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/contact/_contact.scss */
   #contact-section .service-item {
     display: block;
     position: relative;
@@ -1100,17 +1110,17 @@ img.asi-src-logo {
     -ms-user-select: none;
     user-select: none; }
     @media screen and (min-width: 992px) {
-      /* line 68, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/contact/_contact.scss */
+      /* line 71, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/contact/_contact.scss */
       #contact-section .service-item {
         display: inline-block;
         margin: 7px 20px 7px 0; } }
-  /* line 86, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/contact/_contact.scss */
+  /* line 89, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/contact/_contact.scss */
   #contact-section .service-item input {
     position: absolute;
     top: 0;
     left: 0;
     opacity: 0; }
-  /* line 94, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/contact/_contact.scss */
+  /* line 97, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/contact/_contact.scss */
   #contact-section .checkmark {
     position: absolute;
     top: 2px;
@@ -1120,10 +1130,10 @@ img.asi-src-logo {
     background-color: transparent;
     border: 1px solid #132747;
     border-radius: 50%; }
-  /* line 106, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/contact/_contact.scss */
+  /* line 109, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/contact/_contact.scss */
   #contact-section .service-item:hover input ~ .checkmark {
     background-color: white; }
-  /* line 111, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/contact/_contact.scss */
+  /* line 114, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/contact/_contact.scss */
   #contact-section .service-item input:checked ~ .checkmark {
     background-color: #FFC02F;
     border: 1px solid #FFC02F; }
