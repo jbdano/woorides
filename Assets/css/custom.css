@@ -92,40 +92,89 @@ label {
   background-color: #888; }
 
 /* line 23, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
+button.navbar-toggle.collapsed {
+  background-color: transparent !important; }
+
+/* line 27, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
+button.navbar-toggle {
+  position: relative; }
+  /* line 30, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
+  button.navbar-toggle .icon-bar-1 {
+    opacity: 1;
+    transition: opacity 0.5s; }
+  /* line 31, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
+  button.navbar-toggle .icon-bar-2 {
+    opacity: 1;
+    transition: opacity 0.5s; }
+  /* line 32, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
+  button.navbar-toggle .icon-bar-3 {
+    opacity: 1;
+    transition: opacity 0.5s; }
+  /* line 33, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
+  button.navbar-toggle .icon-bar-cross {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 0 !important;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: transform 0.5s, opacity 0.5s; }
+  /* line 44, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
+  button.navbar-toggle:not(.collapsed) .icon-bar-1 {
+    opacity: 0; }
+  /* line 45, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
+  button.navbar-toggle:not(.collapsed) .icon-bar-2 {
+    opacity: 0; }
+  /* line 46, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
+  button.navbar-toggle:not(.collapsed) .icon-bar-3 {
+    opacity: 0; }
+  /* line 47, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
+  button.navbar-toggle:not(.collapsed) .icon-bar-cross {
+    transition: transform 0.6s;
+    opacity: 1;
+    background-color: #132747; }
+  /* line 52, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
+  button.navbar-toggle:not(.collapsed) .icon-bar-cross-4 {
+    transform: translate(-50%, -50%) rotate(45deg); }
+  /* line 55, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
+  button.navbar-toggle:not(.collapsed) .icon-bar-cross-5 {
+    transform: translate(-50%, -50%) rotate(-45deg); }
+
+/* line 61, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
 .navbar-brand {
   padding: 5px;
   padding-left: 25px; }
   @media screen and (min-width: 768px) {
-    /* line 23, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
+    /* line 61, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
     .navbar-brand {
       padding-left: 100px;
       height: 60px; } }
-  /* line 31, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
+  /* line 69, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
   .navbar-brand img {
     height: 40px; }
     @media screen and (min-width: 768px) {
-      /* line 31, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
+      /* line 69, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
       .navbar-brand img {
         height: 50px; } }
 
-/* line 39, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
+/* line 77, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
 .navbar-nav > li > a {
   padding-top: 20px;
   padding-bottom: 20px; }
 
-/* line 44, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
+/* line 82, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
 .navbar-default .navbar-nav > li > a {
   color: white;
   font-weight: bold; }
-  /* line 47, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
+  /* line 85, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
   .navbar-default .navbar-nav > li > a:hover {
     color: white; }
 
-/* line 52, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
+/* line 90, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
 .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
   color: white; }
 
-/* line 56, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
+/* line 94, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
 .navbar-nav > li > a.navbar_contact_btn {
   margin: 8px 15px;
   padding-top: 10px;
@@ -134,7 +183,7 @@ label {
   text-transform: uppercase;
   background-color: transparent;
   transition: background-color 0.2s ease-out; }
-  /* line 64, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
+  /* line 102, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
   .navbar-nav > li > a.navbar_contact_btn:hover {
     color: white;
     text-decoration: none;

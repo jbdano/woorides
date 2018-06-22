@@ -29,9 +29,11 @@
 	    <div class="navbar-header">
 	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
 	        <span class="sr-only">Toggle navigation</span>
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>
+	        <span class="icon-bar icon-bar-1"></span>
+	        <span class="icon-bar icon-bar-2"></span>
+	        <span class="icon-bar icon-bar-3"></span>
+       	    <span class="icon-bar icon-bar-cross icon-bar-cross-4"></span>
+	        <span class="icon-bar icon-bar-cross icon-bar-cross-5"></span>
 	      </button>
 	      <a class="navbar-brand" href="#"><img src="Assets/img/WRlogovectorSVG.svg"></a>
 	    </div>
@@ -516,6 +518,10 @@
 		
 		$('.carousel-clickzone-right').on('click', function(e) {
 			$("#myCarousel").carousel("next");
+		});
+		
+		$('.navbar-collapse ul.navbar-nav li').on('click', function (e) {
+			$('button.navbar-toggle').trigger('click');
 		});
 		
 		// credit: http://www.javascriptkit.com/javatutors/touchevents2.shtml
