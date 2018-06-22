@@ -520,8 +520,11 @@
 			$("#myCarousel").carousel("next");
 		});
 		
+		
 		$('.navbar-collapse ul.navbar-nav li').on('click', function (e) {
-			$('button.navbar-toggle').trigger('click');
+			if (screen.width < 768) {
+				$('button.navbar-toggle').trigger('click');
+			}
 		});
 		
 		// credit: http://www.javascriptkit.com/javatutors/touchevents2.shtml
