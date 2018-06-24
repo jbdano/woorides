@@ -236,6 +236,42 @@
 				margin-bottom: 0px;
 			}
 			
+			.review-headshot-img {
+				background-size: cover;
+				background-repeat: no-repeat;
+				height: 175px;
+				width: 175px;
+				border-radius: 50%;
+				display: block;
+				margin: 0 auto;
+				
+				&.review-headshot-richie {
+					background-image: url('../img/richie-headshot.JPG');
+				}
+				&.review-headshot-norma {
+					background-image: url('../img/norma-headshot.jpg');
+					background-position: 50% 50%;
+				}
+				&.review-headshot-daysha {
+					background-image: url('../img/daysha-headshot.JPG');
+				}
+				&.review-headshot-wesam {
+					background-image: url('../img/wesam-headshot.JPG');
+				}
+				&.review-headshot-sabrina {
+					background-image: url('../img/sabrina-headshot.JPG');
+				}
+				&.review-headshot-nate {
+					background-image: url('../img/nate-headshot.JPG');
+				}
+				&.review-headshot-tim {
+					background-image: url('../img/tim-headshot.JPG');
+				}
+				&.review-headshot-maya {
+					background-image: url('../img/maya-headshot.JPG');
+				}
+			}
+			
 			img {
 				width: 100%;
 				max-width: 250px;
@@ -255,7 +291,9 @@
 			@media screen and (min-width: 1366px) {
 				margin: 0;
 				overflow: auto;
-				transform: translateY(15%);
+				position: relative;
+				top: 50%;
+				transform: translateY(-50%);
 			}
 			
 			.review-rating i {
