@@ -43,6 +43,11 @@
 #foot-site-info p {
 	color: rgb(185, 191, 201);
 	margin-bottom: 5px;
+	
+	@media screen and (min-width: 450px) {
+		br { display: none; }
+	}
+
 }
 
 #foot-social {
