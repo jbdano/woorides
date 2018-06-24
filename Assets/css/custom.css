@@ -1261,4 +1261,15 @@ img.asi-src-logo {
     background-color: #FFC02F;
     border: 1px solid #FFC02F; }
 
+/* line 2, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/booking/_booking.scss */
+#booking {
+  margin-top: -113px; }
+  @media screen and (min-width: 1024px) {
+    /* line 2, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/booking/_booking.scss */
+    #booking {
+      margin-top: -54px; } }
+  /* line 8, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/booking/_booking.scss */
+  #booking #footer {
+    margin-top: calc(100vh - 282px); }
+
 /*# sourceMappingURL=../custom.map */
