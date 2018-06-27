@@ -1034,10 +1034,9 @@ body {
   max-width: 400px;
   padding-bottom: 300px;
   margin: 0 auto;
-  background: url("../../Assets/img/Ali_Valentine_Yaovi.jpg") center center;
   background-size: cover;
   position: relative; }
-  /* line 30, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_press.scss */
+  /* line 29, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_press.scss */
   .asi-img:before {
     position: absolute;
     content: " ";
@@ -1048,8 +1047,17 @@ body {
     display: block;
     z-index: 0;
     background-color: rgba(19, 39, 71, 0.7); }
+  /* line 40, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_press.scss */
+  .asi-img.asi-img-masslive {
+    background-image: url("../../Assets/img/Ali_Valentine_Yaovi.jpg"); }
+  /* line 43, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_press.scss */
+  .asi-img.asi-img-wtg {
+    background-image: url("../../Assets/img/home_hero.jpg"); }
+  /* line 46, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_press.scss */
+  .asi-img.asi-img-wbj {
+    background-image: url("../../Assets/img/Priscilla_Messinger.jpg"); }
 
-/* line 43, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_press.scss */
+/* line 51, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_press.scss */
 .asi-text-overlay {
   color: white;
   position: absolute;
@@ -1073,7 +1081,7 @@ img.asi-src-logo {
 	width: auto;
 }
 */
-/* line 66, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_press.scss */
+/* line 74, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_press.scss */
 .asi-item a:hover .asi-img:before {
   background-color: rgba(185, 226, 223, 0.6);
   transition: all 0.2s ease-out; }
