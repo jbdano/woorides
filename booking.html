@@ -52,9 +52,14 @@
 	  </div><!-- /.container-fluid -->
 	</nav>
 	
-
+<!-- 
 	<script src="//simplybook.me/v2/widget/widget.js"></script>
 	<script>var widget = new SimplybookWidget({"widget_type":"iframe","url":"https:\/\/woorides.simplybook.me","theme":"emeri","theme_settings":{"sb_base_color":"#132747","booking_nav_bg_color":"#ffffff","body_bg_color":"#f1f1f1","dark_font_color":"#333333","light_font_color":"#ffffff","hide_img_mode":"0","sb_busy":"#f1f1f1","sb_available":"#ffc02f"},"timeline":"flexible","datepicker":"inline_datepicker","is_rtl":false,"app_config":{"predefined":{"provider":"1","service":"1"}}});</script>
+	-->
+	
+	<!-- Start Square Appointments Embed Code -->
+	<script src='https://squareup.com/appointments/buyer/widget/daeb64a0-95f2-4a1e-8a6f-4f08b92d2a8c/12QARAKR1YM1A.js'></script>
+	<!-- End Square Appointments EmbedCode -->
 	
  	<div id="footer">
  		<div id="foot-grid">
@@ -117,12 +122,15 @@
 	
 	$(document).ready(function() {
 		
+		var dialog = bootbox.dialog({
+			message: '<p style="text-align: center;"><i class="fa fa-spin fa-spinner"></i> Loading Booking App...</p>',
+			closeButton: false
+		});
+		
+		/*
 		var timer = setInterval(function(){
 			
-			var dialog = bootbox.dialog({
-				message: '<p style="text-align: center;"><i class="fa fa-spin fa-spinner"></i> Loading Booking App...</p>',
-				closeButton: false
-			});
+
 			
 			if ($('iframe').length > 0) {
 				clearInterval(timer);
@@ -134,8 +142,13 @@
 				});
 			}
 		}, 0);
+		*/
 		
-		
+	});
+	
+	$(window).on('load', function(e) {
+		console.log('everything loaded');
+		bootbox.hideAll();
 	});
 	
 	</script>

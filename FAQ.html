@@ -174,7 +174,8 @@
   		$('#faq-section').removeClass('preload-hide');
   		
   		$('.faq-question').on('click', function(e) {
-  			$(this).toggleClass('faq-question-active');
+  			$('.faq-question').removeClass('faq-question-active');
+  			$(this).addClass('faq-question-active');
   		});
   	});
   	

@@ -21,6 +21,8 @@
 	<!-- font awesome -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
+	<link rel="prefetch" hred="https://squareup.com/appointments/buyer/widget/daeb64a0-95f2-4a1e-8a6f-4f08b92d2a8c/12QARAKR1YM1A.js" as="script">
+
   </head>
   <body>
 	
@@ -60,28 +62,59 @@
     <li data-target="#myCarousel" data-slide-to="2"></li>
     <li data-target="#myCarousel" data-slide-to="3"></li>
   </ol>
+  
+
 
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
+
+  
     <div class="item active">
-    	<div class="carousel-graphic graphic-1"></div>
+    	<div class="carousel-graphic graphic-1">
+   	     	<div class="carousel-clickzone carousel-clickzone-left"></div>
+  			<div class="carousel-clickzone carousel-clickzone-right"></div>
+    	</div>
+	    <div class="home-hero-caption">
+	   		<h1><span class="theme-color-yellow">WOO</span>RIDES</h1>
+	   		<p>Worcester's premier pedicab service</p>
+	   		<a href="booking.html" class="theme-btn-cta-primary webLink">TAKE A RIDE</a>
+	   		<a href="tel:1-508-966-8439" class="theme-btn-cta-primary teleLink">TAKE A RIDE</a>
+	  	</div>
+    </div>
+     
+    <div class="item" style="position: relative;" >
+    	<div class="carousel-graphic graphic-2">
+			<div class="carousel-clickzone carousel-clickzone-left"></div>
+			<div class="carousel-clickzone carousel-clickzone-right"></div>
+    	</div>
+	    <div class="home-hero-caption">
+	   		<h1><span class="theme-color-yellow">WOO</span>RIDES</h1>
+	   		<p>Add something special to your next event</p>
+	   		<a href="contact.html" class="theme-btn-cta-primary">BOOK AN EVENT</a>
+	  	</div>
+    </div>
+
+    <div class="item">
+		<div class="carousel-graphic graphic-3">
+			<div class="carousel-clickzone carousel-clickzone-left"></div>
+			<div class="carousel-clickzone carousel-clickzone-right"></div>		
+		</div>
+		<div class="home-hero-caption">
+	   		<h1><span class="theme-color-yellow">WOO</span>RIDES</h1>
+	   		<p>COMING SOON: Visit our store to purchase your next bike</p>
+	  	</div>
     </div>
     <div class="item">
-    	<div class="carousel-graphic graphic-2"></div>
+      	<div class="carousel-graphic graphic-4">
+			<div class="carousel-clickzone carousel-clickzone-left"></div>
+			<div class="carousel-clickzone carousel-clickzone-right"></div>      	
+      	</div>
+    	<div class="home-hero-caption">
+	   		<h1><span class="theme-color-yellow">WOO</span>RIDES</h1>
+	   		<p>More than just rides. Learn how we are impacting the Worcester community.</p>
+	   		<a href="#" class="theme-btn-cta-primary">ABOUT US</a>
+	  	</div>
     </div>
-    <div class="item">
-		<div class="carousel-graphic graphic-3"></div>    
-    </div>
-    <div class="item">
-      	<div class="carousel-graphic graphic-4"></div>    	
-    </div>
-    
-    <div id="home-hero-caption">
-   		<h1><span class="theme-color-yellow">WOO</span>RIDES</h1>
-   		<p>Worcester's premier pedicab service</p>
-  	</div>
-  	<div class="carousel-clickzone carousel-clickzone-left"></div>
-  	<div class="carousel-clickzone carousel-clickzone-right"></div>
    		
   </div>
  </div>
@@ -91,13 +124,13 @@
 		background-image: url('Assets/img/Ali_Valentine_Yaovi.jpg');
 	}
 	.carousel-inner .item .graphic-2 {
-		background-image: url('Assets/img/Ali_Valentine_Yaovi.jpg');
+		background-image: url('Assets/img/Priscilla_Messinger.jpg');
 	}
 	.carousel-inner .item .graphic-3 {
 		background-image: url('Assets/img/Ali_Valentine_Yaovi.jpg');
 	}
 	.carousel-inner .item .graphic-4 {
-		background-image: url('Assets/img/Ali_Valentine_Yaovi.jpg');
+		background-image: url('Assets/img/WR.jpg');
 	}
  </style>
  
@@ -109,6 +142,8 @@
 		<div class="defBan-def-cell">
 			<p><strong>PEDICAB / ‘ pedikab /</strong> noun</p>
 			<p>A human powered, fully immersive mode of transportation;<br>great for rides, tours, events, and advertising.</p>
+			<br>
+			<p>also, <strong>rickshaw</strong></p>
 		</div>
 	</div>
 	
@@ -116,10 +151,10 @@
 		<div id="services" class="scroll-flag"></div>
 		<h2 class="section-header">Our <span class="theme-color-yellow">Services</span></h2>
 		<ul class="nav nav-tabs">
-		    <li class="active"><a data-toggle="tab" href="#rides">RIDES</a></li>
-		    <li><a data-toggle="tab" href="#tours">TOURS</a></li>
-		    <li><a data-toggle="tab" href="#events">EVENTS</a></li>
-		    <li><a data-toggle="tab" href="#advertising">ADVERTISING</a></li>
+		    <li class="active"><a data-toggle="tab" href="#rides">Book Us</a></li>
+		    <li><a data-toggle="tab" href="#advertising">Advertising</a></li>
+		    <li><a data-toggle="tab" href="#shop">Shop</a></li>
+		    <li><a data-toggle="tab" href="#community">Community Space</a></li>
 		  </ul>
 		  <div class="tab-content">
 		  
@@ -132,11 +167,12 @@
 		      		<img src="Assets/img/home_hero.jpg">
 		      	</div>
 		      	<div class="overview-rides-content">
-		      		<h5 class="overview-rides-content-title"><span class="theme-color-yellow">YOU</span>RIDES</h5>
-		      		<p>Want a fun ride to your favorite venue, restaurant, or bar in the Canal District, City Square, 
-		      		or on Shrewsbury Street? Take our pedicabs! Operating Thursday through Saturday nights 
-		      		from 10:00pm to 2:00am. Starting at just $5!</p>
-		      		<a href="booking.html" class="theme-btn-cta-primary serv-overview-btn">BOOK A RIDE</a>
+		      		<h5 class="overview-rides-content-title"><span class="theme-color-yellow">CUSTOM</span>RIDES</h5>
+		      		<p>WBook WooRides for all your custom ride needs. Book one of our four tours with us on weekends 
+		      		and see Worcester like you’ve never seen the city before. Or book our services for your event 
+		      		to give your guests an extra special experience anytime you’re getting a crowd together.</p>
+		      		<a href="booking.html" class="theme-btn-cta-primary serv-overview-btn">SCHEDULE A TOUR</a>
+		      		<a href="booking.html" class="theme-btn-cta-secondary serv-overview-btn">BOOK AN EVENT</a>
 		      	</div>
 		      </div>
 		      
@@ -185,16 +221,18 @@
 		    </div>
 		    
 		    
-		    <div id="tours" class="tab-pane fade">
+		    <div id="shop" class="tab-pane fade">
 		      <div class="overview-rides">
 		      	<div class="overview-rides-img">
 		      		<img src="Assets/img/Priscilla_Messinger.jpg">
 		      	</div>
 		      	<div class="overview-rides-content">
-		      		<h5 class="overview-rides-content-title"><span class="theme-color-yellow">NEW</span>RIDES</h5>
-		      		<p>Book one of our four custom tours with us on weekends and see Worcester like
-		      		 you’ve never seen the city before.</p>
+		      		<h5 class="overview-rides-content-title"><span class="theme-color-yellow">YOU</span>RIDES</h5>
+		      		<p>Looking for your next set of wheels? We’ve partnered with Worcester Earn-A-Bike 
+		      		to sell bikes in our shop at 22 Portland St. Rides coming soon! </p>
+		      		<!--
 		      		<a href="booking.html" class="theme-btn-cta-primary serv-overview-btn">SCHEDULE A TOUR</a>
+		      		-->
 		      	</div>
 		      </div>
 		      
@@ -243,16 +281,17 @@
 		    </div>
 		    
 		    
-		    <div id="events" class="tab-pane fade">
+		    <div id="community" class="tab-pane fade">
 		      <div class="overview-rides">
 		      	<div class="overview-rides-img">
 		      		<img src="Assets/img/Resized_20170811.jpg">
 		      	</div>
 		      	<div class="overview-rides-content">
-		      		<h5 class="overview-rides-content-title"><span class="theme-color-yellow">CROWD</span>RIDES</h5>
-		      		<p>Getting a crowd together? Shutting down the block? Book our services for your event to give
-		      		 your guests an extra special experience</p>
-		      		<a href="contact.html" class="theme-btn-cta-primary serv-overview-btn">BOOK AN EVENT</a>
+		      		<h5 class="overview-rides-content-title"><span class="theme-color-yellow">NOTJUST</span>RIDES</h5>
+		      		<p>We are about more than just rides. We are about building community. Our event space is 
+		      		open to promote culture, art, and anything else that brings people together in Worcester. 
+		      		Contact us today about hosting a gallery, performance, or event.</p>
+		      		<a href="mailto:info@woorides.com?subject=Community%20Space" class="theme-btn-cta-primary serv-overview-btn">CONTACT US</a>
 		      	</div>
 		      </div>
 		      
@@ -410,7 +449,7 @@
 					<h2 id="wwu-title">WORK WITH US!</h2>
 					<p id="wwu-content">Meet new people.<br>Burn some calories.<br>Explore our city.<br>Make riders smile.<br>
 					Contact us about being a WooRides driver today!</p>
-					<a href="mailto:woorides@gmail.com?subject=Employment%20Inquiry" class="theme-btn-cta-primary" id="wwu-btn">Contact US</a>
+					<a href="mailto:info@woorides.com?subject=Employment%20Inquiry" class="theme-btn-cta-primary" id="wwu-btn">Contact US</a>
 				</div>
 			</div>
 		</div>
@@ -462,7 +501,7 @@
  				</ul>
  				<div id="foot-site-info">
  					<p>WooRides</p>
- 					<p>100 Main Street Worcester, MA 01610</p>
+ 					<p>22 Portland St, Worcester, MA 10608</p>
  					<p>(508) XXX-XXXX</p>
  					<p>Hours: <br>Mon-Thur 9 am - 6 pm, <br>Fri-Sun 10 am - 11 pm</p>
  				</div>
@@ -521,7 +560,7 @@
 			$("#myCarousel").carousel("next");
 		});
 		
-		$('#home-hero-caption').addClass('show');
+		$('.home-hero-caption').addClass('show');
 		
 		$('.serv-navTab').on('click', function(e) {
 			
