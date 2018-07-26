@@ -1,32 +1,32 @@
 <?php
 $page_loc = 'home';
-$path_back = '';
+$path_back = '/';
 ?>
 
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  	<?php include 'Templates/Global/head.php' ?>
+  	<?php include '/Templates/Global/head.php' ?>
   </head>
   <body>
   
-	<?php include 'Templates/Global/navigation.php' ?>
+	<?php include '/Templates/Global/navigation.php' ?>
   
-  	<?php include 'Templates/Home/hero.php' ?>
+  	<?php include '/Templates/Home/hero.php' ?>
   	
-  	<?php include 'Templates/Home/banner-definition.php' ?>
+  	<?php include '/Templates/Home/banner-definition.php' ?>
   
-  	<?php include 'Templates/Home/our-services.php' ?>
+  	<?php include '/Templates/Home/our-services.php' ?>
   
-  	<?php include 'Templates/Home/new-way-banner.php' ?>
+  	<?php include '/Templates/Home/new-way-banner.php' ?>
   
-  	<?php include 'Templates/Home/our-values.php' ?>
+  	<?php include '/Templates/Home/our-values.php' ?>
   
-  	<?php include 'Templates/Home/work-with-us.php' ?>
+  	<?php include '/Templates/Home/work-with-us.php' ?>
   	
-  	<?php include 'Templates/Home/press.php' ?>
+  	<?php include '/Templates/Home/press.php' ?>
   	
-  	<?php include 'Templates/Global/footer.php' ?>
+  	<?php include '/Templates/Global/footer.php' ?>
   
   	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
