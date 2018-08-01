@@ -2,6 +2,41 @@
 
 $data = array();
 
+// RIDES
+//
+array_push($data, array(
+    'tabName' => 'Rides',
+    'tabID' => 'brides',
+    'overview' => array(
+        'imgPath' => 'Assets/img/home_hero.jpg',
+        'titlePrefix' => 'YOU',
+        'bodyText' => "Want a fun ride to your favorite venue, restaurant, or bar in the Canal District, City 
+		      		Square, or on Shrewsbury Street? Take our pedicabs! Operating Thursday through Saturday 
+		      		nights from 10:00pm to 2:00am. Starting at just $5!",
+        'buttons' => array(
+            array(
+                'title' => 'BOOK A RIDE',
+                'href' => $path_back.'Booking',
+                'className' => 'theme-btn-cta-primary serv-overview-btn'
+            )
+        )
+    ),
+    'reviews' => array(
+        array(
+            'name' => 'Richie Caldwell',
+            'quote' => 'My kids loved it!! After the 3rd ride my little one asked can we go again! I met the co-owner and he is a real cool dude; down to earth! Good luck!',
+            'imgClass' => 'review-headshot-richie',
+            'numStars' => 5
+        ),
+        array(
+            'name' => 'Norma Iris',
+            'quote' => 'My driver was very friendly and funny!! Great safe and calm ride! Will certainly take my little guy for a ride!! Will enjoy it again for sure!!',
+            'imgClass' => 'review-headshot-norma',
+            'numStars' => 5
+        )
+    )
+));
+
 // BOOK US
 //
 array_push($data, array(
@@ -16,12 +51,12 @@ array_push($data, array(
         'buttons' => array(
             array(
                 'title' => 'SCHEDULE A TOUR',
-                'href' => 'booking.html',
+                'href' => $path_back.'Booking',
                 'className' => 'theme-btn-cta-primary serv-overview-btn'
             ),
             array(
                 'title' => 'BOOK AN EVENT',
-                'href' => 'booking.html',
+                'href' => $path_back.'Contact',
                 'className' => 'theme-btn-cta-secondary serv-overview-btn'
             )
         )
@@ -55,7 +90,7 @@ array_push($data, array(
         'buttons' => array(
             array(
                 'title' => 'ADVERTISE WITH US',
-                'href' => 'contact.html',
+                'href' => $path_back.'Contact',
                 'className' => 'theme-btn-cta-primary serv-overview-btn'
             )
         )
@@ -118,7 +153,7 @@ array_push($data, array(
         'buttons' => array(
             array(
                 'title' => 'CONTACT US',
-                'href' => 'contact.html',
+                'href' => $path_back.'Contact',
                 'className' => 'theme-btn-cta-primary serv-overview-btn'
             )
         )
@@ -206,7 +241,7 @@ array_push($data, array(
 
                 echo
                                 '</div>'.
-                                '<p class="review-content-quote">“'.$review['quote'].'”</p>'.
+                                '<p class="review-content-quote">"'.$review['quote'].'"</p>'.
                                 '<p class="review-content-author">- '.$review['name'].'</p>'.
                             '</div>'.
                         '</div>';

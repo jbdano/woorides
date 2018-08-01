@@ -1,6 +1,6 @@
 <?php
 $page_loc = 'home';
-$path_back = '';
+$path_back = './';
 ?>
 
 <!DOCTYPE html>

@@ -7,9 +7,9 @@
 		<div class="row">
 			<div class="col-sm-6">
 				<h5 class="content-title">We're a cooperative company.</h5>
-				<p class="content-description">WooRides is a zero-carbon emission transportation fleet serving Worcester’s vibrant community of 
+				<p class="content-description">WooRides is a zero-carbon emission transportation fleet serving Worcester's vibrant community of 
 				residents, students, and professionals. We have begun by using traditional technologies to connect 
-				Worcester’s history and culture into the future of Worcester’s growth. Through our services, we 
+				Worcester's history and culture into the future of Worcester's growth. Through our services, we 
 				envision alternative futures rooted in sustainable technologies, equitable cities, and small 
 				business enterprise. Whether to enjoy nightlife, make it to a business meeting, or plan an event, 
 				we are here for you!</p>

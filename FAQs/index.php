@@ -26,8 +26,14 @@ $path_back = '../';
   		$('#faq-section').removeClass('preload-hide');
   		
   		$('.faq-question').on('click', function(e) {
-  			$('.faq-question').removeClass('faq-question-active');
-  			$(this).addClass('faq-question-active');
+  			
+  			if ($(this).hasClass('faq-question-active')) {
+  				$(this).removeClass('faq-question-active');
+  			}
+  			else {
+  	  			$('.faq-question').removeClass('faq-question-active');
+  	  			$(this).addClass('faq-question-active');
+  			}
   		});
   	});
   	</script>

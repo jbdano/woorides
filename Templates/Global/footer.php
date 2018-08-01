@@ -4,11 +4,11 @@
 	<div id="foot-grid">
 		<div id="foot-site-links">
 			<ul>
-				<li><a href="<?php if ($page_loc === 'home') echo '/' ?>#services" class="smoothScroll">Services</a></li>
-				<li><a href="<?php if ($page_loc === 'home') echo '/' ?>#values" class="smoothScroll">Values</a></li>
-				<li><a href="<?php if ($page_loc === 'home') echo '/' ?>#press" class="smoothScroll">Press</a></li>
-				<li><a href="contact.html">Contact</a></li>
-				<li><a href="/FAQs">FAQs</a></li>
+				<li><a href="<?php echo $path_back; ?>#services" class="smoothScroll">Services</a></li>
+				<li><a href="<?php echo $path_back; ?>#values" class="smoothScroll">Values</a></li>
+				<li><a href="<?php echo $path_back; ?>#press" class="smoothScroll">Press</a></li>
+				<li><a href="<?php echo $path_back; ?>Contact">Contact</a></li>
+				<li><a href="<?php echo $path_back; ?>FAQs">FAQs</a></li>
 			</ul>
 			<div id="foot-site-info">
 				<p>WooRides</p>
@@ -41,7 +41,7 @@
 					</div></a>
 				</li>
 				<li>
- 					<a href="tel:1-555-555-5555"><div class="social-item">
+ 					<a href="tel:1-508-966-8439"><div class="social-item">
  						<i class="fas fa-phone-volume"></i>
  					</div></a>
 				</li>

@@ -1134,45 +1134,46 @@ img.asi-src-logo {
     padding: 50px 0 15px; }
   /* line 34, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/faq/_faq.scss */
   #faq-section .faq-question {
+    cursor: pointer;
     padding: 15px 20px 15px 0;
     border-top: 1px solid #ddd;
     position: relative; }
-    /* line 38, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/faq/_faq.scss */
+    /* line 39, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/faq/_faq.scss */
     #faq-section .faq-question p {
       margin: 0; }
-      /* line 40, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/faq/_faq.scss */
+      /* line 41, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/faq/_faq.scss */
       #faq-section .faq-question p:first-child {
         color: #888; }
-    /* line 44, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/faq/_faq.scss */
+    /* line 45, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/faq/_faq.scss */
     #faq-section .faq-question i {
       float: right;
       color: #ddd;
       position: absolute;
       right: 0;
       top: 15px; }
-    /* line 51, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/faq/_faq.scss */
+    /* line 52, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/faq/_faq.scss */
     #faq-section .faq-question .faq-answer {
       margin-top: 0px;
       font-weight: bold;
       opacity: 0;
       padding-right: 30px;
       transition: all 0.5s ease-out; }
-      /* line 57, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/faq/_faq.scss */
+      /* line 58, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/faq/_faq.scss */
       #faq-section .faq-question .faq-answer p {
         display: none; }
-    /* line 62, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/faq/_faq.scss */
+    /* line 63, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/faq/_faq.scss */
     #faq-section .faq-question.faq-question-active p:first-child {
       color: #132747; }
-    /* line 65, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/faq/_faq.scss */
+    /* line 66, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/faq/_faq.scss */
     #faq-section .faq-question.faq-question-active i {
       color: #132747; }
-    /* line 68, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/faq/_faq.scss */
+    /* line 69, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/faq/_faq.scss */
     #faq-section .faq-question.faq-question-active .faq-answer {
       color: #132747;
       margin-top: 30px;
       opacity: 1;
       transition: all 0.5s ease-in; }
-      /* line 73, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/faq/_faq.scss */
+      /* line 74, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/faq/_faq.scss */
       #faq-section .faq-question.faq-question-active .faq-answer p {
         display: block; }
 
@@ -1307,7 +1308,7 @@ img.asi-src-logo {
   /* line 11, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/aboutus/_about-us.scss */
   #involvement-section .pedicab-img {
     position: relative;
-    bottom: -5px;
+    top: -5px;
     display: block;
     width: 100px;
     height: auto; }

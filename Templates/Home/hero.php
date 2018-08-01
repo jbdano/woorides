@@ -23,12 +23,12 @@
 	    <div class="home-hero-caption">
 	   		<h1><span class="theme-color-yellow">WOO</span>RIDES</h1>
 	   		<p>Worcester's premier pedicab service</p>
-	   		<a href="booking.html" class="theme-btn-cta-primary webLink">TAKE A RIDE</a>
+	   		<a href="<?php echo $path_back; ?>Booking" class="theme-btn-cta-primary webLink">TAKE A RIDE</a>
 	   		<a href="tel:1-508-966-8439" class="theme-btn-cta-primary teleLink">TAKE A RIDE</a>
 	  	</div>
     </div>
      
-    <div class="item" style="position: relative;" >
+    <div class="item">
     	<div class="carousel-graphic graphic-2">
 			<div class="carousel-clickzone carousel-clickzone-left"></div>
 			<div class="carousel-clickzone carousel-clickzone-right"></div>
@@ -36,7 +36,7 @@
 	    <div class="home-hero-caption">
 	   		<h1><span class="theme-color-yellow">WOO</span>RIDES</h1>
 	   		<p>Add something special to your next event</p>
-	   		<a href="contact.html" class="theme-btn-cta-primary">BOOK AN EVENT</a>
+	   		<a href="<?php echo $path_back; ?>Contact-Us" class="theme-btn-cta-primary">BOOK AN EVENT</a>
 	  	</div>
     </div>
 
@@ -58,7 +58,7 @@
     	<div class="home-hero-caption">
 	   		<h1><span class="theme-color-yellow">WOO</span>RIDES</h1>
 	   		<p>More than just rides. Learn how we are impacting the Worcester community.</p>
-	   		<a href="#" class="theme-btn-cta-primary">ABOUT US</a>
+	   		<a href="<?php echo $path_back; ?>About-Us" class="theme-btn-cta-primary">ABOUT US</a>
 	  	</div>
     </div>
    		
