@@ -23,7 +23,7 @@
 	    <div class="home-hero-caption">
 	   		<h1><span class="theme-color-yellow">WOO</span>RIDES</h1>
 	   		<p>Worcester's premier pedicab service</p>
-	   		<a href="<?php echo $path_back; ?>Booking" class="theme-btn-cta-primary webLink">TAKE A RIDE</a>
+	   		<!-- <a href="Booking/" class="theme-btn-cta-primary webLink">TAKE A RIDE</a> -->
 	   		<a href="tel:1-508-966-8439" class="theme-btn-cta-primary teleLink">TAKE A RIDE</a>
 	  	</div>
     </div>
@@ -36,7 +36,7 @@
 	    <div class="home-hero-caption">
 	   		<h1><span class="theme-color-yellow">WOO</span>RIDES</h1>
 	   		<p>Add something special to your next event</p>
-	   		<a href="<?php echo $path_back; ?>Contact-Us" class="theme-btn-cta-primary">BOOK AN EVENT</a>
+	   		<a href="<?php echo $path_back; ?>Contact/" class="theme-btn-cta-primary">BOOK AN EVENT</a>
 	  	</div>
     </div>
 
@@ -58,7 +58,7 @@
     	<div class="home-hero-caption">
 	   		<h1><span class="theme-color-yellow">WOO</span>RIDES</h1>
 	   		<p>More than just rides. Learn how we are impacting the Worcester community.</p>
-	   		<a href="<?php echo $path_back; ?>About-Us" class="theme-btn-cta-primary">ABOUT US</a>
+	   		<a href="<?php echo $path_back; ?>About-Us/" class="theme-btn-cta-primary">ABOUT US</a>
 	  	</div>
     </div>
    		
@@ -73,7 +73,7 @@
 		background-image: url('Assets/img/Priscilla_Messinger.jpg');
 	}
 	.carousel-inner .item .graphic-3 {
-		background-image: url('Assets/img/Ali_Valentine_Yaovi.jpg');
+		background-image: url('Assets/img/home_hero.jpg');
 	}
 	.carousel-inner .item .graphic-4 {
 		background-image: url('Assets/img/WR.jpg');

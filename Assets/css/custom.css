@@ -177,7 +177,7 @@ button.navbar-toggle {
 /* line 94, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
 .navbar-nav > li > a.navbar_contact_btn {
   margin: 8px 15px;
-  padding-top: 10px;
+  padding-top: 12px;
   padding-bottom: 10px;
   border: 2px solid white;
   text-transform: uppercase;
@@ -268,6 +268,33 @@ body {
     /* line 34, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_global.scss */
     .scroll-flag {
       top: -60px; } }
+
+/* line 43, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_global.scss */
+.lazy {
+  opacity: 0;
+  position: relative;
+  transition: all 1s ease-out; }
+  /* line 48, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_global.scss */
+  .lazy.show {
+    opacity: 1; }
+  /* line 52, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_global.scss */
+  .lazy.lazy-fade-up {
+    bottom: -75px; }
+    /* line 54, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_global.scss */
+    .lazy.lazy-fade-up.show {
+      bottom: 0px; }
+  /* line 57, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_global.scss */
+  .lazy.lazy-fade-right {
+    left: -75px; }
+    /* line 59, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_global.scss */
+    .lazy.lazy-fade-right.show {
+      left: 0px; }
+  /* line 62, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_global.scss */
+  .lazy.lazy-fade-left {
+    right: -75px; }
+    /* line 64, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_global.scss */
+    .lazy.lazy-fade-left.show {
+      right: 0px; }
 
 /* line 2, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_footer.scss */
 #footer {
@@ -785,51 +812,46 @@ body {
   width: 230px;
   font-weight: bold;
   text-align: center;
-  padding: 12px 35px 8px;
-  /*
-	&:hover {
-		color: white;
-		text-decoration: none;
-	}
-	*/ }
+  padding: 12px 35px 8px; }
   @media screen and (min-width: 768px) {
     /* line 187, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
     .serv-overview-btn {
       display: inline-block;
       width: auto;
-      margin: 0; } }
+      margin: 0;
+      margin-right: 15px; } }
 
-/* line 208, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
+/* line 203, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
 #reviews-section {
   max-width: 100vw;
   margin-bottom: 100px; }
-  /* line 212, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
+  /* line 207, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
   #reviews-section .rev-grid {
     display: grid;
     max-width: 100%;
     grid-row-gap: 70px; }
     @media screen and (min-width: 1000px) {
-      /* line 212, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
+      /* line 207, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
       #reviews-section .rev-grid {
         grid-template-columns: repeat(2, 1fr);
         grid-column-gap: 50px; } }
   @media screen and (min-width: 1366px) {
-    /* line 223, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
+    /* line 218, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
     #reviews-section .review:nth-child(1) {
       justify-self: right; } }
   @media screen and (min-width: 1366px) {
-    /* line 228, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
+    /* line 223, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
     #reviews-section .review:nth-child(2) {
       justify-self: left; } }
-  /* line 233, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
+  /* line 228, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
   #reviews-section .review .review-headshot {
     margin-bottom: 30px; }
     @media screen and (min-width: 1366px) {
-      /* line 233, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
+      /* line 228, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
       #reviews-section .review .review-headshot {
         float: left;
         margin-bottom: 0px; } }
-    /* line 240, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
+    /* line 235, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
     #reviews-section .review .review-headshot .review-headshot-img {
       background-size: cover;
       background-repeat: no-repeat;
@@ -838,32 +860,32 @@ body {
       border-radius: 50%;
       display: block;
       margin: 0 auto; }
-      /* line 249, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
+      /* line 244, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
       #reviews-section .review .review-headshot .review-headshot-img.review-headshot-richie {
         background-image: url("../img/richie-headshot.JPG"); }
-      /* line 252, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
+      /* line 247, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
       #reviews-section .review .review-headshot .review-headshot-img.review-headshot-norma {
-        background-image: url("../img/norma-headshot.jpg");
+        background-image: url("../img/norma-headshot.JPG");
         background-position: 50% 50%; }
-      /* line 256, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
+      /* line 251, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
       #reviews-section .review .review-headshot .review-headshot-img.review-headshot-daysha {
-        background-image: url("../img/daysha-headshot.JPG"); }
-      /* line 259, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
+        background-image: url("../img/daysha-headshot.jpg"); }
+      /* line 254, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
       #reviews-section .review .review-headshot .review-headshot-img.review-headshot-wesam {
-        background-image: url("../img/wesam-headshot.JPG"); }
-      /* line 262, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
+        background-image: url("../img/wesam-headshot.jpg"); }
+      /* line 257, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
       #reviews-section .review .review-headshot .review-headshot-img.review-headshot-sabrina {
-        background-image: url("../img/sabrina-headshot.JPG"); }
-      /* line 265, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
+        background-image: url("../img/sabrina-headshot.jpg"); }
+      /* line 260, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
       #reviews-section .review .review-headshot .review-headshot-img.review-headshot-nate {
-        background-image: url("../img/nate-headshot.JPG"); }
-      /* line 268, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
+        background-image: url("../img/nate-headshot.jpg"); }
+      /* line 263, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
       #reviews-section .review .review-headshot .review-headshot-img.review-headshot-tim {
-        background-image: url("../img/tim-headshot.JPG"); }
-      /* line 271, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
+        background-image: url("../img/tim-headshot.jpg"); }
+      /* line 266, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
       #reviews-section .review .review-headshot .review-headshot-img.review-headshot-maya {
-        background-image: url("../img/maya-headshot.JPG"); }
-    /* line 276, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
+        background-image: url("../img/maya-headshot.jpg"); }
+    /* line 271, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
     #reviews-section .review .review-headshot img {
       width: 100%;
       max-width: 250px;
@@ -873,21 +895,21 @@ body {
       border-radius: 50%;
       height: auto;
       user-select: none; }
-  /* line 287, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
+  /* line 282, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
   #reviews-section .review .review-content {
     width: 100%;
     max-width: 300px;
     margin: 0 auto;
     padding: 0 15px; }
     @media screen and (min-width: 1366px) {
-      /* line 287, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
+      /* line 282, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
       #reviews-section .review .review-content {
         margin: 0;
         overflow: auto;
         position: relative;
         top: 50%;
         transform: translateY(-50%); } }
-    /* line 300, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
+    /* line 295, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
     #reviews-section .review .review-content .review-rating i {
       color: #FFC02F; }
 
@@ -943,16 +965,29 @@ body {
       #values-section .content-description {
         padding: 0;
         width: 450px;
+        margin: 0 auto 35px; } }
+  /* line 30, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_values.scss */
+  #values-section .values-overview-btn {
+    margin: 0 auto 50px;
+    display: block;
+    width: 230px;
+    font-weight: bold;
+    text-align: center;
+    padding: 12px 35px 8px; }
+    @media screen and (min-width: 992px) {
+      /* line 30, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_values.scss */
+      #values-section .values-overview-btn {
+        width: 450px;
         margin: 0 auto; } }
 
-/* line 33, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_values.scss */
+/* line 45, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_values.scss */
 #values-description-img {
   width: 100%;
   max-width: 500px;
   margin: 0 auto;
   display: block; }
 
-/* line 40, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_values.scss */
+/* line 52, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_values.scss */
 .values-icon {
   width: 100px;
   display: block;
@@ -961,13 +996,13 @@ body {
   margin-right: auto;
   margin-bottom: 25px; }
 
-/* line 49, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_values.scss */
+/* line 61, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_values.scss */
 .values-title {
   text-align: center;
   margin-bottom: 15px;
   text-transform: uppercase; }
 
-/* line 55, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_values.scss */
+/* line 67, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_values.scss */
 .values-description {
   text-align: center;
   max-width: 300px;
@@ -1095,10 +1130,18 @@ img.asi-src-logo {
 	width: auto;
 }
 */
-/* line 74, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_press.scss */
-.asi-item a:hover .asi-img:before {
-  background-color: rgba(185, 226, 223, 0.6);
-  transition: all 0.2s ease-out; }
+/* line 75, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_press.scss */
+.asi-item {
+  position: relative;
+  transition: top 0.3s ease-out;
+  top: 0px; }
+  /* line 80, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_press.scss */
+  .asi-item:hover {
+    top: -20px; }
+  /* line 84, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_press.scss */
+  .asi-item a:hover .asi-img:before {
+    background-color: rgba(185, 226, 223, 0.6);
+    transition: all 0.5s ease-out; }
 
 /* line 2, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/faq/_faq.scss */
 #faq-section {
@@ -1293,10 +1336,15 @@ img.asi-src-logo {
 	@media screen and (min-width: 1024px) {
 		margin-top: -54px;
 	}
+	
+	
+	#footer {
+		margin-top: calc(100vh - 282px);
+	}
 	*/ }
-  /* line 10, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/booking/_booking.scss */
-  #booking #footer {
-    margin-top: calc(100vh - 282px); }
+  /* line 15, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/booking/_booking.scss */
+  #booking iframe {
+    min-height: 100vh !important; }
 
 /* line 2, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/aboutus/_about-us.scss */
 #involvement-section {

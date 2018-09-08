@@ -5,7 +5,7 @@
 		<div id="foot-site-links">
 			<ul>
 				<li><a href="<?php echo $path_back; ?>#services" class="smoothScroll">Services</a></li>
-				<li><a href="<?php echo $path_back; ?>#values" class="smoothScroll">Values</a></li>
+				<li><a href="<?php echo $path_back; ?>About-Us" class="smoothScroll">About Us</a></li>
 				<li><a href="<?php echo $path_back; ?>#press" class="smoothScroll">Press</a></li>
 				<li><a href="<?php echo $path_back; ?>Contact">Contact</a></li>
 				<li><a href="<?php echo $path_back; ?>FAQs">FAQs</a></li>

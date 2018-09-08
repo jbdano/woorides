@@ -8,12 +8,12 @@ $path_back = '../';
   <head>
   	<?php include $path_back.'Templates/Global/head.php' ?>
   </head>
-  <body>
+  <body id="booking">
   
   	<?php include $path_back.'Templates/Global/navigation.php' ?>
-  
-  	<script src='https://squareup.com/appointments/buyer/widget/daeb64a0-95f2-4a1e-8a6f-4f08b92d2a8c/12QARAKR1YM1A.js'></script>
-  
+  	
+	<script src='https://squareup.com/appointments/buyer/widget/daeb64a0-95f2-4a1e-8a6f-4f08b92d2a8c/12QARAKR1YM1A.js'></script>
+
   	<?php include $path_back.'Templates/Global/footer.php' ?>
   
 	<!-- Latest compiled and minified JavaScript -->
@@ -29,7 +29,7 @@ $path_back = '../';
     		message: '<p style="text-align: center;"><i class="fa fa-spin fa-spinner"></i> Loading Booking App...</p>',
     		closeButton: false
     	});
-		
+    	
 	});
 	
 	$(window).on('load', function(e) {

@@ -38,14 +38,14 @@ $path_back = '../';
 	<div id="involvement-section">
 		<div class="container">
 		
-			<img class="pedicab-img" src="../Assets/img/WRlogovector-fromnewpage.svg">
+			<img class="pedicab-img lazy lazy-fade-right" src="../Assets/img/WRlogovector-fromnewpage.svg">
 		
 			<div class="involvement">
 				<div class="flexbox flexbox-r">
 					<div class="flex-graphic flex-graphic-wr">
-						<img src="../Assets/img/worcester-roots-logo.png">
+						<img src="../Assets/img/worcester-roots-logo.png" class="lazy lazy-fade-right">
 					</div>
-					<div class="flex-content flex-content-wr">
+					<div class="flex-content flex-content-wr lazy">
 						<h4>Worcester is in our roots...literally.</h4>
 						<p>We are a part of Worcester Roots and proudly operate as a cooperative company. That sounds  
 						really fancy, but in reality it's just a different way to run a business. Instead of profit  
@@ -60,9 +60,9 @@ $path_back = '../';
 			<div class="involvement">
 				<div class="flexbox flexbox-wcac">
 					<div class="flex-graphic flex-graphic-wcac">
-						<img src="../Assets/img/community-action.jpg">
+						<img src="../Assets/img/community-action.jpg" class="lazy lazy-fade-left">
 					</div>
-					<div class="flex-content flex-content-wcac">
+					<div class="flex-content flex-content-wcac lazy">
 						<h4>Investing in the Woo's youth.</h4>
 						<p>We participate in Worcester Community Action Council's YouthWorks Summer Jobs Program. 
 						This program create summer jobs for low-income, at-risk, inner city youth between the 
@@ -78,9 +78,9 @@ $path_back = '../';
 			<div class="involvement">
 				<div class="flexbox flexbox-eab">
 					<div class="flex-graphic flex-graphic-eab">
-						<img src="../Assets/img/earn-a-bike.jpg">
+						<img src="../Assets/img/EarnABikeLogo.png" class="lazy lazy-fade-right">
 					</div>
-					<div class="flex-content flex-content-eab">
+					<div class="flex-content flex-content-eab lazy">
 						<h4>EARN-A-BIKE. Earn the future.</h4>
 						<p>We are proud to partner with Worcester Earn-A-Bike on a shared venture in used bicycle 
 						sales in which we stock a selection of upcycled bicycles from Worcester Earn-A-Bike. We 
@@ -103,6 +103,45 @@ $path_back = '../';
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<script src="<?php echo $path_back ?>Assets/js/custom.js"></script>
+	
+	<script>
+	$(document).ready(function() {
+
+		$.fn.isInViewport = function() {
+			var elementTop = $(this).offset().top;
+			var elementBottom = elementTop + $(this).outerHeight();
+			var viewportTop = $(window).scrollTop() + 100;
+			var viewportBottom = viewportTop + $(window).height() - 200;
+			return elementBottom > viewportTop && elementTop < viewportBottom;
+		};
+
+		function watchForLazyLoaders() {
+
+			$(window).on('scroll', function() {
+
+				$('.lazy:not(.show)').each(function(index) {
+					if ( $(this).isInViewport() ) $(this).addClass('show');
+				});
+				
+				if ( $('.lazy:not(.show)').length == 0 ) $(window).off();
+			});
+
+		};
+
+		function showVisibleLazyLoaders() {
+
+			$('.lazy:not(.show)').each(function(index) {
+				if ( $(this).isInViewport() ) $(this).addClass('show');
+			});
+		};
+
+		watchForLazyLoaders();
+		showVisibleLazyLoaders();
+	});
+
+	
+
+	</script>
 
   </body>
 </html>

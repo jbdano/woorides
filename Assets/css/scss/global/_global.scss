@@ -39,3 +39,28 @@ body {
 		top: -60px;
 	}
 }
+
+.lazy {
+	opacity: 0;
+	position: relative;
+	transition: all 1s ease-out;
+	
+	&.show {
+		opacity: 1;
+	}
+	
+	&.lazy-fade-up {
+		bottom: -75px;
+		&.show { bottom: 0px; }
+	}
+	
+	&.lazy-fade-right {
+		left: -75px;
+		&.show { left: 0px; }
+	}
+	
+	&.lazy-fade-left {
+		right: -75px;
+		&.show { right: 0px; }
+	}
+}

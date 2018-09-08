@@ -19,3 +19,11 @@
 <!-- font awesome -->
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
   
+<!-- bootstrap date picker -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.8.0/css/bootstrap-datepicker.css">
+  
+<!-- lazy load -->
+<!-- 
+<link rel="stylesheet" type="text/css" href="Assets/lazy-load/bttrlazyloading.min.css" />
+<link rel="stylesheet" type="text/css" href="Assets/animate/animate.min.css">
+-->

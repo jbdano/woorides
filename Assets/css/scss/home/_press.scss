@@ -71,7 +71,18 @@ img.asi-src-logo {
 	width: auto;
 }
 */
-.asi-item a:hover .asi-img:before {
-	background-color: rgba(185, 226, 223, 0.6);
-	transition: all 0.2s ease-out
+
+.asi-item {
+	position: relative;
+	transition: top 0.3s ease-out;
+	top: 0px;
+	
+	&:hover {
+		top: -20px;
+	}
+	
+	a:hover .asi-img:before {
+		background-color: rgba(185, 226, 223, 0.6);
+		transition: all 0.5s ease-out;
+	}
 }

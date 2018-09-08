@@ -21,7 +21,7 @@ $navBrandHref = ($page_loc === 'home') ? '#top' : $path_back;
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
         <li class=""><a href="<?php echo $path_back; ?>#services" id="navItem-services" class="smoothScroll">Services <span class="sr-only">(current)</span></a></li>
-        <li><a href="<?php echo $path_back; ?>#values" id="navItem-values" class="smoothScroll">Values</a></li>
+        <li><a href="<?php echo $path_back; ?>About-Us" id="navItem-about" class="smoothScroll">About Us</a></li>
         <li><a href="<?php echo $path_back; ?>#press" id="navItem-press" class="smoothScroll">Press</a></li>
         <li><a href="<?php echo $path_back; ?>FAQs" id="navItem-faqs">FAQs</a></li>
         <li><a href="<?php echo $path_back; ?>Booking" id="navItem-cta" class="navbar_contact_btn">Book Tour</a></li>

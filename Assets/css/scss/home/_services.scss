@@ -195,13 +195,8 @@
 		display: inline-block;
 		width: auto;
 		margin: 0;
+		margin-right: 15px;
 	}
-	/*
-	&:hover {
-		color: white;
-		text-decoration: none;
-	}
-	*/
 }
 
 
@@ -250,26 +245,26 @@
 					background-image: url('../img/richie-headshot.JPG');
 				}
 				&.review-headshot-norma {
-					background-image: url('../img/norma-headshot.jpg');
+					background-image: url('../img/norma-headshot.JPG');
 					background-position: 50% 50%;
 				}
 				&.review-headshot-daysha {
-					background-image: url('../img/daysha-headshot.JPG');
+					background-image: url('../img/daysha-headshot.jpg');
 				}
 				&.review-headshot-wesam {
-					background-image: url('../img/wesam-headshot.JPG');
+					background-image: url('../img/wesam-headshot.jpg');
 				}
 				&.review-headshot-sabrina {
-					background-image: url('../img/sabrina-headshot.JPG');
+					background-image: url('../img/sabrina-headshot.jpg');
 				}
 				&.review-headshot-nate {
-					background-image: url('../img/nate-headshot.JPG');
+					background-image: url('../img/nate-headshot.jpg');
 				}
 				&.review-headshot-tim {
-					background-image: url('../img/tim-headshot.JPG');
+					background-image: url('../img/tim-headshot.jpg');
 				}
 				&.review-headshot-maya {
-					background-image: url('../img/maya-headshot.JPG');
+					background-image: url('../img/maya-headshot.jpg');
 				}
 			}
 			

@@ -36,7 +36,7 @@ array_push($data, array(
 	    echo 
 	    '<div class="asi-item">'.
 	       '<a href="'.$press['linkTo'].'" target="_blank">'.
-	           '<div class="asi-img '.$press['backgroundClass'].'">'.
+	           '<div class="asi-img lazy '.$press['backgroundClass'].'">'.
 	               '<h4 class="asi-text-overlay">'.nl2br($press['title']).'</h4>'.
                '</div>'.
            '</a>'.

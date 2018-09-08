@@ -13,24 +13,25 @@
 				envision alternative futures rooted in sustainable technologies, equitable cities, and small 
 				business enterprise. Whether to enjoy nightlife, make it to a business meeting, or plan an event, 
 				we are here for you!</p>
+				<a href="<?php echo $path_back; ?>About-Us" class="theme-btn-cta-primary values-overview-btn">Read More</a>
 			</div>
 			<div class="col-sm-6">
-				<img id="values-description-img" src="Assets/img/Ali_Valentine_Yaovi.jpg">
+				<img id="values-description-img" src="Assets/img/Ali_Valentine_Yaovi.jpg" class="lazy lazy-fade-up">
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-sm-4">
-				<img class="values-icon" src="Assets/img/003-green.svg">
+				<img class="values-icon lazy lazy-fade-up" src="Assets/img/003-green.svg">
 				<h4 class="values-title">Sustainable</h4>
 				<p class="values-description">Our human-powered pedicabs are an alternative to carbon-emitting vehicles.</p>
 			</div>
 			<div class="col-sm-4">
-				<img class="values-icon" src="Assets/img/002-birthday.svg">
+				<img class="values-icon lazy lazy-fade-up" src="Assets/img/002-birthday.svg">
 				<h4 class="values-title">fun</h4>
 				<p class="values-description">The most memorable way to get from point A to point B or tour the city.</p>
 			</div>
 			<div class="col-sm-4">
-				<img class="values-icon" src="Assets/img/001-ruler.svg">
+				<img class="values-icon lazy lazy-fade-up" src="Assets/img/001-ruler.svg">
 				<h4 class="values-title">flexible</h4>
 				<p class="values-description">Custom tours, event services, and accommodations available. Just ask!</p>				
 			</div>

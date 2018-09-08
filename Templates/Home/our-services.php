@@ -83,7 +83,7 @@ array_push($data, array(
     'tabName' => 'Advertising',
     'tabID' => 'advertising',
     'overview' => array(
-        'imgPath' => 'Assets/img/wr.jpg',
+        'imgPath' => 'Assets/img/WR.jpg',
         'titlePrefix' => 'ADVERTISE',
         'bodyText' => "Our pedicabs provide the unique opportunity for local businesses 
                     to reach customers in Worcester. Advertise with us to reach your next customers across the city.",
@@ -207,7 +207,7 @@ array_push($data, array(
 	  	            '<div class="overview-rides-img">'.
 	  	                '<img src="'.$tab_info['overview']['imgPath'].'">'.
   	                '</div>'.
-	  	            '<div class="overview-rides-content">'.
+	  	            '<div class="overview-rides-content lazy lazy-fade-left">'.
     	  	            '<h5 class="overview-rides-content-title"><span class="theme-color-yellow">'.$tab_info['overview']['titlePrefix'].'</span>RIDES</h5>'.
     	  	            '<p>'.$tab_info['overview']['bodyText'].'</p>';
 	  	    
