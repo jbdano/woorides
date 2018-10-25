@@ -42,13 +42,23 @@
 						  <span class="checkmark"></span>
 						</label>
 						
-					    <label class="service-item">Events
+					    <label class="service-item">Transportation Services
 						  <input type="radio" name="type" value="events">
 						  <span class="checkmark"></span>
 						</label>
 						
 						<label class="service-item">Advertising
 						  <input type="radio" name="type" value="advertising">
+						  <span class="checkmark"></span>
+						</label>
+						
+						<label class="service-item">Community Space
+						  <input type="radio" name="type" value="community">
+						  <span class="checkmark"></span>
+						</label>
+												
+						<label class="service-item">Job Opportunities
+						  <input type="radio" name="type" value="job">
 						  <span class="checkmark"></span>
 						</label>
 						

@@ -24,7 +24,7 @@ $navBrandHref = ($page_loc === 'home') ? '#top' : $path_back;
         <li><a href="<?php echo $path_back; ?>About-Us" id="navItem-about" class="smoothScroll">About Us</a></li>
         <li><a href="<?php echo $path_back; ?>#press" id="navItem-press" class="smoothScroll">Press</a></li>
         <li><a href="<?php echo $path_back; ?>FAQs" id="navItem-faqs">FAQs</a></li>
-        <li><a href="<?php echo $path_back; ?>Booking" id="navItem-cta" class="navbar_contact_btn">Book Tour</a></li>
+        <li><a href="https://squareup.com/appointments/book/daeb64a0-95f2-4a1e-8a6f-4f08b92d2a8c/12QARAKR1YM1A/services" target="_blank" id="navItem-cta" class="navbar_contact_btn">Book Tour</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->

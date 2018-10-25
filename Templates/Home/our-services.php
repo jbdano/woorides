@@ -4,49 +4,90 @@ $data = array();
 
 // RIDES
 //
-array_push($data, array(
-    'tabName' => 'Rides',
-    'tabID' => 'brides',
-    'overview' => array(
-        'imgPath' => 'Assets/img/home_hero.jpg',
-        'titlePrefix' => 'YOU',
-        'bodyText' => "Want a fun ride to your favorite venue, restaurant, or bar in the Canal District, City 
-		      		Square, or on Shrewsbury Street? Take our pedicabs! Operating Thursday through Saturday 
-		      		nights from 10:00pm to 2:00am. Starting at just $5!",
-        'buttons' => array(
-            array(
-                'title' => 'BOOK A RIDE',
-                'href' => $path_back.'Booking',
-                'className' => 'theme-btn-cta-primary serv-overview-btn'
-            )
-        )
-    ),
-    'reviews' => array(
-        array(
-            'name' => 'Richie Caldwell',
-            'quote' => 'My kids loved it!! After the 3rd ride my little one asked can we go again! I met the co-owner and he is a real cool dude; down to earth! Good luck!',
-            'imgClass' => 'review-headshot-richie',
-            'numStars' => 5
-        ),
-        array(
-            'name' => 'Norma Iris',
-            'quote' => 'My driver was very friendly and funny!! Great safe and calm ride! Will certainly take my little guy for a ride!! Will enjoy it again for sure!!',
-            'imgClass' => 'review-headshot-norma',
-            'numStars' => 5
-        )
-    )
-));
+// array_push($data, array(
+//     'tabName' => 'Rides',
+//     'tabID' => 'brides',
+//     'overview' => array(
+//         'imgPath' => 'Assets/img/home_hero.jpg',
+//         'titlePrefix' => 'YOU',
+//         'bodyText' => "Want a fun ride to your favorite venue, restaurant, or bar in the Canal District, City 
+// 		      		Square, or on Shrewsbury Street? Take our pedicabs! Operating Thursday through Saturday 
+// 		      		nights from 10:00pm to 2:00am. Starting at just $5!",
+//         'buttons' => array(
+//             array(
+//                 'title' => 'BOOK A RIDE',
+//                 'href' => $path_back.'Booking',
+//                 'className' => 'theme-btn-cta-primary serv-overview-btn'
+//             )
+//         )
+//     ),
+//     'reviews' => array(
+//         array(
+//             'name' => 'Richie Caldwell',
+//             'quote' => 'My kids loved it!! After the 3rd ride my little one asked can we go again! I met the co-owner and he is a real cool dude; down to earth! Good luck!',
+//             'imgClass' => 'review-headshot-richie',
+//             'numStars' => 5
+//         ),
+//         array(
+//             'name' => 'Norma Iris',
+//             'quote' => 'My driver was very friendly and funny!! Great safe and calm ride! Will certainly take my little guy for a ride!! Will enjoy it again for sure!!',
+//             'imgClass' => 'review-headshot-norma',
+//             'numStars' => 5
+//         )
+//     )
+// ));
 
 // BOOK US
 //
+// array_push($data, array(
+//     'tabName' => 'Book Us',
+//     'tabID' => 'bookus',
+//     'overview' => array(
+//         'imgPath' => 'Assets/img/home_hero.jpg',
+//         'titlePrefix' => 'CUSTOM',
+//         'bodyText' => "Book WooRides for all your custom ride needs. Book one of our four tours with us on weekends 
+// 	      		and see Worcester like you've never seen the city before. Or book our services for your event 
+// 	      		to give your guests an extra special experience anytime you're getting a crowd together.",
+//         'buttons' => array(
+//             array(
+//                 'title' => 'SCHEDULE A TOUR',
+//                 'href' => $path_back.'Booking',
+//                 'className' => 'theme-btn-cta-primary serv-overview-btn'
+//             ),
+//             array(
+//                 'title' => 'BOOK AN EVENT',
+//                 'href' => $path_back.'Contact',
+//                 'className' => 'theme-btn-cta-secondary serv-overview-btn'
+//             )
+//         )
+//     ),
+//     'reviews' => array(
+//         array(
+//             'name' => 'Richie Caldwell',
+//             'quote' => 'My kids loved it!! After the 3rd ride my little one asked can we go again! I met the co-owner and he is a real cool dude; down to earth! Good luck!',
+//             'imgClass' => 'review-headshot-richie',
+//             'numStars' => 5
+//         ),
+//         array(
+//             'name' => 'Norma Iris',
+//             'quote' => 'My driver was very friendly and funny!! Great safe and calm ride! Will certainly take my little guy for a ride!! Will enjoy it again for sure!!',
+//             'imgClass' => 'review-headshot-norma',
+//             'numStars' => 5
+//         )
+//     )
+// ));
+
+// WOORIDES
+//
 array_push($data, array(
-    'tabName' => 'Book Us',
-    'tabID' => 'bookus',
+    'tabName' => 'WooRides',
+    'tabID' => 'woorides',
     'overview' => array(
         'imgPath' => 'Assets/img/home_hero.jpg',
-        'titlePrefix' => 'CUSTOM',
-        'bodyText' => "Book WooRides for all your custom ride needs. Book one of our four tours with us on weekends 
-	      		and see Worcester like you've never seen the city before. Or book our services for your event 
+        'titlePrefix' => 'WOO',
+        'titlePostfix' => 'RIDES',
+        'bodyText' => "Book WooRides for all your custom ride needs. Book one of our four tours with us on weekends
+	      		and see Worcester like you've never seen the city before. Or book our services for your event
 	      		to give your guests an extra special experience anytime you're getting a crowd together.",
         'buttons' => array(
             array(
@@ -55,7 +96,7 @@ array_push($data, array(
                 'className' => 'theme-btn-cta-primary serv-overview-btn'
             ),
             array(
-                'title' => 'BOOK AN EVENT',
+                'title' => 'BOOK A SERVICE',
                 'href' => $path_back.'Contact',
                 'className' => 'theme-btn-cta-secondary serv-overview-btn'
             )
@@ -84,7 +125,8 @@ array_push($data, array(
     'tabID' => 'advertising',
     'overview' => array(
         'imgPath' => 'Assets/img/WR.jpg',
-        'titlePrefix' => 'ADVERTISE',
+        'titlePrefix' => 'PROMO',
+        'titlePostfix' => 'RIDES',
         'bodyText' => "Our pedicabs provide the unique opportunity for local businesses 
                     to reach customers in Worcester. Advertise with us to reach your next customers across the city.",
         'buttons' => array(
@@ -118,7 +160,8 @@ array_push($data, array(
     'tabID' => 'shop',
     'overview' => array(
         'imgPath' => 'Assets/img/Priscilla_Messinger.jpg',
-        'titlePrefix' => 'YOU',
+        'titlePrefix' => 'Shop Rides ',
+        'titlePostfix' => 'at Portland St',
         'bodyText' => "Looking for your next set of wheels? We've partnered with Worcester Earn-A-Bike 
 	      		to sell bikes in our shop at 22 Portland St. Rides coming soon!",
         'buttons' => array()
@@ -147,6 +190,7 @@ array_push($data, array(
     'overview' => array(
         'imgPath' => 'Assets/img/Resized_20170811.jpg',
         'titlePrefix' => 'NOTJUST',
+        'titlePostfix' => 'RIDES',
         'bodyText' => "We are about more than just rides. We are about building community. Our event space is 
 	      		open to promote culture, art, and anything else that brings people together in Worcester. 
 	      		Contact us today about hosting a gallery, performance, or event.",
@@ -200,6 +244,8 @@ array_push($data, array(
 	  	foreach ($data as $i => $tab_info) {
 	  	    
 	  	    $tabClassName = ($i == 0) ? 'in active' : '';
+	  	    $title_prefix = $tab_info['overview']['titlePrefix'];
+	  	    $title_postfix = $tab_info['overview']['titlePostfix'];
 	  	    
 	  	    echo
 	  	    '<div id="'.$tab_info['tabID'].'" class="tab-pane fade '.$tabClassName.'">'.
@@ -208,7 +254,7 @@ array_push($data, array(
 	  	                '<img src="'.$tab_info['overview']['imgPath'].'">'.
   	                '</div>'.
 	  	            '<div class="overview-rides-content lazy lazy-fade-left">'.
-    	  	            '<h5 class="overview-rides-content-title"><span class="theme-color-yellow">'.$tab_info['overview']['titlePrefix'].'</span>RIDES</h5>'.
+	  	                '<h5 class="overview-rides-content-title">'.'<span class="theme-color-yellow">'.$title_prefix.'</span>'.$title_postfix.'</h5>'.
     	  	            '<p>'.$tab_info['overview']['bodyText'].'</p>';
 	  	    
 	  	    foreach ($tab_info['overview']['buttons'] as $index => $button) {

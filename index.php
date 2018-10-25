@@ -2,32 +2,6 @@
 $page_loc = 'home';
 $path_back = './';
 
-
-// function file_get_contents_curl($url) {
-//     $ch = curl_init();
-    
-//     curl_setopt($ch, CURLOPT_AUTOREFERER, TRUE);
-//     curl_setopt($ch, CURLOPT_HEADER, 0);
-//     curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-//     curl_setopt($ch, CURLOPT_URL, $url);
-//     curl_setopt($ch, CURLOPT_FOLLOWLOCATION, TRUE);
-    
-//     $response = curl_exec($ch);
-    
-//     parse_str($response, $data);
-    
-//     curl_close($ch);
-    
-//     return $data;
-// }
-
-// $url = "https://cdn.contentful.com/spaces/0bsjhec63o1x/environments/master/content_types/service?access_token=400c8bf17bcb2dae1d59659f591ff103ffbd4362edc6a15fa16e7edcea880e89";
-
-// $data = file_get_contents_curl($url);
-
-// error_log(print_r($data, true));
-
-
 ?>
 
 <!DOCTYPE html>
@@ -58,17 +32,14 @@ $path_back = './';
   	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-<!-- 	<script src="Assets/lazy-load/jquery.bttrlazyloading.min.js"></script> -->
 	<script src="Assets/js/custom.js"></script>
 	
     <!-- cdnjs -->
-    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.min.js"></script>
-<!--     <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.plugins.min.js"></script> -->
+<!--     <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.min.js"></script> -->
 	
 	<script>
 	
 	$(document).ready(function() {
-
 		
 		$.fn.isInViewport = function() {
 			var elementTop = $(this).offset().top;
