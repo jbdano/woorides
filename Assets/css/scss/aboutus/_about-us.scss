@@ -42,14 +42,16 @@
 		img {
 			display: block;
 			margin: 0 auto;
-			height: 200px;
+			padding: 0 100px;
+			height: auto;
 			max-height: 100%;
-			width: auto;
+			width: 100%;
 			max-width: 100%;
 		    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     		filter: grayscale(100%);
 			@media screen and (min-width: 768px) {
-				height: 250px;
+				padding: 0 50px;
+				max-width: 350px;
 			}
 		}
 	}

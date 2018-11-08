@@ -43,13 +43,16 @@ $path_back = '../';
 			<div class="involvement">
 				<div class="flexbox flexbox-r">
 					<div class="flex-graphic flex-graphic-wr">
-						<img src="../Assets/img/worcester-roots-logo.png" class="lazy lazy-fade-right">
+						<img src="../Assets/img/cropped-Cooperation-Worcester-Logo-2018-sm-01.png" class="lazy lazy-fade-right">
 					</div>
 					<div class="flex-content flex-content-wr lazy">
 						<h4>Worcester is in our roots...literally.</h4>
-						<p>We are a part of Worcester Roots and proudly operate as a cooperative company. That sounds  
-						really fancy, but in reality it's just a different way to run a business. Instead of profit  
-						and competition, we care about community need, cooperation, people, and the environment.</p>
+						<p>We were sprouted & fiscally sponsored by Worcester Roots and we now operate as an independent 
+						cooperative company. That sounds really fancy, but in reality it's just a different way to run a 
+						business. Instead of profit and competition, we care about community need, cooperation, people, 
+						and the environment. We are a part of <a href="http://www.cooperationworcester.org/" class="theme-link" target="_blank">Cooperation Worcester</a>, 
+						a collective of Worcester cooperatives working as a coalition to strengthen the worker-owner 
+						cooperative and solidarity economy movement.</p>
 					</div>
 				</div>
 				<div class="dashed-border dashed-border--top"></div>
