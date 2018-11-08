@@ -1,180 +1,246 @@
-/* line 3, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_variables.scss */
+/* line 3, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/global/_variables.scss */
 .theme-color-yellow {
-  color: #FFC02F; }
+  color: #FFC02F;
+}
 
-/* line 9, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_variables.scss */
+/* line 9, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/global/_variables.scss */
 .theme-color-blue {
-  color: #132747; }
+  color: #132747;
+}
 
-/* line 2, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_font.scss */
+/* line 2, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/global/_font.scss */
 h1, h2, h3, h4, h5, h6 {
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   font-weight: bold;
   color: #132747;
-  margin: 0; }
+  margin: 0;
+}
 
-/* line 10, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_font.scss */
+/* line 10, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/global/_font.scss */
 p, a {
-  color: #132747; }
+  color: #132747;
+}
 
-/* line 15, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_font.scss */
+/* line 15, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/global/_font.scss */
 body {
   font-size: 16px;
   line-height: 1.5;
-  font-family: 'Mina', sans-serif; }
-  @media screen and (min-width: 768px) {
-    /* line 15, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_font.scss */
-    body {
-      font-size: 17px; } }
+  font-family: 'Mina', sans-serif;
+}
 
-/* line 25, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_font.scss */
+@media screen and (min-width: 768px) {
+  /* line 15, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/global/_font.scss */
+  body {
+    font-size: 17px;
+  }
+}
+
+/* line 25, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/global/_font.scss */
 h1 {
-  font-size: 3.0em; }
+  font-size: 3.0em;
+}
 
-/* line 26, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_font.scss */
+/* line 26, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/global/_font.scss */
 h2 {
-  font-size: 2.2em; }
+  font-size: 2.2em;
+}
 
-/* line 27, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_font.scss */
+/* line 27, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/global/_font.scss */
 h3 {
-  font-size: 1.9em; }
+  font-size: 1.9em;
+}
 
-/* line 28, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_font.scss */
+/* line 28, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/global/_font.scss */
 h4 {
-  font-size: 1.6em; }
+  font-size: 1.6em;
+}
 
-/* line 29, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_font.scss */
+/* line 29, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/global/_font.scss */
 h5 {
-  font-size: 1.3em; }
+  font-size: 1.3em;
+}
 
-/* line 30, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_font.scss */
+/* line 30, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/global/_font.scss */
 h6 {
-  font-size: 1em; }
+  font-size: 1em;
+}
 
-/* line 32, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_font.scss */
+/* line 32, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/global/_font.scss */
 p {
-  font-size: 1em; }
+  font-size: 1em;
+}
 
-/* line 33, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_font.scss */
+/* line 33, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/global/_font.scss */
 a {
-  font-size: 1em; }
+  font-size: 1em;
+}
 
-/* line 34, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_font.scss */
+/* line 34, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/global/_font.scss */
 strong {
-  font-size: 1em; }
+  font-size: 1em;
+}
 
-/* line 35, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_font.scss */
+/* line 35, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/global/_font.scss */
 label {
   font-size: 0.83em;
-  font-weight: bold; }
+  font-weight: bold;
+}
 
-/* line 2, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
+/* line 37, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/global/_font.scss */
+.theme-link {
+  text-decoration: underline dotted #132747;
+}
+
+/* line 2, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
 .navbar {
   background: linear-gradient(#224070 50%, #1c3863 50%);
   margin-bottom: 0px;
-  border-color: #224070; }
-  @media screen and (min-width: 768px) {
-    /* line 2, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
-    .navbar {
-      height: 62px; } }
+  border-color: #224070;
+}
 
-/* line 11, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
+@media screen and (min-width: 768px) {
+  /* line 2, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
+  .navbar {
+    height: 62px;
+  }
+}
+
+/* line 11, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
 .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
-  max-height: 500px; }
+  max-height: 500px;
+}
 
-/* line 15, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
+/* line 15, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
 .navbar-default .navbar-toggle.collapsed .icon-bar {
-  background-color: #ddd; }
+  background-color: #ddd;
+}
 
-/* line 19, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
+/* line 19, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #888; }
+  background-color: #888;
+}
 
-/* line 23, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
+/* line 23, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
 button.navbar-toggle.collapsed {
-  background-color: transparent !important; }
+  background-color: transparent !important;
+}
 
-/* line 27, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
+/* line 27, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
 button.navbar-toggle {
-  position: relative; }
-  /* line 30, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
-  button.navbar-toggle .icon-bar-1 {
-    opacity: 1;
-    transition: opacity 0.5s; }
-  /* line 31, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
-  button.navbar-toggle .icon-bar-2 {
-    opacity: 1;
-    transition: opacity 0.5s; }
-  /* line 32, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
-  button.navbar-toggle .icon-bar-3 {
-    opacity: 1;
-    transition: opacity 0.5s; }
-  /* line 33, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
-  button.navbar-toggle .icon-bar-cross {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin: 0 !important;
-    transform: translate(-50%, -50%);
-    opacity: 0;
-    transition: transform 0.5s, opacity 0.5s; }
-  /* line 44, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
-  button.navbar-toggle:not(.collapsed) .icon-bar-1 {
-    opacity: 0; }
-  /* line 45, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
-  button.navbar-toggle:not(.collapsed) .icon-bar-2 {
-    opacity: 0; }
-  /* line 46, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
-  button.navbar-toggle:not(.collapsed) .icon-bar-3 {
-    opacity: 0; }
-  /* line 47, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
-  button.navbar-toggle:not(.collapsed) .icon-bar-cross {
-    transition: transform 0.6s;
-    opacity: 1;
-    background-color: #132747; }
-  /* line 52, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
-  button.navbar-toggle:not(.collapsed) .icon-bar-cross-4 {
-    transform: translate(-50%, -50%) rotate(45deg); }
-  /* line 55, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
-  button.navbar-toggle:not(.collapsed) .icon-bar-cross-5 {
-    transform: translate(-50%, -50%) rotate(-45deg); }
+  position: relative;
+}
 
-/* line 61, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
+/* line 30, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
+button.navbar-toggle .icon-bar-1 {
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
+/* line 31, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
+button.navbar-toggle .icon-bar-2 {
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
+/* line 32, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
+button.navbar-toggle .icon-bar-3 {
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
+/* line 33, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
+button.navbar-toggle .icon-bar-cross {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: 0 !important;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+/* line 44, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
+button.navbar-toggle:not(.collapsed) .icon-bar-1 {
+  opacity: 0;
+}
+
+/* line 45, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
+button.navbar-toggle:not(.collapsed) .icon-bar-2 {
+  opacity: 0;
+}
+
+/* line 46, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
+button.navbar-toggle:not(.collapsed) .icon-bar-3 {
+  opacity: 0;
+}
+
+/* line 47, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
+button.navbar-toggle:not(.collapsed) .icon-bar-cross {
+  transition: transform 0.6s;
+  opacity: 1;
+  background-color: #132747;
+}
+
+/* line 52, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
+button.navbar-toggle:not(.collapsed) .icon-bar-cross-4 {
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+/* line 55, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
+button.navbar-toggle:not(.collapsed) .icon-bar-cross-5 {
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+/* line 61, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
 .navbar-brand {
   padding: 5px;
-  padding-left: 25px; }
-  @media screen and (min-width: 768px) {
-    /* line 61, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
-    .navbar-brand {
-      padding-left: 100px;
-      height: 60px; } }
-  /* line 69, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
-  .navbar-brand img {
-    height: 40px; }
-    @media screen and (min-width: 768px) {
-      /* line 69, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
-      .navbar-brand img {
-        height: 50px; } }
+  padding-left: 25px;
+}
 
-/* line 77, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
+@media screen and (min-width: 768px) {
+  /* line 61, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
+  .navbar-brand {
+    padding-left: 100px;
+    height: 60px;
+  }
+}
+
+/* line 69, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
+.navbar-brand img {
+  height: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 69, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
+  .navbar-brand img {
+    height: 50px;
+  }
+}
+
+/* line 77, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
 .navbar-nav > li > a {
   padding-top: 20px;
-  padding-bottom: 20px; }
+  padding-bottom: 20px;
+}
 
-/* line 82, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
+/* line 82, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
 .navbar-default .navbar-nav > li > a {
   color: white;
-  font-weight: bold; }
-  /* line 85, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
-  .navbar-default .navbar-nav > li > a:hover {
-    color: white; }
+  font-weight: bold;
+}
 
-/* line 90, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
+/* line 85, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
+.navbar-default .navbar-nav > li > a:hover {
+  color: white;
+}
+
+/* line 90, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
 .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
-  color: white; }
+  color: white;
+}
 
-/* line 94, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
+/* line 94, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
 .navbar-nav > li > a.navbar_contact_btn {
   margin: 8px 15px;
   padding-top: 12px;
@@ -182,15 +248,18 @@ button.navbar-toggle {
   border: 2px solid white;
   text-transform: uppercase;
   background-color: transparent;
-  transition: background-color 0.2s ease-out; }
-  /* line 102, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
-  .navbar-nav > li > a.navbar_contact_btn:hover {
-    color: white;
-    text-decoration: none;
-    background-color: rgba(255, 255, 255, 0.3);
-    transition: background-color 0.2s ease-out; }
+  transition: background-color 0.2s ease-out;
+}
 
-/* line 2, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_buttons.scss */
+/* line 102, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/global/_navigation.scss */
+.navbar-nav > li > a.navbar_contact_btn:hover {
+  color: white;
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: background-color 0.2s ease-out;
+}
+
+/* line 2, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/global/_buttons.scss */
 .theme-btn-cta-secondary {
   border: 3px solid #40AFA7;
   color: #40AFA7;
@@ -200,18 +269,23 @@ button.navbar-toggle {
   text-transform: uppercase;
   background-color: transparent;
   transition: background-color 0.2s ease-out;
-  line-height: 1; }
-  /* line 12, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_buttons.scss */
-  .theme-btn-cta-secondary:hover {
-    color: #40AFA7;
-    text-decoration: none;
-    background-color: rgba(255, 255, 255, 0.3);
-    transition: background-color 0.2s ease-out; }
-  /* line 18, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_buttons.scss */
-  .theme-btn-cta-secondary:focus {
-    text-decoration: none; }
+  line-height: 1;
+}
 
-/* line 23, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_buttons.scss */
+/* line 12, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/global/_buttons.scss */
+.theme-btn-cta-secondary:hover {
+  color: #40AFA7;
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: background-color 0.2s ease-out;
+}
+
+/* line 18, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/global/_buttons.scss */
+.theme-btn-cta-secondary:focus {
+  text-decoration: none;
+}
+
+/* line 23, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/global/_buttons.scss */
 .theme-btn-cta-primary {
   border: 3px solid #40AFA7;
   color: white;
@@ -220,34 +294,43 @@ button.navbar-toggle {
   text-transform: uppercase;
   background-color: #40AFA7;
   display: inline;
-  line-height: 1; }
-  /* line 32, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_buttons.scss */
-  .theme-btn-cta-primary:focus, .theme-btn-cta-primary:hover {
-    color: white;
-    text-decoration: none; }
+  line-height: 1;
+}
 
-/* line 2, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_global.scss */
+/* line 32, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/global/_buttons.scss */
+.theme-btn-cta-primary:focus, .theme-btn-cta-primary:hover {
+  color: white;
+  text-decoration: none;
+}
+
+/* line 2, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/global/_global.scss */
 body {
-  margin-top: 50px; }
-  @media screen and (min-width: 768px) {
-    /* line 2, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_global.scss */
-    body {
-      margin-top: 60px; } }
+  margin-top: 50px;
+}
 
-/* line 9, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_global.scss */
+@media screen and (min-width: 768px) {
+  /* line 2, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/global/_global.scss */
+  body {
+    margin-top: 60px;
+  }
+}
+
+/* line 9, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/global/_global.scss */
 .ruler-break {
   max-width: 100vw;
   position: relative;
-  padding: 100px 0px; }
+  padding: 100px 0px;
+}
 
-/* line 15, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_global.scss */
+/* line 15, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/global/_global.scss */
 .ruler-break-line {
   border-top: 2px solid #FFC02F;
   width: 80vw;
   max-width: 1200px;
-  margin: 0 auto; }
+  margin: 0 auto;
+}
 
-/* line 22, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_global.scss */
+/* line 22, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/global/_global.scss */
 .ruler-break-title {
   position: absolute;
   top: 50%;
@@ -257,177 +340,261 @@ body {
   background-color: white;
   padding: 0 15px;
   font-weight: bold;
-  white-space: nowrap; }
+  white-space: nowrap;
+}
 
-/* line 34, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_global.scss */
+/* line 34, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/global/_global.scss */
 .scroll-flag {
   position: absolute;
   top: -50px;
-  left: 0px; }
-  @media screen and (min-width: 768px) {
-    /* line 34, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_global.scss */
-    .scroll-flag {
-      top: -60px; } }
+  left: 0px;
+}
 
-/* line 43, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_global.scss */
+@media screen and (min-width: 768px) {
+  /* line 34, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/global/_global.scss */
+  .scroll-flag {
+    top: -60px;
+  }
+}
+
+/* line 43, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/global/_global.scss */
 .lazy {
   opacity: 0;
   position: relative;
-  transition: all 1s ease-out; }
-  /* line 48, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_global.scss */
-  .lazy.show {
-    opacity: 1; }
-  /* line 52, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_global.scss */
-  .lazy.lazy-fade-up {
-    bottom: -75px; }
-    /* line 54, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_global.scss */
-    .lazy.lazy-fade-up.show {
-      bottom: 0px; }
-  /* line 57, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_global.scss */
-  .lazy.lazy-fade-right {
-    left: -75px; }
-    /* line 59, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_global.scss */
-    .lazy.lazy-fade-right.show {
-      left: 0px; }
-  /* line 62, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_global.scss */
-  .lazy.lazy-fade-left {
-    right: -75px; }
-    /* line 64, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_global.scss */
-    .lazy.lazy-fade-left.show {
-      right: 0px; }
+  transition: all 1s ease-out;
+}
 
-/* line 2, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_footer.scss */
+/* line 48, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/global/_global.scss */
+.lazy.show {
+  opacity: 1;
+}
+
+/* line 52, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/global/_global.scss */
+.lazy.lazy-fade-up {
+  bottom: -75px;
+}
+
+/* line 54, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/global/_global.scss */
+.lazy.lazy-fade-up.show {
+  bottom: 0px;
+}
+
+/* line 57, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/global/_global.scss */
+.lazy.lazy-fade-right {
+  left: -75px;
+}
+
+/* line 59, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/global/_global.scss */
+.lazy.lazy-fade-right.show {
+  left: 0px;
+}
+
+/* line 62, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/global/_global.scss */
+.lazy.lazy-fade-left {
+  right: -75px;
+}
+
+/* line 64, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/global/_global.scss */
+.lazy.lazy-fade-left.show {
+  right: 0px;
+}
+
+/* line 2, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/global/_footer.scss */
 #footer {
   background-color: #132747;
   max-width: 100vw;
-  padding: 20px 0; }
+  padding: 20px 0;
+}
 
-/* line 7, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_footer.scss */
+/* line 7, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/global/_footer.scss */
 #foot-grid {
   display: grid;
   width: 100%;
-  grid-template-columns: 1fr; }
-  @media screen and (min-width: 768px) {
-    /* line 7, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_footer.scss */
-    #foot-grid {
-      grid-template-columns: 1fr 1fr; } }
+  grid-template-columns: 1fr;
+}
 
-/* line 16, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_footer.scss */
+@media screen and (min-width: 768px) {
+  /* line 7, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/global/_footer.scss */
+  #foot-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* line 16, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/global/_footer.scss */
 #foot-site-links {
   padding-left: 15px;
-  max-width: 500px; }
-  @media screen and (min-width: 768px) {
-    /* line 16, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_footer.scss */
-    #foot-site-links {
-      padding-left: 40px; } }
-  /* line 23, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_footer.scss */
-  #foot-site-links ul {
-    list-style-type: none;
-    margin: 0 0 25px 0;
-    padding-left: 0px; }
-    /* line 28, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_footer.scss */
-    #foot-site-links ul li {
-      margin: 5px 30px 5px 0;
-      display: inline-block; }
-      /* line 31, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_footer.scss */
-      #foot-site-links ul li a {
-        font-weight: bold;
-        color: #b9bfc9; }
-        /* line 34, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_footer.scss */
-        #foot-site-links ul li a:hover {
-          text-decoration: none;
-          color: white; }
+  max-width: 500px;
+}
 
-/* line 43, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_footer.scss */
+@media screen and (min-width: 768px) {
+  /* line 16, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/global/_footer.scss */
+  #foot-site-links {
+    padding-left: 40px;
+  }
+}
+
+/* line 23, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/global/_footer.scss */
+#foot-site-links ul {
+  list-style-type: none;
+  margin: 0 0 25px 0;
+  padding-left: 0px;
+}
+
+/* line 28, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/global/_footer.scss */
+#foot-site-links ul li {
+  margin: 5px 30px 5px 0;
+  display: inline-block;
+}
+
+/* line 31, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/global/_footer.scss */
+#foot-site-links ul li a {
+  font-weight: bold;
+  color: #b9bfc9;
+}
+
+/* line 34, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/global/_footer.scss */
+#foot-site-links ul li a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+/* line 43, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/global/_footer.scss */
 #foot-site-info p {
   color: #b9bfc9;
-  margin-bottom: 5px; }
-  @media screen and (min-width: 450px) {
-    /* line 48, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_footer.scss */
-    #foot-site-info p br {
-      display: none; } }
+  margin-bottom: 5px;
+}
 
-/* line 53, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_footer.scss */
+@media screen and (min-width: 450px) {
+  /* line 48, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/global/_footer.scss */
+  #foot-site-info p br {
+    display: none;
+  }
+}
+
+/* line 53, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/global/_footer.scss */
 #foot-social {
-  padding: 0 10px; }
-  @media screen and (min-width: 768px) {
-    /* line 53, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_footer.scss */
-    #foot-social {
-      padding-left: 40px;
-      justify-self: end; } }
-  /* line 60, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_footer.scss */
-  #foot-social ul {
-    list-style-type: none;
-    padding-left: 0px;
-    margin: 30px 0; }
-    @media screen and (min-width: 768px) {
-      /* line 64, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_footer.scss */
-      #foot-social ul li:first-child .social-item {
-        margin-left: 0; } }
-    @media screen and (min-width: 768px) {
-      /* line 60, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_footer.scss */
-      #foot-social ul {
-        margin: 0 0 20px;
-        padding-right: 40px; } }
-  /* line 74, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_footer.scss */
-  #foot-social li {
-    display: inline-block; }
-  /* line 79, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_footer.scss */
-  #foot-social #author-plug p {
-    color: #b9bfc9;
-    font-weight: bold; }
-  /* line 83, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_footer.scss */
-  #foot-social #author-plug:hover {
-    text-decoration: none; }
-    /* line 85, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_footer.scss */
-    #foot-social #author-plug:hover p {
-      color: white; }
-  /* line 90, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_footer.scss */
-  #foot-social .social-item {
-    width: 45px;
-    height: 45px;
-    margin: 5px;
-    border-radius: 50%;
-    background-color: #b9bfc9;
-    position: relative; }
-    /* line 97, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_footer.scss */
-    #foot-social .social-item:hover {
-      background-color: white; }
-    @media screen and (min-width: 850px) {
-      /* line 90, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_footer.scss */
-      #foot-social .social-item {
-        width: 50px;
-        height: 50px; } }
-    @media screen and (min-width: 1000px) {
-      /* line 90, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_footer.scss */
-      #foot-social .social-item {
-        width: 60px;
-        height: 60px; } }
-    @media screen and (min-width: 1200px) {
-      /* line 90, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_footer.scss */
-      #foot-social .social-item {
-        margin: 5px 15px; } }
-    /* line 112, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_footer.scss */
-    #foot-social .social-item i {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      font-size: 20px;
-      transform: translate(-50%, -50%);
-      color: #132747; }
-      @media screen and (min-width: 850px) {
-        /* line 112, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_footer.scss */
-        #foot-social .social-item i {
-          font-size: 25px; } }
-      @media screen and (min-width: 1000px) {
-        /* line 112, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_footer.scss */
-        #foot-social .social-item i {
-          font-size: 30px; } }
-      /* line 125, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/global/_footer.scss */
-      #foot-social .social-item i:hover {
-        color: #132747; }
+  padding: 0 10px;
+}
 
-/* line 4, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
+@media screen and (min-width: 768px) {
+  /* line 53, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/global/_footer.scss */
+  #foot-social {
+    padding-left: 40px;
+    justify-self: end;
+  }
+}
+
+/* line 60, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/global/_footer.scss */
+#foot-social ul {
+  list-style-type: none;
+  padding-left: 0px;
+  margin: 30px 0;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 64, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/global/_footer.scss */
+  #foot-social ul li:first-child .social-item {
+    margin-left: 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  /* line 60, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/global/_footer.scss */
+  #foot-social ul {
+    margin: 0 0 20px;
+    padding-right: 40px;
+  }
+}
+
+/* line 74, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/global/_footer.scss */
+#foot-social li {
+  display: inline-block;
+}
+
+/* line 79, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/global/_footer.scss */
+#foot-social #author-plug p {
+  color: #b9bfc9;
+  font-weight: bold;
+}
+
+/* line 83, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/global/_footer.scss */
+#foot-social #author-plug:hover {
+  text-decoration: none;
+}
+
+/* line 85, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/global/_footer.scss */
+#foot-social #author-plug:hover p {
+  color: white;
+}
+
+/* line 90, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/global/_footer.scss */
+#foot-social .social-item {
+  width: 45px;
+  height: 45px;
+  margin: 5px;
+  border-radius: 50%;
+  background-color: #b9bfc9;
+  position: relative;
+}
+
+/* line 97, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/global/_footer.scss */
+#foot-social .social-item:hover {
+  background-color: white;
+}
+
+@media screen and (min-width: 850px) {
+  /* line 90, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/global/_footer.scss */
+  #foot-social .social-item {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  /* line 90, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/global/_footer.scss */
+  #foot-social .social-item {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  /* line 90, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/global/_footer.scss */
+  #foot-social .social-item {
+    margin: 5px 15px;
+  }
+}
+
+/* line 112, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/global/_footer.scss */
+#foot-social .social-item i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 20px;
+  transform: translate(-50%, -50%);
+  color: #132747;
+}
+
+@media screen and (min-width: 850px) {
+  /* line 112, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/global/_footer.scss */
+  #foot-social .social-item i {
+    font-size: 25px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  /* line 112, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/global/_footer.scss */
+  #foot-social .social-item i {
+    font-size: 30px;
+  }
+}
+
+/* line 125, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/global/_footer.scss */
+#foot-social .social-item i:hover {
+  color: #132747;
+}
+
+/* line 4, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
 .carousel-inner .item .carousel-graphic {
   display: grid;
   /*margin-top: 50px;*/
@@ -435,46 +602,59 @@ body {
   grid-template-columns: 100vw;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 90% 50%; }
-  @media screen and (min-width: 768px) {
-    /* line 4, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
-    .carousel-inner .item .carousel-graphic {
-      grid-template-rows: calc(100vh - 60px); } }
+  background-position: 90% 50%;
+}
 
-/* line 20, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
+@media screen and (min-width: 768px) {
+  /* line 4, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
+  .carousel-inner .item .carousel-graphic {
+    grid-template-rows: calc(100vh - 60px);
+  }
+}
+
+/* line 20, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
 .carousel-indicators .active {
   height: 20px;
   width: 20px;
   margin-left: 25px;
   background-color: #FFC02F;
-  border-color: #FFC02F; }
+  border-color: #FFC02F;
+}
 
-/* line 27, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
+/* line 27, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
 .carousel-indicators li {
   height: 20px;
   width: 20px;
   margin-left: 25px;
   background-color: white;
-  border-color: white; }
-  /* line 34, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
-  .carousel-indicators li:first-child {
-    margin-left: 0px; }
+  border-color: white;
+}
 
-/* line 40, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
+/* line 34, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
+.carousel-indicators li:first-child {
+  margin-left: 0px;
+}
+
+/* line 40, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
 .carousel-clickzone {
   position: absolute;
   top: 0;
   width: 30vw;
   height: 100%;
-  background-color: transparent; }
-  /* line 46, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
-  .carousel-clickzone-left {
-    left: 0; }
-  /* line 49, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
-  .carousel-clickzone-right {
-    right: 0; }
+  background-color: transparent;
+}
 
-/* line 54, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
+/* line 46, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
+.carousel-clickzone-left {
+  left: 0;
+}
+
+/* line 49, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
+.carousel-clickzone-right {
+  right: 0;
+}
+
+/* line 54, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
 .home-hero-caption {
   position: absolute;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
@@ -488,228 +668,321 @@ body {
   text-align: left;
   font-weight: bold;
   opacity: 0;
-  width: 325px; }
-  /* line 68, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
-  .home-hero-caption.show {
-    opacity: 1;
-    left: 0px;
-    transition: all 1s ease-out; }
-    @media screen and (min-width: 768px) {
-      /* line 68, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
-      .home-hero-caption.show {
-        top: 40px;
-        left: 40px; } }
-  @media screen and (min-width: 500px) {
-    /* line 54, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
-    .home-hero-caption {
-      width: 475px; } }
-  @media screen and (min-width: 768px) {
-    /* line 54, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
-    .home-hero-caption {
-      width: 750px;
-      top: 40px;
-      left: 80px; } }
-  /* line 86, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
-  .home-hero-caption h1 {
-    color: white;
-    line-height: 0.9;
-    font-size: 3.5em; }
-    @media screen and (min-width: 768px) {
-      /* line 86, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
-      .home-hero-caption h1 {
-        font-size: 5em; } }
-    @media screen and (min-width: 1200px) {
-      /* line 86, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
-      .home-hero-caption h1 {
-        font-size: 6em; } }
-  /* line 97, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
-  .home-hero-caption p {
-    margin-bottom: 40px;
-    font-size: 1.6em;
-    color: white;
-    padding-left: 5px; }
-    @media screen and (min-width: 768px) {
-      /* line 97, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
-      .home-hero-caption p {
-        padding-left: 10px;
-        font-size: 2em; } }
-    @media screen and (min-width: 1200px) {
-      /* line 97, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
-      .home-hero-caption p {
-        padding-left: 15px; } }
-  /* line 110, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
-  .home-hero-caption a {
-    font-size: 1.6em;
-    margin-left: 5px; }
-    @media screen and (min-width: 768px) {
-      /* line 110, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
-      .home-hero-caption a {
-        margin-left: 10px; } }
-    @media screen and (min-width: 1200px) {
-      /* line 110, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
-      .home-hero-caption a {
-        margin-left: 15px; } }
-    /* line 119, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
-    .home-hero-caption a.webLink {
-      display: none; }
-      @media screen and (min-width: 400px) {
-        /* line 119, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
-        .home-hero-caption a.webLink {
-          display: inline; } }
-    /* line 125, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
-    .home-hero-caption a.teleLink {
-      display: inline; }
-      @media screen and (min-width: 400px) {
-        /* line 125, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
-        .home-hero-caption a.teleLink {
-          display: none; } }
+  width: 325px;
+}
 
-/* line 2, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_definition.scss */
+/* line 68, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
+.home-hero-caption.show {
+  opacity: 1;
+  left: 0px;
+  transition: all 1s ease-out;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 68, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
+  .home-hero-caption.show {
+    top: 40px;
+    left: 40px;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  /* line 54, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
+  .home-hero-caption {
+    width: 475px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  /* line 54, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
+  .home-hero-caption {
+    width: 750px;
+    top: 40px;
+    left: 80px;
+  }
+}
+
+/* line 86, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
+.home-hero-caption h1 {
+  color: white;
+  line-height: 0.9;
+  font-size: 3.5em;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 86, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
+  .home-hero-caption h1 {
+    font-size: 5em;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  /* line 86, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
+  .home-hero-caption h1 {
+    font-size: 6em;
+  }
+}
+
+/* line 97, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
+.home-hero-caption p {
+  margin-bottom: 40px;
+  font-size: 1.6em;
+  color: white;
+  padding-left: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 97, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
+  .home-hero-caption p {
+    padding-left: 10px;
+    font-size: 2em;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  /* line 97, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
+  .home-hero-caption p {
+    padding-left: 15px;
+  }
+}
+
+/* line 110, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
+.home-hero-caption a {
+  font-size: 1.6em;
+  margin-left: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 110, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
+  .home-hero-caption a {
+    margin-left: 10px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  /* line 110, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
+  .home-hero-caption a {
+    margin-left: 15px;
+  }
+}
+
+/* line 119, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
+.home-hero-caption a.webLink {
+  display: none;
+}
+
+@media screen and (min-width: 400px) {
+  /* line 119, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
+  .home-hero-caption a.webLink {
+    display: inline;
+  }
+}
+
+/* line 125, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
+.home-hero-caption a.teleLink {
+  display: inline;
+}
+
+@media screen and (min-width: 400px) {
+  /* line 125, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_carousel.scss */
+  .home-hero-caption a.teleLink {
+    display: none;
+  }
+}
+
+/* line 2, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_definition.scss */
 #definition-banner {
   display: grid;
   background-color: #B9E2DF;
   grid-template-columns: 100vw;
-  padding: 75px 0px; }
-  @media screen and (min-width: 768px) {
-    /* line 2, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_definition.scss */
-    #definition-banner {
-      grid-template-columns: 35% 65%;
-      grid-template-rows: 300px;
-      padding: 0; } }
+  padding: 75px 0px;
+}
 
-/* line 15, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_definition.scss */
+@media screen and (min-width: 768px) {
+  /* line 2, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_definition.scss */
+  #definition-banner {
+    grid-template-columns: 35% 65%;
+    grid-template-rows: 300px;
+    padding: 0;
+  }
+}
+
+/* line 15, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_definition.scss */
 .defBan-img-cell {
   justify-self: center;
-  align-self: center; }
-  @media screen and (min-width: 768px) {
-    /* line 15, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_definition.scss */
-    .defBan-img-cell {
-      justify-self: end; } }
-  /* line 22, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_definition.scss */
-  .defBan-img-cell img {
-    max-width: 150px;
-    height: auto;
-    margin: 0px auto 50px;
-    display: block; }
-    @media screen and (min-width: 768px) {
-      /* line 22, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_definition.scss */
-      .defBan-img-cell img {
-        margin: 0 50px 0 0;
-        max-width: 200px; } }
+  align-self: center;
+}
 
-/* line 34, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_definition.scss */
+@media screen and (min-width: 768px) {
+  /* line 15, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_definition.scss */
+  .defBan-img-cell {
+    justify-self: end;
+  }
+}
+
+/* line 22, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_definition.scss */
+.defBan-img-cell img {
+  max-width: 150px;
+  height: auto;
+  margin: 0px auto 50px;
+  display: block;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 22, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_definition.scss */
+  .defBan-img-cell img {
+    margin: 0 50px 0 0;
+    max-width: 200px;
+  }
+}
+
+/* line 34, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_definition.scss */
 .defBan-def-cell {
   justify-self: start;
   align-self: center;
   max-width: 600px;
-  margin: 0 auto; }
-  @media screen and (min-width: 768px) {
-    /* line 34, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_definition.scss */
-    .defBan-def-cell {
-      max-width: 700px;
-      margin: 0; } }
-  /* line 44, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_definition.scss */
-  .defBan-def-cell p {
-    font-size: 1.3em;
-    padding: 0px 15px; }
-    @media screen and (min-width: 768px) {
-      /* line 44, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_definition.scss */
-      .defBan-def-cell p {
-        margin: 0; } }
-  @media screen and (min-width: 768px) {
-    /* line 51, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_definition.scss */
-    .defBan-def-cell strong {
-      font-size: 1.2em;
-      margin-bottom: 0px; } }
+  margin: 0 auto;
+}
 
-/* line 2, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
+@media screen and (min-width: 768px) {
+  /* line 34, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_definition.scss */
+  .defBan-def-cell {
+    max-width: 700px;
+    margin: 0;
+  }
+}
+
+/* line 44, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_definition.scss */
+.defBan-def-cell p {
+  font-size: 1.3em;
+  padding: 0px 15px;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 44, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_definition.scss */
+  .defBan-def-cell p {
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  /* line 51, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_definition.scss */
+  .defBan-def-cell strong {
+    font-size: 1.2em;
+    margin-bottom: 0px;
+  }
+}
+
+/* line 2, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
 #services-section {
   padding: 60px 0px 0px;
   max-width: 100vw;
   overflow: hidden;
-  position: relative; }
+  position: relative;
+}
 
-/* line 9, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
+/* line 9, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
 .section-header {
   text-align: center;
   text-transform: uppercase;
   font-weight: bold;
-  margin-bottom: 40px; }
-  @media screen and (min-width: 768px) {
-    /* line 9, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
-    .section-header {
-      font-size: 3em;
-      margin-bottom: 25px; } }
+  margin-bottom: 40px;
+}
 
-/* line 20, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
+@media screen and (min-width: 768px) {
+  /* line 9, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
+  .section-header {
+    font-size: 3em;
+    margin-bottom: 25px;
+  }
+}
+
+/* line 20, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
 #services-section .nav-tabs > li {
   float: none;
   display: block;
   zoom: 1;
   padding: 0 20px;
-  color: #132747; }
-  @media screen and (min-width: 768px) {
-    /* line 20, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
-    #services-section .nav-tabs > li {
-      padding: 0 30px; } }
+  color: #132747;
+}
 
-/* line 31, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
+@media screen and (min-width: 768px) {
+  /* line 20, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
+  #services-section .nav-tabs > li {
+    padding: 0 30px;
+  }
+}
+
+/* line 31, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
 #services-section .nav-tabs > li > a {
   font-weight: bold;
   padding: 10px 0px;
-  font-size: 1.3em; }
-  @media screen and (min-width: 768px) {
-    /* line 31, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
-    #services-section .nav-tabs > li > a {
-      font-size: 1.5em; } }
+  font-size: 1.3em;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 31, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
+  #services-section .nav-tabs > li > a {
+    font-size: 1.5em;
+  }
+}
 
 @media screen and (min-width: 600px) {
-  /* line 42, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
+  /* line 42, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
   #services-section .nav-tabs > li {
-    display: inline-block; } }
+    display: inline-block;
+  }
+}
 
-/* line 49, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
+/* line 49, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
 #services-section .nav-tabs {
   text-align: center;
-  border: 0; }
+  border: 0;
+}
 
-/* line 53, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
+/* line 53, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
 #services-section .tab-content {
   position: relative;
-  transition-duration: 0s; }
+  transition-duration: 0s;
+}
 
-/* line 58, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
+/* line 58, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
 #services-section .tab-pane.fade {
   margin-left: 200px;
   width: 100vw;
-  transition: none; }
+  transition: none;
+}
 
-/* line 63, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
+/* line 63, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
 #services-section .tab-pane.fade.active.in {
   margin-left: 0px;
-  transition: margin-left 0.8s ease-out, opacity 0.4s linear; }
+  transition: margin-left 0.8s ease-out, opacity 0.4s linear;
+}
 
-/* line 72, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
+/* line 72, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
   border: none;
-  color: #132747; }
+  color: #132747;
+}
 
-/* line 77, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
+/* line 77, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
 .nav-tabs > li > a, .nav-tabs > li > a:focus, .nav-tabs > li > a:hover {
   border: none;
   border-bottom: 3px solid transparent;
   background-color: transparent;
-  color: inherit; }
+  color: inherit;
+}
 
-/* line 84, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
+/* line 84, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
 .nav-tabs > li.active > a::after, .nav-tabs > li.active > a:focus::after, .nav-tabs > li.active > a:hover::after {
   content: "";
   margin: 0 auto;
   border: 0;
   border-bottom: 3px solid #FFC02F;
-  display: block; }
+  display: block;
+}
 
-/* line 92, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
+/* line 92, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
 .serv-navTab {
   width: 35px;
   height: 60px;
@@ -717,329 +990,469 @@ body {
   position: absolute;
   top: 50px;
   display: none;
-  user-select: none; }
-  @media screen and (min-width: 600px) {
-    /* line 92, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
-    .serv-navTab {
-      display: block; } }
-  /* line 104, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
-  .serv-navTab:hover {
-    cursor: pointer; }
-  /* line 107, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
-  .serv-navTab.serv-navTab-left {
-    left: 0px; }
-  /* line 110, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
-  .serv-navTab.serv-navTab-right {
-    right: 0px; }
-  /* line 113, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
-  .serv-navTab img {
-    width: 25px;
-    height: auto;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); }
+  user-select: none;
+}
 
-/* line 123, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
+@media screen and (min-width: 600px) {
+  /* line 92, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
+  .serv-navTab {
+    display: block;
+  }
+}
+
+/* line 104, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
+.serv-navTab:hover {
+  cursor: pointer;
+}
+
+/* line 107, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
+.serv-navTab.serv-navTab-left {
+  left: 0px;
+}
+
+/* line 110, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
+.serv-navTab.serv-navTab-right {
+  right: 0px;
+}
+
+/* line 113, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
+.serv-navTab img {
+  width: 25px;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* line 123, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
 .overview-rides {
   display: grid;
   margin-top: 50px;
   max-width: 100vw;
-  grid-row-gap: 50px; }
+  grid-row-gap: 50px;
+}
 
-/* line 130, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
+@media screen and (min-width: 1200px) {
+  /* line 123, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
+  .overview-rides {
+    height: 300px;
+  }
+}
+
+/* line 133, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
 .overview-rides-img {
   height: 100%;
-  width: 100%; }
-  @media screen and (min-width: 1200px) {
-    /* line 130, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
-    .overview-rides-img {
-      align-self: start; } }
+  width: 100%;
+}
 
-/* line 138, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
+@media screen and (min-width: 1200px) {
+  /* line 133, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
+  .overview-rides-img {
+    align-self: start;
+  }
+}
+
+/* line 141, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
 .overview-rides-img img {
   display: block;
   margin: 0 auto;
   height: auto;
   width: 80%;
   max-width: 300px;
-  user-select: none; }
-  @media screen and (min-width: 768px) {
-    /* line 138, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
-    .overview-rides-img img {
-      width: auto;
-      max-width: calc(100% - 50px);
-      max-height: 100%; } }
-
-/* line 152, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
-.overview-rides-content {
-  padding: 0px 15px; }
-  @media screen and (min-width: 768px) {
-    /* line 152, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
-    .overview-rides-content {
-      height: auto;
-      align-self: start; } }
-
-/* line 160, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
-.overview-rides-content-title {
-  text-transform: uppercase;
-  margin-bottom: 15px; }
-
-/* line 165, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
-.overview-rides-content p {
-  margin-bottom: 60px; }
+  user-select: none;
+}
 
 @media screen and (min-width: 768px) {
-  /* line 171, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
-  .overview-rides {
-    grid-template-columns: 1fr 1fr; }
-  /* line 174, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
-  .overview-rides-img {
-    padding: 0 20px 0 0; }
-  /* line 177, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
+  /* line 141, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
   .overview-rides-img img {
-    margin: 0 0 0 auto; }
-  /* line 180, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
+    width: auto;
+    max-width: calc(100% - 50px);
+    max-height: 100%;
+  }
+}
+
+/* line 155, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
+.overview-rides-content {
+  padding: 0px 15px;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 155, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
+  .overview-rides-content {
+    height: auto;
+    align-self: start;
+  }
+}
+
+/* line 163, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
+.overview-rides-content-title {
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+/* line 168, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
+.overview-rides-content p {
+  margin-bottom: 60px;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 174, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
+  .overview-rides {
+    grid-template-columns: 1fr 1fr;
+  }
+  /* line 177, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
+  .overview-rides-img {
+    padding: 0 20px 0 0;
+  }
+  /* line 180, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
+  .overview-rides-img img {
+    margin: 0 0 0 auto;
+  }
+  /* line 183, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
   .overview-rides-content {
     padding: 0;
     margin: 0 60px 0 20px;
-    max-width: 500px; } }
+    max-width: 500px;
+  }
+}
 
-/* line 187, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
+/* line 190, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
 .serv-overview-btn {
   margin: 0 auto;
   display: block;
   width: 230px;
   font-weight: bold;
   text-align: center;
-  padding: 12px 35px 8px; }
-  @media screen and (min-width: 768px) {
-    /* line 187, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
-    .serv-overview-btn {
-      display: inline-block;
-      width: auto;
-      margin: 0;
-      margin-right: 15px; } }
+  padding: 12px 35px 8px;
+}
 
-/* line 203, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
+@media screen and (min-width: 768px) {
+  /* line 190, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
+  .serv-overview-btn {
+    display: inline-block;
+    width: auto;
+    margin: 0;
+    margin-right: 15px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  /* line 190, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
+  .serv-overview-btn {
+    align-self: end;
+  }
+}
+
+/* line 209, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
 #reviews-section {
   max-width: 100vw;
-  margin-bottom: 100px; }
-  /* line 207, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
-  #reviews-section .rev-grid {
-    display: grid;
-    max-width: 100%;
-    grid-row-gap: 70px; }
-    @media screen and (min-width: 1000px) {
-      /* line 207, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
-      #reviews-section .rev-grid {
-        grid-template-columns: repeat(2, 1fr);
-        grid-column-gap: 50px; } }
-  @media screen and (min-width: 1366px) {
-    /* line 218, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
-    #reviews-section .review:nth-child(1) {
-      justify-self: right; } }
-  @media screen and (min-width: 1366px) {
-    /* line 223, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
-    #reviews-section .review:nth-child(2) {
-      justify-self: left; } }
-  /* line 228, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
-  #reviews-section .review .review-headshot {
-    margin-bottom: 30px; }
-    @media screen and (min-width: 1366px) {
-      /* line 228, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
-      #reviews-section .review .review-headshot {
-        float: left;
-        margin-bottom: 0px; } }
-    /* line 235, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
-    #reviews-section .review .review-headshot .review-headshot-img {
-      background-size: cover;
-      background-repeat: no-repeat;
-      height: 175px;
-      width: 175px;
-      border-radius: 50%;
-      display: block;
-      margin: 0 auto; }
-      /* line 244, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
-      #reviews-section .review .review-headshot .review-headshot-img.review-headshot-richie {
-        background-image: url("../img/richie-headshot.JPG"); }
-      /* line 247, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
-      #reviews-section .review .review-headshot .review-headshot-img.review-headshot-norma {
-        background-image: url("../img/norma-headshot.JPG");
-        background-position: 50% 50%; }
-      /* line 251, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
-      #reviews-section .review .review-headshot .review-headshot-img.review-headshot-daysha {
-        background-image: url("../img/daysha-headshot.jpg"); }
-      /* line 254, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
-      #reviews-section .review .review-headshot .review-headshot-img.review-headshot-wesam {
-        background-image: url("../img/wesam-headshot.jpg"); }
-      /* line 257, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
-      #reviews-section .review .review-headshot .review-headshot-img.review-headshot-sabrina {
-        background-image: url("../img/sabrina-headshot.jpg"); }
-      /* line 260, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
-      #reviews-section .review .review-headshot .review-headshot-img.review-headshot-nate {
-        background-image: url("../img/nate-headshot.jpg"); }
-      /* line 263, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
-      #reviews-section .review .review-headshot .review-headshot-img.review-headshot-tim {
-        background-image: url("../img/tim-headshot.jpg"); }
-      /* line 266, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
-      #reviews-section .review .review-headshot .review-headshot-img.review-headshot-maya {
-        background-image: url("../img/maya-headshot.jpg"); }
-    /* line 271, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
-    #reviews-section .review .review-headshot img {
-      width: 100%;
-      max-width: 250px;
-      padding: 0 15px;
-      margin: 0 auto;
-      display: block;
-      border-radius: 50%;
-      height: auto;
-      user-select: none; }
-  /* line 282, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
-  #reviews-section .review .review-content {
-    width: 100%;
-    max-width: 300px;
-    margin: 0 auto;
-    padding: 0 15px; }
-    @media screen and (min-width: 1366px) {
-      /* line 282, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
-      #reviews-section .review .review-content {
-        margin: 0;
-        overflow: auto;
-        position: relative;
-        top: 50%;
-        transform: translateY(-50%); } }
-    /* line 295, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
-    #reviews-section .review .review-content .review-rating i {
-      color: #FFC02F; }
+  margin-bottom: 100px;
+}
 
-/* line 2, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_valueProp-break.scss */
+/* line 213, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
+#reviews-section .rev-grid {
+  display: grid;
+  max-width: 100%;
+  grid-row-gap: 70px;
+}
+
+@media screen and (min-width: 1000px) {
+  /* line 213, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
+  #reviews-section .rev-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 50px;
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  /* line 224, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
+  #reviews-section .review:nth-child(1) {
+    justify-self: right;
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  /* line 229, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
+  #reviews-section .review:nth-child(2) {
+    justify-self: left;
+  }
+}
+
+/* line 234, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
+#reviews-section .review .review-headshot {
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 1366px) {
+  /* line 234, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
+  #reviews-section .review .review-headshot {
+    float: left;
+    margin-bottom: 0px;
+  }
+}
+
+/* line 241, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
+#reviews-section .review .review-headshot .review-headshot-img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 175px;
+  width: 175px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+/* line 250, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
+#reviews-section .review .review-headshot .review-headshot-img.review-headshot-richie {
+  background-image: url("../img/richie-headshot.JPG");
+}
+
+/* line 253, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
+#reviews-section .review .review-headshot .review-headshot-img.review-headshot-norma {
+  background-image: url("../img/norma-headshot.JPG");
+  background-position: 50% 50%;
+}
+
+/* line 257, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
+#reviews-section .review .review-headshot .review-headshot-img.review-headshot-daysha {
+  background-image: url("../img/daysha-headshot.jpg");
+}
+
+/* line 260, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
+#reviews-section .review .review-headshot .review-headshot-img.review-headshot-wesam {
+  background-image: url("../img/wesam-headshot.jpg");
+}
+
+/* line 263, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
+#reviews-section .review .review-headshot .review-headshot-img.review-headshot-sabrina {
+  background-image: url("../img/sabrina-headshot.jpg");
+}
+
+/* line 266, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
+#reviews-section .review .review-headshot .review-headshot-img.review-headshot-nate {
+  background-image: url("../img/nate-headshot.jpg");
+}
+
+/* line 269, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
+#reviews-section .review .review-headshot .review-headshot-img.review-headshot-tim {
+  background-image: url("../img/tim-headshot.jpg");
+}
+
+/* line 272, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
+#reviews-section .review .review-headshot .review-headshot-img.review-headshot-maya {
+  background-image: url("../img/maya-headshot.jpg");
+}
+
+/* line 277, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
+#reviews-section .review .review-headshot img {
+  width: 100%;
+  max-width: 250px;
+  padding: 0 15px;
+  margin: 0 auto;
+  display: block;
+  border-radius: 50%;
+  height: auto;
+  user-select: none;
+}
+
+/* line 288, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
+#reviews-section .review .review-content {
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+@media screen and (min-width: 1366px) {
+  /* line 288, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
+  #reviews-section .review .review-content {
+    margin: 0;
+    overflow: auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+
+/* line 301, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_services.scss */
+#reviews-section .review .review-content .review-rating i {
+  color: #FFC02F;
+}
+
+/* line 2, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_valueProp-break.scss */
 #valueProp-break-section {
   max-width: 100vw;
   width: auto;
   background-color: #132747;
   padding: 60px 15px;
-  margin-bottom: 75px; }
-  @media screen and (min-width: 1000px) {
-    /* line 2, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_valueProp-break.scss */
-    #valueProp-break-section {
-      margin-bottom: 50px; } }
-  /* line 12, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_valueProp-break.scss */
-  #valueProp-break-section h3 {
-    text-align: center;
-    color: white;
-    line-height: 1.3; }
-    @media screen and (min-width: 1000px) {
-      /* line 12, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_valueProp-break.scss */
-      #valueProp-break-section h3 {
-        font-size: 2.1em; } }
-    /* line 20, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_valueProp-break.scss */
-    #valueProp-break-section h3 i {
-      color: #FFC02F; }
+  margin-bottom: 75px;
+}
 
-/* line 2, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_values.scss */
+@media screen and (min-width: 1000px) {
+  /* line 2, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_valueProp-break.scss */
+  #valueProp-break-section {
+    margin-bottom: 50px;
+  }
+}
+
+/* line 12, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_valueProp-break.scss */
+#valueProp-break-section h3 {
+  text-align: center;
+  color: white;
+  line-height: 1.3;
+}
+
+@media screen and (min-width: 1000px) {
+  /* line 12, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_valueProp-break.scss */
+  #valueProp-break-section h3 {
+    font-size: 2.1em;
+  }
+}
+
+/* line 20, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_valueProp-break.scss */
+#valueProp-break-section h3 i {
+  color: #FFC02F;
+}
+
+/* line 2, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_values.scss */
 #values-section {
   padding: 40px 0px;
   max-width: 100vw;
-  position: relative; }
-  @media screen and (min-width: 768px) {
-    /* line 2, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_values.scss */
-    #values-section {
-      padding: 40px 0 75px; } }
-  /* line 10, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_values.scss */
-  #values-section .content-title {
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 15px; }
-  @media screen and (min-width: 768px) {
-    /* line 15, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_values.scss */
-    #values-section .section-header {
-      margin-bottom: 35px; } }
-  /* line 20, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_values.scss */
-  #values-section .content-description {
-    padding: 0 10px;
-    line-height: 1.6;
-    margin-bottom: 50px; }
-    @media screen and (min-width: 992px) {
-      /* line 20, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_values.scss */
-      #values-section .content-description {
-        padding: 0;
-        width: 450px;
-        margin: 0 auto 35px; } }
-  /* line 30, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_values.scss */
-  #values-section .values-overview-btn {
-    margin: 0 auto 50px;
-    display: block;
-    width: 230px;
-    font-weight: bold;
-    text-align: center;
-    padding: 12px 35px 8px; }
-    @media screen and (min-width: 992px) {
-      /* line 30, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_values.scss */
-      #values-section .values-overview-btn {
-        width: 450px;
-        margin: 0 auto; } }
+  position: relative;
+}
 
-/* line 45, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_values.scss */
+@media screen and (min-width: 768px) {
+  /* line 2, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_values.scss */
+  #values-section {
+    padding: 40px 0 75px;
+  }
+}
+
+/* line 10, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_values.scss */
+#values-section .content-title {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 15, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_values.scss */
+  #values-section .section-header {
+    margin-bottom: 35px;
+  }
+}
+
+/* line 20, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_values.scss */
+#values-section .content-description {
+  padding: 0 10px;
+  line-height: 1.6;
+  margin-bottom: 50px;
+}
+
+@media screen and (min-width: 992px) {
+  /* line 20, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_values.scss */
+  #values-section .content-description {
+    padding: 0;
+    width: 450px;
+    margin: 0 auto 35px;
+  }
+}
+
+/* line 30, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_values.scss */
+#values-section .values-overview-btn {
+  margin: 0 auto 50px;
+  display: block;
+  width: 230px;
+  font-weight: bold;
+  text-align: center;
+  padding: 12px 35px 8px;
+}
+
+@media screen and (min-width: 992px) {
+  /* line 30, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_values.scss */
+  #values-section .values-overview-btn {
+    width: 450px;
+    margin: 0 auto;
+  }
+}
+
+/* line 45, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_values.scss */
 #values-description-img {
   width: 100%;
   max-width: 500px;
   margin: 0 auto;
-  display: block; }
+  display: block;
+}
 
-/* line 52, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_values.scss */
+/* line 52, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_values.scss */
 .values-icon {
   width: 100px;
   display: block;
   margin-top: 75px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 25px; }
+  margin-bottom: 25px;
+}
 
-/* line 61, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_values.scss */
+/* line 61, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_values.scss */
 .values-title {
   text-align: center;
   margin-bottom: 15px;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+}
 
-/* line 67, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_values.scss */
+/* line 67, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_values.scss */
 .values-description {
   text-align: center;
   max-width: 300px;
-  margin: 0 auto; }
+  margin: 0 auto;
+}
 
-/* line 2, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_work-with-us.scss */
+/* line 2, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_work-with-us.scss */
 #work-with-us {
   background-color: #B9E2DF;
   padding: 75px 0;
-  overflow: hidden; }
-  @media screen and (min-width: 768px) {
-    /* line 2, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_work-with-us.scss */
-    #work-with-us {
-      padding: 25px 0; } }
-  @media screen and (min-width: 1000px) {
-    /* line 2, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_work-with-us.scss */
-    #work-with-us {
-      padding: 40px 0; } }
+  overflow: hidden;
+}
 
-/* line 14, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_work-with-us.scss */
+@media screen and (min-width: 768px) {
+  /* line 2, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_work-with-us.scss */
+  #work-with-us {
+    padding: 25px 0;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  /* line 2, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_work-with-us.scss */
+  #work-with-us {
+    padding: 40px 0;
+  }
+}
+
+/* line 14, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_work-with-us.scss */
 #wwu-title {
   text-align: center;
   color: white;
   margin-top: 0;
-  margin-bottom: 30px; }
-  @media screen and (min-width: 768px) {
-    /* line 14, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_work-with-us.scss */
-    #wwu-title {
-      margin-bottom: 10px; } }
+  margin-bottom: 30px;
+}
 
-/* line 24, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_work-with-us.scss */
+@media screen and (min-width: 768px) {
+  /* line 14, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_work-with-us.scss */
+  #wwu-title {
+    margin-bottom: 10px;
+  }
+}
+
+/* line 24, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_work-with-us.scss */
 #wwu-content {
   text-align: center;
   width: auto;
-  margin: 0 auto; }
+  margin: 0 auto;
+}
 
-/* line 30, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_work-with-us.scss */
+/* line 30, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_work-with-us.scss */
 #wwu-btn {
   margin: 35px auto 0;
   display: block;
@@ -1050,63 +1463,83 @@ body {
   border: 3px solid #132747;
   color: white;
   font-weight: bold;
-  padding: 12px 20px 8px; }
-  /* line 41, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_work-with-us.scss */
-  #wwu-btn:hover {
-    text-decoration: none; }
+  padding: 12px 20px 8px;
+}
 
-/* line 2, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_press.scss */
+/* line 41, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_work-with-us.scss */
+#wwu-btn:hover {
+  text-decoration: none;
+}
+
+/* line 2, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_press.scss */
 #as-seen-in-section {
   padding-bottom: 140px;
-  position: relative; }
+  position: relative;
+}
 
-/* line 7, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_press.scss */
+/* line 7, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_press.scss */
 #asi-grid {
   display: grid;
   width: 100vw;
-  grid-row-gap: 50px; }
-  @media screen and (min-width: 1000px) {
-    /* line 7, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_press.scss */
-    #asi-grid {
-      grid-template-columns: repeat(3, 1fr);
-      grid-column-gap: 30px;
-      width: 980px;
-      margin: 0 auto; } }
-  @media screen and (min-width: 1366px) {
-    /* line 7, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_press.scss */
-    #asi-grid {
-      width: 1100px; } }
+  grid-row-gap: 50px;
+}
 
-/* line 22, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_press.scss */
+@media screen and (min-width: 1000px) {
+  /* line 7, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_press.scss */
+  #asi-grid {
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    width: 980px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  /* line 7, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_press.scss */
+  #asi-grid {
+    width: 1100px;
+  }
+}
+
+/* line 22, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_press.scss */
 .asi-img {
   width: 100%;
   max-width: 400px;
   padding-bottom: 300px;
   margin: 0 auto;
   background-size: cover;
-  position: relative; }
-  /* line 29, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_press.scss */
-  .asi-img:before {
-    position: absolute;
-    content: " ";
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: block;
-    z-index: 0;
-    background-color: rgba(19, 39, 71, 0.7); }
-  /* line 40, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_press.scss */
-  .asi-img.asi-img-masslive {
-    background-image: url("../../Assets/img/Ali_Valentine_Yaovi.jpg"); }
-  /* line 43, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_press.scss */
-  .asi-img.asi-img-wtg {
-    background-image: url("../../Assets/img/home_hero.jpg"); }
-  /* line 46, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_press.scss */
-  .asi-img.asi-img-wbj {
-    background-image: url("../../Assets/img/Priscilla_Messinger.jpg"); }
+  position: relative;
+}
 
-/* line 51, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_press.scss */
+/* line 29, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_press.scss */
+.asi-img:before {
+  position: absolute;
+  content: " ";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  z-index: 0;
+  background-color: rgba(19, 39, 71, 0.7);
+}
+
+/* line 40, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_press.scss */
+.asi-img.asi-img-masslive {
+  background-image: url("../../Assets/img/Ali_Valentine_Yaovi.jpg");
+}
+
+/* line 43, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_press.scss */
+.asi-img.asi-img-wtg {
+  background-image: url("../../Assets/img/home_hero.jpg");
+}
+
+/* line 46, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_press.scss */
+.asi-img.asi-img-wbj {
+  background-image: url("../../Assets/img/Priscilla_Messinger.jpg");
+}
+
+/* line 51, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_press.scss */
 .asi-text-overlay {
   color: white;
   position: absolute;
@@ -1118,7 +1551,8 @@ body {
   padding: 0 15px;
   text-align: center;
   font-weight: bold;
-  line-height: 2; }
+  line-height: 2;
+}
 
 /*
 img.asi-src-logo {
@@ -1130,98 +1564,138 @@ img.asi-src-logo {
 	width: auto;
 }
 */
-/* line 75, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_press.scss */
+/* line 75, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_press.scss */
 .asi-item {
   position: relative;
   transition: top 0.3s ease-out;
-  top: 0px; }
-  /* line 80, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_press.scss */
-  .asi-item:hover {
-    top: -20px; }
-  /* line 84, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/home/_press.scss */
-  .asi-item a:hover .asi-img:before {
-    background-color: rgba(185, 226, 223, 0.6);
-    transition: all 0.5s ease-out; }
+  top: 0px;
+}
 
-/* line 2, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/faq/_faq.scss */
+/* line 80, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_press.scss */
+.asi-item:hover {
+  top: -20px;
+}
+
+/* line 84, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/home/_press.scss */
+.asi-item a:hover .asi-img:before {
+  background-color: rgba(185, 226, 223, 0.6);
+  transition: all 0.5s ease-out;
+}
+
+/* line 2, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/faq/_faq.scss */
 #faq-section {
   max-width: 100%;
   min-height: calc(100vh - 280px);
   width: 100vw;
   padding: 75px 0px;
   opacity: 1;
-  transition: padding 1s ease-out, opacity 2s ease-out; }
-  /* line 11, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/faq/_faq.scss */
-  #faq-section.preload-hide {
-    opacity: 0;
-    padding: 25px 0px 125px; }
-  /* line 16, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/faq/_faq.scss */
-  #faq-section .faq-container {
-    margin: 0 auto;
-    padding: 0 15px;
-    max-width: 450px; }
-    @media screen and (min-width: 1000px) {
-      /* line 16, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/faq/_faq.scss */
-      #faq-section .faq-container {
-        max-width: 600px; } }
-    @media screen and (min-width: 1200px) {
-      /* line 16, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/faq/_faq.scss */
-      #faq-section .faq-container {
-        max-width: 700px; } }
-  /* line 27, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/faq/_faq.scss */
-  #faq-section .faq-title {
-    text-align: center;
-    margin-bottom: 30px; }
-  /* line 31, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/faq/_faq.scss */
-  #faq-section .faq-section-title {
-    font-weight: bold;
-    padding: 50px 0 15px; }
-  /* line 35, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/faq/_faq.scss */
-  #faq-section .faq-question {
-    cursor: pointer;
-    padding: 15px 20px 15px 0;
-    border-top: 1px solid #ddd;
-    position: relative; }
-    /* line 40, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/faq/_faq.scss */
-    #faq-section .faq-question p {
-      margin: 0; }
-      /* line 42, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/faq/_faq.scss */
-      #faq-section .faq-question p:first-child {
-        color: #888; }
-    /* line 46, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/faq/_faq.scss */
-    #faq-section .faq-question i {
-      float: right;
-      color: #ddd;
-      position: absolute;
-      right: 0;
-      top: 15px; }
-    /* line 53, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/faq/_faq.scss */
-    #faq-section .faq-question .faq-answer {
-      margin-top: 0px;
-      font-weight: bold;
-      opacity: 0;
-      padding-right: 30px;
-      transition: all 0.5s ease-out; }
-      /* line 59, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/faq/_faq.scss */
-      #faq-section .faq-question .faq-answer p {
-        display: none; }
-    /* line 64, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/faq/_faq.scss */
-    #faq-section .faq-question.faq-question-active p:first-child {
-      color: #132747; }
-    /* line 67, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/faq/_faq.scss */
-    #faq-section .faq-question.faq-question-active i {
-      color: #132747; }
-    /* line 70, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/faq/_faq.scss */
-    #faq-section .faq-question.faq-question-active .faq-answer {
-      color: #132747;
-      margin-top: 30px;
-      opacity: 1;
-      transition: all 0.5s ease-in; }
-      /* line 75, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/faq/_faq.scss */
-      #faq-section .faq-question.faq-question-active .faq-answer p {
-        display: block; }
+  transition: padding 1s ease-out, opacity 2s ease-out;
+}
 
-/* line 2, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/contact/_contact.scss */
+/* line 11, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/faq/_faq.scss */
+#faq-section.preload-hide {
+  opacity: 0;
+  padding: 25px 0px 125px;
+}
+
+/* line 16, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/faq/_faq.scss */
+#faq-section .faq-container {
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 450px;
+}
+
+@media screen and (min-width: 1000px) {
+  /* line 16, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/faq/_faq.scss */
+  #faq-section .faq-container {
+    max-width: 600px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  /* line 16, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/faq/_faq.scss */
+  #faq-section .faq-container {
+    max-width: 700px;
+  }
+}
+
+/* line 27, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/faq/_faq.scss */
+#faq-section .faq-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* line 31, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/faq/_faq.scss */
+#faq-section .faq-section-title {
+  font-weight: bold;
+  padding: 50px 0 15px;
+}
+
+/* line 35, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/faq/_faq.scss */
+#faq-section .faq-question {
+  cursor: pointer;
+  padding: 15px 20px 15px 0;
+  border-top: 1px solid #ddd;
+  position: relative;
+}
+
+/* line 40, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/faq/_faq.scss */
+#faq-section .faq-question p {
+  margin: 0;
+}
+
+/* line 42, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/faq/_faq.scss */
+#faq-section .faq-question p:first-child {
+  color: #888;
+}
+
+/* line 46, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/faq/_faq.scss */
+#faq-section .faq-question i {
+  float: right;
+  color: #ddd;
+  position: absolute;
+  right: 0;
+  top: 15px;
+}
+
+/* line 53, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/faq/_faq.scss */
+#faq-section .faq-question .faq-answer {
+  margin-top: 0px;
+  font-weight: bold;
+  opacity: 0;
+  padding-right: 30px;
+  transition: all 0.5s ease-out;
+}
+
+/* line 59, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/faq/_faq.scss */
+#faq-section .faq-question .faq-answer p {
+  display: none;
+}
+
+/* line 64, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/faq/_faq.scss */
+#faq-section .faq-question.faq-question-active p:first-child {
+  color: #132747;
+}
+
+/* line 67, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/faq/_faq.scss */
+#faq-section .faq-question.faq-question-active i {
+  color: #132747;
+}
+
+/* line 70, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/faq/_faq.scss */
+#faq-section .faq-question.faq-question-active .faq-answer {
+  color: #132747;
+  margin-top: 30px;
+  opacity: 1;
+  transition: all 0.5s ease-in;
+}
+
+/* line 75, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/faq/_faq.scss */
+#faq-section .faq-question.faq-question-active .faq-answer p {
+  display: block;
+}
+
+/* line 2, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/contact/_contact.scss */
 #contact-section {
   max-width: 100vw;
   width: auto;
@@ -1233,103 +1707,142 @@ img.asi-src-logo {
   /* Hide the browser's default radio button */
   /* Create a custom radio button */
   /* On mouse-over, add a grey background color */
-  /* When the radio button is checked, add a blue background */ }
-  /* line 11, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/contact/_contact.scss */
-  #contact-section.preload-hide {
-    opacity: 0;
-    padding: 25px 0px 125px; }
-  /* line 16, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/contact/_contact.scss */
-  #contact-section .content-title {
-    color: #FFC02F;
-    text-align: center;
-    margin-bottom: 50px; }
-  /* line 21, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/contact/_contact.scss */
-  #contact-section #contact-submit-message {
-    text-align: center; }
-  /* line 24, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/contact/_contact.scss */
-  #contact-section #contact-form {
-    padding: 0 15px; }
-    /* line 27, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/contact/_contact.scss */
-    #contact-section #contact-form .form-container {
-      margin: 0 auto;
-      width: 100%;
-      max-width: 400px; }
-      @media screen and (min-width: 768px) {
-        /* line 27, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/contact/_contact.scss */
-        #contact-section #contact-form .form-container {
-          max-width: 500px; } }
-    /* line 35, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/contact/_contact.scss */
-    #contact-section #contact-form .contact-form-label {
-      margin: 4px 0 0 0; }
-    /* line 38, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/contact/_contact.scss */
-    #contact-section #contact-form label {
-      color: #132747; }
-    /* line 41, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/contact/_contact.scss */
-    #contact-section #contact-form input, #contact-section #contact-form textarea {
-      color: #132747;
-      background-color: transparent;
-      border-radius: 0px; }
-      /* line 46, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/contact/_contact.scss */
-      #contact-section #contact-form input:focus, #contact-section #contact-form textarea:focus {
-        border-color: #FFC02F;
-        -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 192, 47, 0.6);
-        box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 192, 47, 0.6); }
-    /* line 52, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/contact/_contact.scss */
-    #contact-section #contact-form textarea {
-      height: 200px;
-      resize: none; }
-    /* line 56, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/contact/_contact.scss */
-    #contact-section #contact-form #contact-form-submit {
-      margin: 30px auto;
-      display: block;
-      text-align: center;
-      width: 150px;
-      border: 3px solid #FFC02F;
-      color: white;
-      padding: 12px 20px 8px;
-      background-color: #FFC02F; }
-  /* line 71, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/contact/_contact.scss */
-  #contact-section .service-item {
-    display: block;
-    position: relative;
-    padding-left: 25px;
-    margin: 10px 20px 10px 0;
-    cursor: pointer;
-    font-size: 14px;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none; }
-    @media screen and (min-width: 992px) {
-      /* line 71, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/contact/_contact.scss */
-      #contact-section .service-item {
-        display: inline-block;
-        margin: 7px 20px 7px 0; } }
-  /* line 89, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/contact/_contact.scss */
-  #contact-section .service-item input {
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0; }
-  /* line 97, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/contact/_contact.scss */
-  #contact-section .checkmark {
-    position: absolute;
-    top: 2px;
-    left: 0;
-    height: 15px;
-    width: 15px;
-    background-color: transparent;
-    border: 1px solid #132747;
-    border-radius: 50%; }
-  /* line 109, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/contact/_contact.scss */
-  #contact-section .service-item:hover input ~ .checkmark {
-    background-color: white; }
-  /* line 114, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/contact/_contact.scss */
-  #contact-section .service-item input:checked ~ .checkmark {
-    background-color: #FFC02F;
-    border: 1px solid #FFC02F; }
+  /* When the radio button is checked, add a blue background */
+}
 
-/* line 2, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/booking/_booking.scss */
+/* line 11, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/contact/_contact.scss */
+#contact-section.preload-hide {
+  opacity: 0;
+  padding: 25px 0px 125px;
+}
+
+/* line 16, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/contact/_contact.scss */
+#contact-section .content-title {
+  color: #FFC02F;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+/* line 21, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/contact/_contact.scss */
+#contact-section #contact-submit-message {
+  text-align: center;
+}
+
+/* line 24, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/contact/_contact.scss */
+#contact-section #contact-form {
+  padding: 0 15px;
+}
+
+/* line 27, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/contact/_contact.scss */
+#contact-section #contact-form .form-container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 400px;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 27, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/contact/_contact.scss */
+  #contact-section #contact-form .form-container {
+    max-width: 500px;
+  }
+}
+
+/* line 35, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/contact/_contact.scss */
+#contact-section #contact-form .contact-form-label {
+  margin: 4px 0 0 0;
+}
+
+/* line 38, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/contact/_contact.scss */
+#contact-section #contact-form label {
+  color: #132747;
+}
+
+/* line 41, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/contact/_contact.scss */
+#contact-section #contact-form input, #contact-section #contact-form textarea {
+  color: #132747;
+  background-color: transparent;
+  border-radius: 0px;
+}
+
+/* line 46, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/contact/_contact.scss */
+#contact-section #contact-form input:focus, #contact-section #contact-form textarea:focus {
+  border-color: #FFC02F;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 192, 47, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 192, 47, 0.6);
+}
+
+/* line 52, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/contact/_contact.scss */
+#contact-section #contact-form textarea {
+  height: 200px;
+  resize: none;
+}
+
+/* line 56, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/contact/_contact.scss */
+#contact-section #contact-form #contact-form-submit {
+  margin: 30px auto;
+  display: block;
+  text-align: center;
+  width: 150px;
+  border: 3px solid #FFC02F;
+  color: white;
+  padding: 12px 20px 8px;
+  background-color: #FFC02F;
+}
+
+/* line 71, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/contact/_contact.scss */
+#contact-section .service-item {
+  display: block;
+  position: relative;
+  padding-left: 25px;
+  margin: 10px 20px 10px 0;
+  cursor: pointer;
+  font-size: 14px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@media screen and (min-width: 992px) {
+  /* line 71, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/contact/_contact.scss */
+  #contact-section .service-item {
+    display: inline-block;
+    margin: 7px 20px 7px 0;
+  }
+}
+
+/* line 89, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/contact/_contact.scss */
+#contact-section .service-item input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+/* line 97, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/contact/_contact.scss */
+#contact-section .checkmark {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  height: 15px;
+  width: 15px;
+  background-color: transparent;
+  border: 1px solid #132747;
+  border-radius: 50%;
+}
+
+/* line 109, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/contact/_contact.scss */
+#contact-section .service-item:hover input ~ .checkmark {
+  background-color: white;
+}
+
+/* line 114, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/contact/_contact.scss */
+#contact-section .service-item input:checked ~ .checkmark {
+  background-color: #FFC02F;
+  border: 1px solid #FFC02F;
+}
+
+/* line 2, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/booking/_booking.scss */
 #booking {
   /*
 	margin-top: -113px;
@@ -1341,120 +1854,180 @@ img.asi-src-logo {
 	#footer {
 		margin-top: calc(100vh - 282px);
 	}
-	*/ }
-  /* line 15, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/booking/_booking.scss */
-  #booking iframe {
-    min-height: 100vh !important; }
+	*/
+}
 
-/* line 2, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/aboutus/_about-us.scss */
+/* line 15, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/booking/_booking.scss */
+#booking iframe {
+  min-height: 100vh !important;
+}
+
+/* line 2, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/aboutus/_about-us.scss */
 #involvement-section {
   width: 100%;
   max-width: 100vw;
-  padding: 0px 0px 50px; }
-  /* line 7, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/aboutus/_about-us.scss */
-  #involvement-section .container {
-    position: relative; }
-  /* line 11, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/aboutus/_about-us.scss */
-  #involvement-section .pedicab-img {
-    position: relative;
-    top: -5px;
-    display: block;
-    width: 100px;
-    height: auto; }
-  /* line 19, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/aboutus/_about-us.scss */
-  #involvement-section .involvement {
-    position: relative; }
-  /* line 21, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/aboutus/_about-us.scss */
+  padding: 0px 0px 50px;
+}
+
+/* line 7, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/aboutus/_about-us.scss */
+#involvement-section .container {
+  position: relative;
+}
+
+/* line 11, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/aboutus/_about-us.scss */
+#involvement-section .pedicab-img {
+  position: relative;
+  top: -5px;
+  display: block;
+  width: 100px;
+  height: auto;
+}
+
+/* line 19, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/aboutus/_about-us.scss */
+#involvement-section .involvement {
+  position: relative;
+}
+
+/* line 21, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/aboutus/_about-us.scss */
+#involvement-section .flexbox {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 21, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/aboutus/_about-us.scss */
   #involvement-section .flexbox {
-    display: flex;
-    flex-direction: column; }
-    @media screen and (min-width: 768px) {
-      /* line 21, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/aboutus/_about-us.scss */
-      #involvement-section .flexbox {
-        flex-direction: row; }
-        /* line 28, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/aboutus/_about-us.scss */
-        #involvement-section .flexbox-wcac {
-          flex-direction: row-reverse; } }
-  /* line 34, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/aboutus/_about-us.scss */
+    flex-direction: row;
+  }
+  /* line 28, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/aboutus/_about-us.scss */
+  #involvement-section .flexbox-wcac {
+    flex-direction: row-reverse;
+  }
+}
+
+/* line 34, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/aboutus/_about-us.scss */
+#involvement-section .flex-graphic {
+  padding: 60px 0;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 34, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/aboutus/_about-us.scss */
   #involvement-section .flex-graphic {
-    padding: 60px 0; }
-    @media screen and (min-width: 768px) {
-      /* line 34, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/aboutus/_about-us.scss */
-      #involvement-section .flex-graphic {
-        width: 45%;
-        align-self: center;
-        padding: 0; } }
-    /* line 42, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/aboutus/_about-us.scss */
-    #involvement-section .flex-graphic img {
-      display: block;
-      margin: 0 auto;
-      height: 200px;
-      max-height: 100%;
-      width: auto;
-      max-width: 100%;
-      -webkit-filter: grayscale(100%);
-      /* Safari 6.0 - 9.0 */
-      filter: grayscale(100%); }
-      @media screen and (min-width: 768px) {
-        /* line 42, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/aboutus/_about-us.scss */
-        #involvement-section .flex-graphic img {
-          height: 250px; } }
-  /* line 57, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/aboutus/_about-us.scss */
+    width: 45%;
+    align-self: center;
+    padding: 0;
+  }
+}
+
+/* line 42, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/aboutus/_about-us.scss */
+#involvement-section .flex-graphic img {
+  display: block;
+  margin: 0 auto;
+  padding: 0 100px;
+  height: auto;
+  max-height: 100%;
+  width: 100%;
+  max-width: 100%;
+  -webkit-filter: grayscale(100%);
+  /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+@media screen and (min-width: 768px) {
+  /* line 42, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/aboutus/_about-us.scss */
+  #involvement-section .flex-graphic img {
+    padding: 0 50px;
+    max-width: 350px;
+  }
+}
+
+/* line 59, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/aboutus/_about-us.scss */
+#involvement-section .flex-content {
+  padding: 50px;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 59, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/aboutus/_about-us.scss */
   #involvement-section .flex-content {
-    padding: 50px; }
-    @media screen and (min-width: 768px) {
-      /* line 57, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/aboutus/_about-us.scss */
-      #involvement-section .flex-content {
-        width: 55%; } }
-    @media screen and (min-width: 992px) {
-      /* line 57, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/aboutus/_about-us.scss */
-      #involvement-section .flex-content {
-        padding: 85px; } }
-    /* line 68, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/aboutus/_about-us.scss */
-    #involvement-section .flex-content h4 {
-      margin-bottom: 25px; }
-    /* line 69, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/aboutus/_about-us.scss */
-    #involvement-section .flex-content .content-block {
-      padding: 40px 15px; }
-    /* line 71, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/aboutus/_about-us.scss */
-    #involvement-section .flex-content-wr {
-      background-color: #B9E2DF; }
-    /* line 72, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/aboutus/_about-us.scss */
-    #involvement-section .flex-content-wcac {
-      background-color: rgba(255, 192, 47, 0.3); }
-    /* line 73, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/aboutus/_about-us.scss */
-    #involvement-section .flex-content-eab {
-      background-color: rgba(19, 39, 71, 0.3); }
-  /* line 76, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/aboutus/_about-us.scss */
-  #involvement-section .dashed-border {
-    position: absolute; }
-    /* line 79, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/aboutus/_about-us.scss */
-    #involvement-section .dashed-border--bottom, #involvement-section .dashed-border--top {
-      height: 3px;
-      width: 100%;
-      background-image: linear-gradient(to right, #132747 50%, rgba(255, 255, 255, 0) 0%);
-      background-size: 30px 3px;
-      background-repeat: repeat-x; }
-    /* line 86, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/aboutus/_about-us.scss */
-    #involvement-section .dashed-border--left, #involvement-section .dashed-border--right {
-      width: 3px;
-      height: 100%;
-      background-image: linear-gradient(to bottom, #132747 50%, rgba(255, 255, 255, 0) 0%);
-      background-size: 3px 30px;
-      background-repeat: repeat-y; }
-    /* line 93, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/aboutus/_about-us.scss */
-    #involvement-section .dashed-border--top {
-      top: 0px; }
-    /* line 94, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/aboutus/_about-us.scss */
-    #involvement-section .dashed-border--left {
-      left: 0px;
-      top: 0px; }
-    /* line 95, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/aboutus/_about-us.scss */
-    #involvement-section .dashed-border--right {
-      right: 0px;
-      top: 0px; }
-    /* line 96, C:/Bitnami/wampstack-7.0.30-1/apache2/htdocs/woorides/Assets/css/scss/aboutus/_about-us.scss */
-    #involvement-section .dashed-border--bottom {
-      bottom: 0px; }
+    width: 55%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  /* line 59, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/aboutus/_about-us.scss */
+  #involvement-section .flex-content {
+    padding: 85px;
+  }
+}
+
+/* line 70, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/aboutus/_about-us.scss */
+#involvement-section .flex-content h4 {
+  margin-bottom: 25px;
+}
+
+/* line 71, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/aboutus/_about-us.scss */
+#involvement-section .flex-content .content-block {
+  padding: 40px 15px;
+}
+
+/* line 73, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/aboutus/_about-us.scss */
+#involvement-section .flex-content-wr {
+  background-color: #B9E2DF;
+}
+
+/* line 74, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/aboutus/_about-us.scss */
+#involvement-section .flex-content-wcac {
+  background-color: rgba(255, 192, 47, 0.3);
+}
+
+/* line 75, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/aboutus/_about-us.scss */
+#involvement-section .flex-content-eab {
+  background-color: rgba(19, 39, 71, 0.3);
+}
+
+/* line 78, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/aboutus/_about-us.scss */
+#involvement-section .dashed-border {
+  position: absolute;
+}
+
+/* line 81, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/aboutus/_about-us.scss */
+#involvement-section .dashed-border--bottom, #involvement-section .dashed-border--top {
+  height: 3px;
+  width: 100%;
+  background-image: linear-gradient(to right, #132747 50%, rgba(255, 255, 255, 0) 0%);
+  background-size: 30px 3px;
+  background-repeat: repeat-x;
+}
+
+/* line 88, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/aboutus/_about-us.scss */
+#involvement-section .dashed-border--left, #involvement-section .dashed-border--right {
+  width: 3px;
+  height: 100%;
+  background-image: linear-gradient(to bottom, #132747 50%, rgba(255, 255, 255, 0) 0%);
+  background-size: 3px 30px;
+  background-repeat: repeat-y;
+}
+
+/* line 95, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/aboutus/_about-us.scss */
+#involvement-section .dashed-border--top {
+  top: 0px;
+}
+
+/* line 96, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/aboutus/_about-us.scss */
+#involvement-section .dashed-border--left {
+  left: 0px;
+  top: 0px;
+}
+
+/* line 97, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/aboutus/_about-us.scss */
+#involvement-section .dashed-border--right {
+  right: 0px;
+  top: 0px;
+}
+
+/* line 98, C:/wwwroot/Apache2/htdocs/woorides/Assets/css/scss/aboutus/_about-us.scss */
+#involvement-section .dashed-border--bottom {
+  bottom: 0px;
+}
 
 /*# sourceMappingURL=../custom.map */

@@ -70,12 +70,12 @@
 		background-image: url('Assets/img/Ali_Valentine_Yaovi.jpg');
 	}
 	.carousel-inner .item .graphic-2 {
-		background-image: url('Assets/img/Priscilla_Messinger.jpg');
+		background-image: url('Assets/img/WR.png');
 	}
 	.carousel-inner .item .graphic-3 {
 		background-image: url('Assets/img/home_hero.jpg');
 	}
 	.carousel-inner .item .graphic-4 {
-		background-image: url('Assets/img/WR.jpg');
+		background-image: url('Assets/img/WR-2.png');
 	}
  </style>

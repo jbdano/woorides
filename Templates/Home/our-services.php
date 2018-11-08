@@ -124,7 +124,7 @@ array_push($data, array(
     'tabName' => 'Advertising',
     'tabID' => 'advertising',
     'overview' => array(
-        'imgPath' => 'Assets/img/WR.jpg',
+        'imgPath' => 'Assets/img/WR.png',
         'titlePrefix' => 'PROMO',
         'titlePostfix' => 'RIDES',
         'bodyText' => "Our pedicabs provide the unique opportunity for local businesses 
@@ -159,7 +159,7 @@ array_push($data, array(
     'tabName' => 'Shop',
     'tabID' => 'shop',
     'overview' => array(
-        'imgPath' => 'Assets/img/Priscilla_Messinger.jpg',
+        'imgPath' => 'Assets/img/WR-8.png',
         'titlePrefix' => 'Shop Rides ',
         'titlePostfix' => 'at Portland St',
         'bodyText' => "Looking for your next set of wheels? We've partnered with Worcester Earn-A-Bike 
@@ -188,7 +188,7 @@ array_push($data, array(
     'tabName' => 'Community Space',
     'tabID' => 'community',
     'overview' => array(
-        'imgPath' => 'Assets/img/Resized_20170811.jpg',
+        'imgPath' => 'Assets/img/Resized_20170811_120046.png',
         'titlePrefix' => 'NOTJUST',
         'titlePostfix' => 'RIDES',
         'bodyText' => "We are about more than just rides. We are about building community. Our event space is 
