@@ -68,7 +68,7 @@
  <style>
  
  	.carousel-inner .item .graphic-1 {
-		background-image: url('Assets/img/Ali_Valentine_Yaovi.jpg_sm.jpg');
+		background-image: url('Assets/img/Ali_Valentine_Yaovi_sm.jpg');
 	}
 	.carousel-inner .item .graphic-3 {
 		background-image: url('Assets/img/WR_sm.png');
