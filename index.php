@@ -57,7 +57,7 @@ $path_back = './';
 					if ( $(this).isInViewport() ) $(this).addClass('show');
 				});
 				
-				if ( $('.lazy:not(.show)').length == 0 ) $(window).off();
+				if ( $('.lazy:not(.show)').length == 0 ) $(window).off('scroll');
 			});
 
 		};
