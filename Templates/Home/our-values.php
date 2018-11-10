@@ -16,7 +16,7 @@
 				<a href="<?php echo $path_back; ?>About-Us" class="theme-btn-cta-primary values-overview-btn">Read More</a>
 			</div>
 			<div class="col-sm-6">
-				<img id="values-description-img" src="Assets/img/Ali_Valentine_Yaovi.jpg" class="lazy lazy-fade-up">
+				<img id="values-description-img" src="Assets/img/Ali_Valentine_Yaovi_sm.jpg" class="lazy lazy-fade-up">
 			</div>
 		</div>
 		<div class="row">

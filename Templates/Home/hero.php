@@ -66,16 +66,43 @@
  </div>
  
  <style>
-	.carousel-inner .item .graphic-1 {
-		background-image: url('Assets/img/Ali_Valentine_Yaovi.jpg');
-	}
-	.carousel-inner .item .graphic-2 {
-		background-image: url('Assets/img/WR.png');
+ 
+ 	.carousel-inner .item .graphic-1 {
+		background-image: url('Assets/img/Ali_Valentine_Yaovi.jpg_sm.jpg');
 	}
 	.carousel-inner .item .graphic-3 {
-		background-image: url('Assets/img/home_hero.jpg');
+		background-image: url('Assets/img/WR_sm.png');
+	}
+	.carousel-inner .item .graphic-2 {
+		background-image: url('Assets/img/home_hero_sm.jpg');
 	}
 	.carousel-inner .item .graphic-4 {
-		background-image: url('Assets/img/WR-2.png');
+		background-image: url('Assets/img/WR-8_sm.png');
 	}
+    
+    @media only screen and (min-width: 600px) {
+    	.carousel-inner .item .graphic-1 {
+    		background-image: url('Assets/img/Ali_Valentine_Yaovi.jpg');
+    	}
+	   .carousel-inner .item .graphic-3 {
+		  background-image: url('Assets/img/WR_md.png');
+	   }
+	   	.carousel-inner .item .graphic-2 {
+    		background-image: url('Assets/img/home_hero.jpg');
+    	}
+		.carousel-inner .item .graphic-4 {
+    		background-image: url('Assets/img/WR-8_md.png');
+    	}
+    }
+    
+    @media only screen and (min-width: 1600px) {
+		.carousel-inner .item .graphic-3 {
+    		background-image: url('Assets/img/WR_lg.png');
+    	}
+    	.carousel-inner .item .graphic-4 {
+    		background-image: url('Assets/img/WR-8_lg.png');
+    	}
+    }
+    
+
  </style>

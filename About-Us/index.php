@@ -28,7 +28,7 @@ $path_back = '../';
 					here for you.</p>
 				</div>
 				<div class="col-sm-6">
-					<img id="values-description-img" src="../Assets/img/Ali_Valentine_Yaovi.jpg">
+					<img id="values-description-img" src="../Assets/img/Ali_Valentine_Yaovi_md.jpg">
 				</div>
 			</div>
 
