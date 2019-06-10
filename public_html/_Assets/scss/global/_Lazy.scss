@@ -1,0 +1,28 @@
+.lazy-fade {
+    opacity: 0;
+    transition: 
+        opacity 1.0s ease-out,
+        transform 1.0s ease-out;
+}
+
+.lazy-fade.lazy-show {
+    opacity: 1;
+    transform: translate(0px, 0px);
+}
+
+.lazy-fade.lazy-fade-left:not(.lazy-show) {
+    transform: translate(25px, 0px);
+}
+
+.lazy-fade.lazy-fade-right:not(.lazy-show) {
+    transform: translate(-25px, 0px);
+}
+
+.lazy-fade.lazy-fade-up:not(.lazy-show) {
+    transform: translate(0px, 25px);
+}
+
+.lazy-fade.lazy-fade-down:not(.lazy-show) {
+    transform: translate(0px, -25px);
+}
+    
