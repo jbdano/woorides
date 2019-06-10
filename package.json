@@ -1,20 +1,29 @@
 {
   "name": "woorides",
   "version": "1.0.0",
-  "description": "Website for WooRides",
-  "main": "index.php",
+  "description": "Website source code for Woorides",
+  "main": "public_html/index.php",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "http-server"
+    "build-css-compressed": "node-sass --include-path scss public_html/_Assets/scss/main.scss public_html/_Assets/css/style.min.css --output-style compressed",
+    "build-css-expanded": "node-sass --include-path scss public_html/_Assets/scss/main.scss public_html/_Assets/css/style.css --output-style expanded",
+    "autoprefix-css-compressed": "npx postcss ./public_html/_Assets/css/style.min.css -r --use autoprefixer --no-map",
+    "autoprefix-css-expanded": "npx postcss ./public_html/_Assets/css/style.css -r --use autoprefixer --no-map",
+    "build": "npm run build-css-compressed && npm run autoprefix-css-compressed",
+    "build-prod": "npm run build-css-expanded && npm run autoprefix-css-expanded",
+    "start": "nodemon -e scss -x \"npm run build\" --ignore public_html/_Assets/css --ignore public_html/_Assets/js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jbdano/woorides.git"
   },
-  "author": "Told Design",
+  "author": "Told Design LLC",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jbdano/woorides/issues"
-  },
-  "homepage": "https://github.com/jbdano/woorides#readme"
+  "homepage": "https://github.com/jbdano/woorides#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.4.10",
+    "node-sass": "^4.11.0",
+    "nodemon": "^1.18.10",
+    "postcss-cli": "^6.1.2"
+  }
 }
