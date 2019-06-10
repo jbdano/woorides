@@ -1,0 +1,36 @@
+
+.theme-btn-cta-secondary {
+	border: 3px solid #40AFA7;
+	color: #40AFA7;
+	border-radius: 0px;
+	padding: 4px 35px 0px;
+	display: inline;
+	text-transform: uppercase;
+	background-color: transparent;
+	transition: background-color 0.2s ease-out;
+	line-height: 1;
+	&:hover {
+		color: #40AFA7;
+		text-decoration: none;
+		background-color: rgba(255, 255, 255, 0.3);
+		transition: background-color 0.2s ease-out;
+	}
+	&:focus {
+		text-decoration: none;
+	}
+}
+
+.theme-btn-cta-primary {
+	border: 3px solid #40AFA7;
+	color: rgb(255, 255, 255);
+	border-radius: 0px;
+	padding: 4px 35px 0px;
+	text-transform: uppercase;
+	background-color: #40AFA7;
+	display: inline;
+	line-height: 1;
+	&:focus, &:hover {
+		color: rgb(255, 255, 255);
+		text-decoration: none;
+	}	
+}

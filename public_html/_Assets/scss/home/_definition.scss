@@ -1,0 +1,57 @@
+
+#definition-banner {
+	display: grid;
+	background-color: #B9E2DF;
+	grid-template-columns: 100vw;
+	padding: 75px 0px;
+	@media screen and (min-width: 768px) {
+		grid-template-columns: 35% 65%;	
+		grid-template-rows: 300px;
+		padding: 0;
+	}
+	
+}
+
+.defBan-img-cell {
+	justify-self: center;
+	align-self: center;
+	@media screen and (min-width: 768px) {
+		justify-self: end;
+	}
+	
+	img {
+		max-width: 150px;
+		height: auto;
+		margin: 0px auto 50px;
+		display: block;
+		@media screen and (min-width: 768px) {
+			margin: 0 50px 0 0;
+			max-width: 200px;
+		}
+	}
+}
+
+.defBan-def-cell {
+	justify-self: start;
+	align-self: center;
+	max-width: 600px;
+	margin: 0 auto;
+	@media screen and (min-width: 768px) {
+		max-width: 700px;
+		margin: 0;
+	}
+	
+	p {
+		font-size: 1.3em;
+		padding: 0px 15px;
+		@media screen and (min-width: 768px) {
+			margin: 0;
+		}
+	}
+	strong {
+		@media screen and (min-width: 768px) {
+			font-size: 1.2em;
+			margin-bottom: 0px;
+		}
+	}
+}

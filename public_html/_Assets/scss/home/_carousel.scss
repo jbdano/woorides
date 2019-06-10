@@ -1,0 +1,132 @@
+
+.carousel-inner .item {
+	
+	.carousel-graphic {
+		display: grid;
+		/*margin-top: 50px;*/
+		grid-template-rows: calc(100vh - 50px);
+		grid-template-columns: 100vw;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: 90% 50%;
+		@media screen and (min-width: 768px) {
+			grid-template-rows: calc(100vh - 60px);
+		}
+	}
+}
+
+.carousel-indicators {
+	
+	.active {
+		height: 20px;
+		width: 20px;
+		margin-left: 25px;
+		background-color: #FFC02F;
+		border-color: #FFC02F;
+	}
+	li {
+		height: 20px;
+		width: 20px;
+		margin-left: 25px;
+		background-color: white;
+		border-color: white;
+		
+		&:first-child {
+			margin-left: 0px;
+		}
+	}
+}
+
+.carousel-clickzone {
+	position: absolute;
+	top: 0;
+	width: 30vw;
+	height: 100%;
+	background-color: transparent;
+	&-left {
+		left: 0;
+	}
+	&-right {
+		right: 0;
+	}
+}
+
+.home-hero-caption {
+	position: absolute;
+	text-shadow: 0 1px 2px rgba(0,0,0,.6);
+	left: 20px;
+	top: 30px;
+	right: auto;
+	bottom: auto;
+	max-width: 100vw;
+	padding-left: 15px;
+	padding-right: 15px;
+	text-align: left;
+	font-weight: bold;
+	opacity: 0;
+	width: 325px;
+	&.show {
+		opacity: 1;
+		left: 0px;
+		transition: all 1s ease-out;
+		@media screen and (min-width: 768px) {
+			top: 40px;
+			left: 40px;
+		}
+	}
+	@media screen and (min-width: 500px) {
+		width: 475px;
+	}
+	@media screen and (min-width: 768px) {
+		width: 750px;
+		top: 40px;
+		left: 80px;
+	}
+	
+	h1 {
+		color: rgb(255, 255, 255);
+		line-height: 0.9;
+		font-size: 3.5em;
+		@media screen and (min-width: 768px) {
+			font-size: 5em;
+		}
+		@media screen and (min-width: 1200px) {
+			font-size: 6em;
+		}
+	}
+	p {
+		margin-bottom: 40px;
+		font-size: 1.6em;
+		color: rgb(255, 255, 255);
+		padding-left: 5px;
+		@media screen and (min-width: 768px) {
+			padding-left: 10px;
+			font-size: 2em;
+		}
+		@media screen and (min-width: 1200px) {
+			padding-left: 15px;
+		}
+	}
+	a {
+		font-size: 1.6em;
+		margin-left: 5px;
+		@media screen and (min-width: 768px) {
+			margin-left: 10px;
+		}
+		@media screen and (min-width: 1200px) {
+			margin-left: 15px;
+		}
+		&.webLink {
+			display: none;
+			@media screen and (min-width: 400px) {
+				display: inline;
+			}
+		}
+		&.teleLink {
+			display: inline;
+			@media screen and (min-width: 400px) {
+				display: none;
+			}
+		}
+	}
+}

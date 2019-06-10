@@ -1,0 +1,66 @@
+
+body {
+	margin-top: 50px;
+	@media screen and (min-width: 768px) {
+		margin-top: 60px;
+	}
+}
+
+.ruler-break {
+	max-width: 100vw;
+	position: relative;
+	padding: 100px 0px;
+}
+
+.ruler-break-line {
+	border-top: 2px solid #FFC02F;
+	width: 80vw;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.ruler-break-title {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin: 0;
+	background-color: white;
+	padding: 0 15px;
+	font-weight: bold;
+	white-space: nowrap;
+}
+
+.scroll-flag {
+	position: absolute;
+	top: -50px;
+	left: 0px;
+	@media screen and (min-width: 768px) {
+		top: -60px;
+	}
+}
+
+.lazy {
+	opacity: 0;
+	position: relative;
+	transition: all 1s ease-out;
+	
+	&.show {
+		opacity: 1;
+	}
+	
+	&.lazy-fade-up {
+		bottom: -75px;
+		&.show { bottom: 0px; }
+	}
+	
+	&.lazy-fade-right {
+		left: -75px;
+		&.show { left: 0px; }
+	}
+	
+	&.lazy-fade-left {
+		right: -75px;
+		&.show { right: 0px; }
+	}
+}

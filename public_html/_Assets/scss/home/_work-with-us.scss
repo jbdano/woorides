@@ -1,0 +1,44 @@
+
+#work-with-us {
+	background-color: #B9E2DF;
+	padding: 75px 0;
+	overflow: hidden;
+	@media screen and (min-width: 768px) {
+		padding: 25px 0;
+	}
+	@media screen and (min-width: 1000px) {
+		padding: 40px 0;
+	}
+}
+
+#wwu-title {
+	text-align: center;
+	color: white;
+	margin-top: 0;
+	margin-bottom: 30px;
+	@media screen and (min-width: 768px) {
+		margin-bottom: 10px;
+	}
+}
+
+#wwu-content {
+	text-align: center;
+	width: auto;
+	margin: 0 auto;
+}
+
+#wwu-btn {
+	margin: 35px auto 0;
+	display: block;
+	width: auto;
+	max-width: 300px;
+	text-align: center;
+	background-color: #132747;
+	border: 3px solid #132747;
+	color: white;
+	font-weight: bold;
+	padding: 12px 20px 8px;
+	&:hover {
+		text-decoration: none;
+	}
+}

@@ -1,0 +1,108 @@
+
+.navbar {
+	background: linear-gradient(#224070 50%, #1c3863 50%);
+	margin-bottom: 0px;
+	border-color: #224070;
+	@media screen and (min-width: 768px) {
+		height: 62px;
+	}
+}
+
+.navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
+	max-height: 500px;
+}
+
+.navbar-default .navbar-toggle.collapsed .icon-bar {
+	background-color: #ddd;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #888;
+}
+
+button.navbar-toggle.collapsed {
+	background-color: transparent !important;
+}
+
+button.navbar-toggle {
+	position: relative;
+	
+	.icon-bar-1 { opacity: 1; transition: opacity 0.5s; }
+	.icon-bar-2 { opacity: 1; transition: opacity 0.5s; }
+	.icon-bar-3 { opacity: 1; transition: opacity 0.5s; }
+	.icon-bar-cross {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin: 0 !important;
+		transform: translate(-50%, -50%);
+		opacity: 0;
+		transition: transform 0.5s, opacity 0.5s;
+	}
+	
+	&:not(.collapsed) {
+		.icon-bar-1 { opacity: 0; }
+		.icon-bar-2 { opacity: 0; }
+		.icon-bar-3 { opacity: 0; }
+		.icon-bar-cross {
+			transition: transform 0.6s;
+			opacity: 1;
+			background-color: $theme-color-blue;
+		}
+		.icon-bar-cross-4 {
+			transform: translate(-50%, -50%) rotate(45deg);
+		}
+		.icon-bar-cross-5 {
+			transform: translate(-50%, -50%) rotate(-45deg);
+		}		
+	}
+}
+
+.navbar-brand {
+	padding: 5px;
+	padding-left: 25px;
+	@media screen and (min-width: 768px) {
+		padding-left: 100px;
+		height: 60px;
+	}
+	
+	img {
+		height: 40px;
+		@media screen and (min-width: 768px) {
+			height: 50px;
+		}
+	}
+}
+
+.navbar-nav>li>a {
+	padding-top: 20px;
+	padding-bottom: 20px;	
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: white;
+	font-weight: bold;
+	&:hover {
+		color: white;
+	}
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+	color: white;
+}
+
+.navbar-nav>li>a.navbar_contact_btn {
+	margin: 8px 15px;
+	padding-top: 12px;
+	padding-bottom: 10px;
+	border: 2px solid white;
+	text-transform: uppercase;
+	background-color: transparent;
+	transition: background-color 0.2s ease-out;
+	&:hover {
+		color: rgb(255, 255, 255);
+		text-decoration: none;
+		background-color: rgba(255, 255, 255, 0.3);
+		transition: background-color 0.2s ease-out;
+	}
+}
