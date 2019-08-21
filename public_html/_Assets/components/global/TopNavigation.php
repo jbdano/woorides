@@ -11,7 +11,8 @@
                 <span class="icon-bar icon-bar-cross icon-bar-cross-4"></span>
                 <span class="icon-bar icon-bar-cross icon-bar-cross-5"></span>
             </button>
-            <a class="navbar-brand smoothScroll" href=""><img src="<?php echo ASSETPATH; ?>img/WRlogovectorSVG.svg"></a>
+            <a class="navbar-brand smoothScroll" href=""><img
+                    src="<?php echo $ASSETPATH; ?>img/WRlogovectorSVG.svg"></a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
