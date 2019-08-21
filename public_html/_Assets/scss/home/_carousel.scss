@@ -65,15 +65,15 @@
 	font-weight: bold;
 	opacity: 0;
 	width: 325px;
-	&.show {
-		opacity: 1;
-		left: 0px;
-		transition: all 1s ease-out;
-		@media screen and (min-width: 768px) {
-			top: 40px;
-			left: 40px;
-		}
-	}
+	// &.show {
+	// 	opacity: 1;
+	// 	left: 0px;
+	// 	transition: all 1s ease-out;
+	// 	@media screen and (min-width: 768px) {
+	// 		top: 40px;
+	// 		left: 40px;
+	// 	}
+	// }
 	@media screen and (min-width: 500px) {
 		width: 475px;
 	}

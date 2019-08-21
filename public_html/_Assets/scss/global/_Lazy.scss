@@ -7,7 +7,6 @@
 
 .lazy-fade.lazy-show {
     opacity: 1;
-    transform: translate(0px, 0px);
 }
 
 .lazy-fade.lazy-fade-left:not(.lazy-show) {
@@ -25,4 +24,3 @@
 .lazy-fade.lazy-fade-down:not(.lazy-show) {
     transform: translate(0px, -25px);
 }
-    
