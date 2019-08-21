@@ -9,3 +9,15 @@
 <script src="<?php echo $ASSETPATH; ?>js/lazy.js"></script>
 <!-- BOOTBOX -->
 <script src="<?php echo $ASSETPATH; ?>js/bootbox.min.js"></script>
+
+<script>
+$(document).ready(function() {
+
+    var loadLink = document.createElement('link');
+    loadLink.rel = 'stylesheet';
+    loadLink.href = '<?php echo $ASSETPATH; ?>css/font-awesome/all.min.css';
+    loadLink.type = 'text/css';
+    var godefer = document.getElementsByTagName('link')[0];
+    godefer.parentNode.insertBefore(loadLink, godefer);
+});
+</script>

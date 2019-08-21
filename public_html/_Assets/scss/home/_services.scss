@@ -2,7 +2,7 @@
 #services-section {
 	padding: 60px 0px 0px;
 	max-width: 100vw;
-	overflow: hidden;
+	overflow-x: hidden;
 	position: relative;
 }
 
@@ -121,43 +121,43 @@
 }
 
 .overview-rides {
-	display: grid;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 	margin-top: 50px;
 	max-width: 100vw;
-	grid-row-gap: 50px;
 	@media screen and (min-width: 1200px) {
 		height: 300px;
+		flex-direction: row;
+		align-items: flex-start;
 	}
 }
 
 .overview-rides-img {
 	height: 100%;
-	width: 100%;
 	@media screen and (min-width: 1200px) {
 		align-self: start;
+		margin-bottom: 0px;
 	}
 }
 
 .overview-rides-img img {
 	display: block;
-	margin: 0 auto;
+	box-sizing: border-box;
+	margin: 0 auto 50px;
 	height: auto;
-	width: 80%;
-	max-width: 300px;
+	width: 100%;
+	max-width: 500px;
+	padding: 0 15px;
 	user-select: none;
-	@media screen and (min-width: 768px) {
-		width: auto;
-		max-width: calc(100% - 50px);
-		max-height: 100%;
-	}
 }
 
 .overview-rides-content {
-	padding: 0px 15px;
-	@media screen and (min-width: 768px) {
-		height: auto;
-		align-self: start;
-	}
+	box-sizing: border-box;
+	width: 100%;
+	max-width: 500px;
+	padding: 0 15px;
 }
 
 .overview-rides-content-title {
@@ -167,24 +167,6 @@
 
 .overview-rides-content p {
 	margin-bottom: 60px;
-}
-
-@media screen and (min-width: 768px) {
-	
-	.overview-rides {
-		grid-template-columns: 1fr 1fr;
-	}
-	.overview-rides-img {
-		padding: 0 20px 0 0;
-	}
-	.overview-rides-img img {
-		margin: 0 0 0 auto;
-	}
-	.overview-rides-content {
-		padding: 0;
-		margin: 0 60px 0 20px;
-		max-width: 500px;
-	}
 }
 
 .serv-overview-btn {
@@ -211,32 +193,26 @@
 	margin-bottom: 100px;
 	
 	.rev-grid {
-		display: grid;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 		max-width: 100%;
-		grid-row-gap: 70px;
-		@media screen and (min-width: 1000px) {
-			grid-template-columns: repeat(2, 1fr);
-			grid-column-gap: 50px;
+		@media screen and (min-width: 992px) {
+			flex-direction: row;
+			justify-content: space-around;
 		}
 	}
 	.review {
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 70px;
+		@media screen and (min-width: 992px) {
+			flex-direction: row;
+			align-items: center;
+		}
 	
-		&:nth-child(1) {
-			@media screen and (min-width: 1366px) {
-				justify-self: right;
-			}
-		}
-		&:nth-child(2) {
-			@media screen and (min-width: 1366px) {
-				justify-self: left;
-			}
-		}
 		.review-headshot {
 			margin-bottom: 30px;
-			@media screen and (min-width: 1366px) {
-				float: left;
-				margin-bottom: 0px;
-			}
 			
 			.review-headshot-img {
 				background-size: cover;
@@ -290,13 +266,6 @@
 			max-width: 300px;
 			margin: 0 auto;
 			padding: 0 15px;
-			@media screen and (min-width: 1366px) {
-				margin: 0;
-				overflow: auto;
-				position: relative;
-				top: 50%;
-				transform: translateY(-50%);
-			}
 			
 			.review-rating i {
 				color: $theme-color-yellow;

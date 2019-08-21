@@ -2,15 +2,13 @@
 .carousel-inner .item {
 	
 	.carousel-graphic {
-		display: grid;
-		/*margin-top: 50px;*/
-		grid-template-rows: calc(100vh - 50px);
-		grid-template-columns: 100vw;
+		height: calc(100vh - 50px);
+		width: 100%; 
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: 90% 50%;
 		@media screen and (min-width: 768px) {
-			grid-template-rows: calc(100vh - 60px);
+			height: calc(100vh - 62px);
 		}
 	}
 }
