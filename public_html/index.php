@@ -243,13 +243,42 @@ include $ROOTPATH.'config.php';
     <script>
     $(document).ready(function() {
 
-        // $('.openbtn').on('click', function() {
-        //     $("#mySidenav").css('width', '80%');
-        // });
+        $(document).on('click', '.carousel-clickzone-left', function(e) {
+            $("#myCarousel").carousel("prev");
+        });
 
-        // $('.closebtn').on('click', function() {
-        //     $("#mySidenav").css('width', '0');
-        // });
+        $(document).on('click', '.carousel-clickzone-right', function(e) {
+            $("#myCarousel").carousel("next");
+        });
+
+        $(document).on('click', '.serv-navTab', function(e) {
+
+            var firstTab = $('#services-section .nav-tabs')[0].firstElementChild;
+            var lastTab = $('#services-section .nav-tabs')[0].lastElementChild;
+            // var activeTabHash = $('#services-section .nav-tabs li.active a')[0].hash;
+
+            if (e.currentTarget.classList.contains('serv-navTab-left')) {
+
+                var previousSibling = $('#services-section .nav-tabs li.active')[0]
+                    .previousElementSibling;
+
+                if ($(previousSibling).length === 1) {
+                    $(previousSibling).find('a').tab('show');
+                } else {
+                    $(lastTab).find('a').tab('show');
+                }
+
+            } else if (e.currentTarget.classList.contains('serv-navTab-right')) {
+
+                var nextSibling = $('#services-section .nav-tabs li.active')[0].nextElementSibling;
+
+                if ($(nextSibling).length === 1) {
+                    $(nextSibling).find('a').tab('show');
+                } else {
+                    $(firstTab).find('a').tab('show');
+                }
+            }
+        });
 
     });
     </script>
