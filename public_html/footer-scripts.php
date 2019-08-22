@@ -25,8 +25,17 @@ $(document).ready(function() {
     // Add smooth scrolling to all links
     $(document).on('click', ".smoothScroll", function(event) {
 
+        var thisPage = window.location.href.split("#")[0];
+        var nextPage = this.href.split("#")[0];
+
+        // debugger;
+        if (thisPage !== nextPage) {
+            window.location.href = this.href;
+        }
+
         // Make sure this.hash has a value before overriding default behavior
-        if (this.hash !== "") {
+        else if (this.hash !== "") {
+
             // Prevent default anchor click behavior
             event.preventDefault();
 

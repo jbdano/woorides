@@ -15,8 +15,6 @@ include $ROOTPATH.'config.php';
 
 <body>
 
-    <?php ?>
-
     <div id="myCarousel"
          class="carousel slide"
          data-ride="carousel">

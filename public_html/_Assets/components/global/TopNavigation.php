@@ -15,20 +15,20 @@
                 <span class="icon-bar icon-bar-cross icon-bar-cross-5"></span>
             </button>
             <a class="navbar-brand smoothScroll"
-               href="#top"><img src="<?php echo $ASSETPATH; ?>img/WRlogovectorSVG.svg"></a>
+               href="<?php echo WEBSERVERROOT; ?>#top"><img src="<?php echo $ASSETPATH; ?>img/WRlogovectorSVG.svg"></a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse"
              id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#services"
+                <li><a href="<?php echo WEBSERVERROOT; ?>#services"
                        id="navItem-services"
                        class="smoothScroll">Services</a></li>
-                <li><a href="About-Us"
+                <li><a href="<?php echo WEBSERVERROOT; ?>About-Us"
                        id="navItem-about"
                        class="smoothScroll">About Us</a></li>
-                <li><a href="#press"
+                <li><a href="<?php echo WEBSERVERROOT; ?>#press"
                        id="navItem-press"
                        class="smoothScroll">Press</a></li>
                 <li><a href="FAQs"
