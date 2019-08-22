@@ -31,9 +31,10 @@
                 <li><a href="<?php echo WEBSERVERROOT; ?>#press"
                        id="navItem-press"
                        class="smoothScroll">Press</a></li>
-                <li><a href="FAQs"
+                <li><a href="<?php echo WEBSERVERROOT; ?>FAQs"
                        id="navItem-faqs">FAQs</a></li>
                 <li><a href="https://squareup.com/appointments/book/daeb64a0-95f2-4a1e-8a6f-4f08b92d2a8c/12QARAKR1YM1A/services"
+                       rel="noreferrer"
                        target="_blank"
                        id="navItem-cta"
                        class="navbar_contact_btn">Book Tour</a></li>

@@ -2,14 +2,14 @@
     <div id="foot-grid">
         <div id="foot-site-links">
             <ul>
-                <li><a href="<?php echo $ASSETPATH; ?>#services"
+                <li><a href="<?php echo WEBSERVERROOT; ?>#services"
                        class="smoothScroll">Services</a></li>
-                <li><a href="<?php echo $ASSETPATH; ?>About-Us"
+                <li><a href="<?php echo WEBSERVERROOT; ?>About-Us"
                        class="smoothScroll">About Us</a></li>
-                <li><a href="<?php echo $ASSETPATH; ?>#press"
+                <li><a href="<?php echo WEBSERVERROOT; ?>#press"
                        class="smoothScroll">Press</a></li>
-                <li><a href="<?php echo $ASSETPATH; ?>Contact">Contact</a></li>
-                <li><a href="<?php echo $ASSETPATH; ?>FAQs">FAQs</a></li>
+                <li><a href="<?php echo WEBSERVERROOT; ?>Contact">Contact</a></li>
+                <li><a href="<?php echo WEBSERVERROOT; ?>FAQs">FAQs</a></li>
             </ul>
             <div id="foot-site-info">
                 <p>WooRides</p>

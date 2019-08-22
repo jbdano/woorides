@@ -1,5 +1,5 @@
 <?php
-$PAGETITLE = 'Woorides | About Us';
+$PAGETITLE = 'WooRides | About Us';
 $ACTIVEPAGE = 'about';
 $ROOTPATH = '../';
 
