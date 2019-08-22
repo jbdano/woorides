@@ -33,6 +33,7 @@ include $ROOTPATH.'config.php';
                 </div>
                 <div class="col-sm-6">
                     <img id="values-description-img"
+                         alt="WooRides customer group photo"
                          src="<?php echo $ASSETPATH; ?>img/Ali_Valentine_Yaovi_md.jpg">
                 </div>
             </div>
@@ -44,12 +45,14 @@ include $ROOTPATH.'config.php';
         <div class="container">
 
             <img class="pedicab-img lazy-fade lazy-fade-right"
+                 alt="blue and yellow logo"
                  src="<?php echo $ASSETPATH; ?>img/WRlogovector-fromnewpage.svg">
 
             <div class="involvement">
                 <div class="flexbox flexbox-r">
                     <div class="flex-graphic flex-graphic-wr">
                         <img src="<?php echo $ASSETPATH; ?>img/cropped-Cooperation-Worcester-Logo-2018-sm-01.png"
+                             alt="cooperation worcester logo"
                              class="lazy-fade lazy-fade-right">
                     </div>
                     <div class="flex-content flex-content-wr lazy">
@@ -76,6 +79,7 @@ include $ROOTPATH.'config.php';
                 <div class="flexbox flexbox-wcac">
                     <div class="flex-graphic flex-graphic-wcac">
                         <img src="<?php echo $ASSETPATH; ?>img/community-action.jpg"
+                             alt="community action logo"
                              class="lazy-fade lazy-fade-left">
                     </div>
                     <div class="flex-content flex-content-wcac lazy">
@@ -95,6 +99,7 @@ include $ROOTPATH.'config.php';
                 <div class="flexbox flexbox-eab">
                     <div class="flex-graphic flex-graphic-eab">
                         <img src="<?php echo $ASSETPATH; ?>img/EarnABikeLogo.png"
+                             alt="earn a bike logo"
                              class="lazy-fade lazy-fade-right">
                     </div>
                     <div class="flex-content flex-content-eab lazy">

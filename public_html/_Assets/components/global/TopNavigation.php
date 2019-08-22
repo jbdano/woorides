@@ -15,7 +15,9 @@
                 <span class="icon-bar icon-bar-cross icon-bar-cross-5"></span>
             </button>
             <a class="navbar-brand smoothScroll"
-               href="<?php echo WEBSERVERROOT; ?>#top"><img src="<?php echo $ASSETPATH; ?>img/WRlogovectorSVG.svg"></a>
+               aria-label="Return to top of home page"
+               href="<?php echo WEBSERVERROOT; ?>#top"><img alt="white and yellow logo"
+                     src="<?php echo $ASSETPATH; ?>img/WRlogovectorSVG.svg"></a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->

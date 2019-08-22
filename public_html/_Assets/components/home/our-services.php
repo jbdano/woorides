@@ -163,8 +163,10 @@ array_push($data, array(
     </ul>
     <div class="tab-content">
 
-        <div class="serv-navTab-left serv-navTab"><img src="<?php echo $ASSETPATH?>img/back.svg"></div>
-        <div class="serv-navTab-right serv-navTab"><img src="<?php echo $ASSETPATH?>img/right-arrow.svg"></div>
+        <div class="serv-navTab-left serv-navTab"><img alt="left arrow icon"
+                 src="<?php echo $ASSETPATH?>img/back.svg"></div>
+        <div class="serv-navTab-right serv-navTab"><img alt="right arrow icon"
+                 src="<?php echo $ASSETPATH?>img/right-arrow.svg"></div>
 
         <?php
 	  	foreach ($data as $i => $tab_info) {
@@ -177,9 +179,9 @@ array_push($data, array(
 	  	    '<div id="'.$tab_info['tabID'].'" class="tab-pane fade '.$tabClassName.'">'.
 	  	        '<div class="overview-rides">'.
 	  	            '<div class="overview-rides-img">'.
-	  	                '<img src="'.$tab_info['overview']['imgPath'].'">'.
+	  	                '<img alt="Overview picture of '.$tab_info['tabName'].'" src="'.$tab_info['overview']['imgPath'].'">'.
   	                '</div>'.
-	  	            '<div class="overview-rides-content lazy lazy-fade-left">'.
+	  	            '<div class="overview-rides-content">'.
 	  	                '<h5 class="overview-rides-content-title">'.'<span class="theme-color-yellow">'.$title_prefix.'</span>'.$title_postfix.'</h5>'.
     	  	            '<p>'.$tab_info['overview']['bodyText'].'</p>';
 	  	    
@@ -195,7 +197,7 @@ array_push($data, array(
 	  	            '<hr class="revRul-line ruler-break-line">'.
 	  	            '<h2 class="revRul-title ruler-break-title">Reviews</h2>'.
 	  	        '</div>'.
-	  	        '<div id="reviews-section">'.
+	  	        '<div class="reviews-section">'.
 	  	            '<div class="rev-grid">';
 	  	    
 	  	    foreach ($tab_info['reviews'] as $review) {

@@ -23,8 +23,9 @@
             <ul>
                 <li>
                     <a href="https://www.facebook.com/woorides/"
-                       rel="noreferror"
-                       target="_blank">
+                       rel="noreferrer"
+                       target="_blank"
+                       aria-label="Follow us on Facebook">
                         <div class="social-item">
                             <i class="fab fa-facebook-f"></i>
                         </div>
@@ -32,8 +33,9 @@
                 </li>
                 <li>
                     <a href="https://www.instagram.com/woorides/"
-                       rel="noreferror"
-                       target="_blank">
+                       rel="noreferrer"
+                       target="_blank"
+                       aria-label="Follow us on Instagram">
                         <div class="social-item">
                             <i class="fab fa-instagram"></i>
                         </div>
@@ -41,22 +43,25 @@
                 </li>
                 <li>
                     <a href="https://twitter.com/woorides?lang=en"
-                       rel="noreferror"
-                       target="_blank">
+                       rel="noreferrer"
+                       target="_blank"
+                       aria-label="Follow us on Twitter">
                         <div class="social-item">
                             <i class="fab fa-twitter"></i>
                         </div>
                     </a>
                 </li>
                 <li>
-                    <a href="javascript:void(0)">
+                    <a href="javascript:void(0)"
+                       aria-label="Follow us on YouTube">
                         <div class="social-item">
                             <i class="fab fa-youtube"></i>
                         </div>
                     </a>
                 </li>
                 <li>
-                    <a href="tel:1-508-966-8439">
+                    <a href="tel:1-508-966-8439"
+                       aria-label="Call us now">
                         <div class="social-item">
                             <i class="fas fa-phone-volume"></i>
                         </div>
@@ -65,7 +70,7 @@
             </ul>
             <a id="author-plug"
                href="http://www.told.design"
-               rel="noreferror"
+               rel="noreferrer"
                target="_blank">
                 <p>Made with <i class="far fa-heart"></i> by Told.Design</p>
             </a>

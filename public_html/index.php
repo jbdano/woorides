@@ -108,6 +108,7 @@ include $ROOTPATH.'config.php';
         <div class="defBan-img-cell">
             <!-- IMG placeholder -->
             <img src="<?php echo $ASSETPATH; ?>img/WRlogovector2SVG.svg"
+                 alt="white and blue pedicab logo"
                  class="lazy-fade lazy-fade-right">
         </div>
         <div class="defBan-def-cell">
@@ -148,12 +149,14 @@ include $ROOTPATH.'config.php';
                 <div class="col-sm-6">
                     <img id="values-description-img"
                          src="<?php echo $ASSETPATH; ?>img/Ali_Valentine_Yaovi_sm.jpg"
+                         alt="WooRides customer group photo"
                          class="lazy-fade lazy-fade-up">
                 </div>
             </div>
             <div class="row">
                 <div class="col-sm-4">
                     <img class="values-icon lazy-fade lazy-fade-up"
+                         alt="planet icon"
                          src="<?php echo $ASSETPATH; ?>img/003-green.svg">
                     <h4 class="values-title">Sustainable</h4>
                     <p class="values-description">Our human-powered pedicabs are an alternative to carbon-emitting
@@ -161,6 +164,7 @@ include $ROOTPATH.'config.php';
                 </div>
                 <div class="col-sm-4">
                     <img class="values-icon lazy-fade lazy-fade-up"
+                         alt="birthday celebration icon"
                          src="<?php echo $ASSETPATH; ?>img/002-birthday.svg">
                     <h4 class="values-title">fun</h4>
                     <p class="values-description">The most memorable way to get from point A to point B or tour the
@@ -168,6 +172,7 @@ include $ROOTPATH.'config.php';
                 </div>
                 <div class="col-sm-4">
                     <img class="values-icon lazy-fade lazy-fade-up"
+                         alt="pencil crossed with ruler icon"
                          src="<?php echo $ASSETPATH; ?>img/001-ruler.svg">
                     <h4 class="values-title">flexible</h4>
                     <p class="values-description">Custom tours, event services, and accommodations available. Just ask!
