@@ -59,7 +59,7 @@
                         </div>
                     </a>
                 </li>
-                <li>
+                <li class="social-item-phone">
                     <a href="tel:1-508-966-8439"
                        aria-label="Call us now">
                         <div class="social-item">

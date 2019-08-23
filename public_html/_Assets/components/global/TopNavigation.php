@@ -16,7 +16,8 @@
             </button>
             <a class="navbar-brand smoothScroll"
                aria-label="Return to top of home page"
-               href="<?php echo WEBSERVERROOT; ?>#top"><img alt="white and yellow logo"
+               href="<?php echo WEBSERVERROOT; if ($ACTIVEPAGE === 'home') echo '#top'; ?>"><img
+                     alt="white and yellow logo"
                      src="<?php echo $ASSETPATH; ?>img/WRlogovectorSVG.svg"></a>
         </div>
 
@@ -33,6 +34,8 @@
                 <li><a href="<?php echo WEBSERVERROOT; ?>#press"
                        id="navItem-press"
                        class="smoothScroll">Press</a></li>
+                <li><a href="<?php echo WEBSERVERROOT; ?>Contact"
+                       id="navItem-contact">Contact</a></li>
                 <li><a href="<?php echo WEBSERVERROOT; ?>FAQs"
                        id="navItem-faqs">FAQs</a></li>
                 <li><a href="https://squareup.com/appointments/book/daeb64a0-95f2-4a1e-8a6f-4f08b92d2a8c/12QARAKR1YM1A/services"
