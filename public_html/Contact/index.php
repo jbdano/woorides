@@ -204,12 +204,10 @@ include $ROOTPATH.'config.php';
                                       id="contact-form-serviceDate"></textarea>
                         </div>
 
-                        <input type="checkbox"
+                        <input type="text"
                                class="form-control sub-input hidden"
-                               id="robot"
-                               name="robot"
-                               value="1"
-                               aria-label="Robot Input">
+                               id="contact-form-info"
+                               name="info">
                     </div>
                     <div class="col-sm-12">
                         <a href="javascript:void(0)"
@@ -335,37 +333,37 @@ include $ROOTPATH.'config.php';
 
             if (validForm) {
 
-                /*
                 var params = $form.serialize();
 
-                $.post('<?php echo $ROOTPATH ?>_Assets/server/functions.php', {
-                    f: 'submitcontactform',
-                    params: params
-                }).then(function(response) {
+                debugger;
 
-                    var response = JSON.parse(response);
+                // $.post('<?php echo $ROOTPATH ?>_Assets/server/functions.php', {
+                //     f: 'submitcontactform',
+                //     params: params
+                // }).then(function(response) {
 
-                    if (response.success) {
-                        bootbox.alert({
-                            title: 'Thank you for your message!',
-                            message: "We will get back to you as soon as we can!"
-                        });
-                    } else {
-                        bootbox.alert({
-                            title: 'Uh oh!',
-                            message: "An error occurred. Please try again later"
-                        });
-                    }
+                //     var response = JSON.parse(response);
 
-                    $form.trigger('reset');
-                    $form.find('.is-valid').removeClass('is-valid');
-                    $form.find('.is-invalid').removeClass('is-invalid');
-                    $this.text(submitText);
+                //     if (response.success) {
+                //         bootbox.alert({
+                //             title: 'Thank you for your message!',
+                //             message: "We will get back to you as soon as we can!"
+                //         });
+                //     } else {
+                //         bootbox.alert({
+                //             title: 'Uh oh!',
+                //             message: "An error occurred. Please try again later"
+                //         });
+                //     }
 
-                }, 'json');
-                */
+                //     $form.trigger('reset');
+                //     $form.find('.has-error').removeClass('has-error');
+                //     $this.text(submitText);
+
+                // }, 'json');
+
             } else {
-                // $this.text(submitText);
+                $this.text(submitText);
             }
         });
 
