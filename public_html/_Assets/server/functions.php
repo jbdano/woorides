@@ -7,7 +7,6 @@ require './PHPMailer/src/SMTP.php';
 require './PHPMailer/src/PHPMailer.php';
 require './PHPMailer/src/Exception.php';
 
-
 include_once 'functions-config.php';
 
 $res = new stdClass();
@@ -161,6 +160,11 @@ function submitcontactform($string=null) {
 
                         $value = $client_inputs[$key];
 
+                        if ($key === 'eventStartTime' || $key === 'eventEndTime') {
+
+                            $value = convert24hourto12($value);
+                        }
+
                         if ($key_info['pre_sanitize'] !== false) {
 
                             $value = filter_var($value, $key_info['pre_sanitize']);
@@ -192,7 +196,7 @@ function submitcontactform($string=null) {
                     $body .= 'Phone: '.$form_inputs['phone'].'<br>';
                     $body .= 'Type of Inquiry: '.$form_inputs['type'].'<br><br>';
 
-                    $defer_keys = array('firstName', 'lastName', 'email', 'phone', 'message');
+                    $defer_keys = array('firstName', 'lastName', 'email', 'phone', 'type', 'message');
 
                     foreach ($form_inputs as $key => $value) {
 
@@ -218,7 +222,7 @@ function submitcontactform($string=null) {
                     // 0 = off (for production use)
                     // 1 = client messages
                     // 2 = client and server messages
-                    $mail->SMTPDebug = 2;
+                    $mail->SMTPDebug = 0;
                     $mail->Port = 587;
                     $mail->SMTPSecure = 'tls';
                     $mail->SMTPAuth = true;
@@ -248,4 +252,40 @@ function submitcontactform($string=null) {
 
     return $res;
 }
+
+function convert24hourto12($time_24='') {
+
+    $time_12 = '';
+
+    $time_24_str = strval($time_24);
+
+    if ($time_24_str !== '') {
+
+        $time_24_pcs = explode(':', $time_24_str);
+
+        if (count($time_24_pcs) == 2) {
+
+            $time_24_hr = intval($time_24_pcs[0]);
+            $time_12_min = intval($time_24_pcs[1]);
+
+            if ($time_24_hr > 12) {
+
+                $time_12_hr = $time_24_hr - 12;
+                $time_12_noon = ' PM';
+            }
+            else {
+
+                $time_12_hr = $time_24_hr;
+                $time_12_noon = ' AM';
+            }
+            
+            $time_12 = $time_12_hr . ':' . $time_12_min . $time_12_noon;
+        }
+    }
+
+    return $time_12;
+}
+
+echo json_encode($res);
+exit();
 ?>

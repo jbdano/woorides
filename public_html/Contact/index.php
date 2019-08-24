@@ -333,32 +333,30 @@ include $ROOTPATH.'config.php';
 
                 var params = $form.serialize();
 
-                debugger;
+                $.post('<?php echo $ROOTPATH ?>_Assets/server/functions.php', {
+                    f: 'submitcontactform',
+                    params: params
+                }).then(function(response) {
 
-                // $.post('<?php echo $ROOTPATH ?>_Assets/server/functions.php', {
-                //     f: 'submitcontactform',
-                //     params: params
-                // }).then(function(response) {
+                    var response = JSON.parse(response);
 
-                //     var response = JSON.parse(response);
+                    if (response.success) {
+                        bootbox.alert({
+                            title: 'Thank you for your message!',
+                            message: "We will get back to you as soon as we can!"
+                        });
+                    } else {
+                        bootbox.alert({
+                            title: 'Uh oh!',
+                            message: "An error occurred. Please try again later"
+                        });
+                    }
 
-                //     if (response.success) {
-                //         bootbox.alert({
-                //             title: 'Thank you for your message!',
-                //             message: "We will get back to you as soon as we can!"
-                //         });
-                //     } else {
-                //         bootbox.alert({
-                //             title: 'Uh oh!',
-                //             message: "An error occurred. Please try again later"
-                //         });
-                //     }
+                    $form.trigger('reset');
+                    $form.find('.has-error').removeClass('has-error');
+                    $this.text(submitText);
 
-                //     $form.trigger('reset');
-                //     $form.find('.has-error').removeClass('has-error');
-                //     $this.text(submitText);
-
-                // }, 'json');
+                }, 'json');
 
             } else {
                 $this.text(submitText);
