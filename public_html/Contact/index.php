@@ -70,7 +70,7 @@ include $ROOTPATH.'config.php';
                             <label class="service-item">Rides
                                 <input type="radio"
                                        name="type"
-                                       value="rides"
+                                       value="Rides"
                                        checked>
                                 <span class="checkmark"></span>
                             </label>
@@ -78,42 +78,42 @@ include $ROOTPATH.'config.php';
                             <label class="service-item">Tours
                                 <input type="radio"
                                        name="type"
-                                       value="tours">
+                                       value="Tours">
                                 <span class="checkmark"></span>
                             </label>
 
                             <label class="service-item">Transportation Services
                                 <input type="radio"
                                        name="type"
-                                       value="events">
+                                       value="Transportation Services">
                                 <span class="checkmark"></span>
                             </label>
 
                             <label class="service-item">Advertising
                                 <input type="radio"
                                        name="type"
-                                       value="advertising">
+                                       value="Advertising">
                                 <span class="checkmark"></span>
                             </label>
 
                             <label class="service-item">Community Space
                                 <input type="radio"
                                        name="type"
-                                       value="community">
+                                       value="Community Space">
                                 <span class="checkmark"></span>
                             </label>
 
                             <label class="service-item">Job Opportunities
                                 <input type="radio"
                                        name="type"
-                                       value="job">
+                                       value="Job Opportunities">
                                 <span class="checkmark"></span>
                             </label>
 
                             <label class="service-item">General
                                 <input type="radio"
                                        name="type"
-                                       value="general">
+                                       value="General">
                                 <span class="checkmark"></span>
                             </label>
                         </div>
@@ -255,11 +255,11 @@ include $ROOTPATH.'config.php';
             $('.event_questions').addClass('hidden');
             $('.advertise_questions').addClass('hidden');
 
-            if (serviceType == 'events') {
+            if (serviceType == 'Transportation Services') {
                 $('.event_questions').removeClass('hidden');
-            } else if (serviceType == 'advertising') {
+            } else if (serviceType == 'Advertising') {
                 $('.advertise_questions').removeClass('hidden');
-            } else if (serviceType == 'rides' || serviceType == 'tours') {
+            } else if (serviceType == 'Rides' || serviceType == 'Tours') {
                 $('.rides_questions').removeClass('hidden');
             }
         });
@@ -296,16 +296,16 @@ include $ROOTPATH.'config.php';
                     var requiredInputs = ['firstName', 'lastName', 'email', 'message'];
 
                     switch (type.value) {
-                        case 'events':
+                        case 'Transportation Services':
                             requiredInputs.push('eventLocation', 'eventStartTime', 'eventEndTime');
                             break;
-                        case 'advertising':
+                        case 'Advertising':
                             requiredInputs.push('orgName', 'advStart', 'advEnd', 'advType');
                             break;
-                        case 'rides':
+                        case 'Rides':
                             requiredInputs.push('serviceDate');
                             break;
-                        case 'tours':
+                        case 'Tours':
                             requiredInputs.push('serviceDate');
                             break;
                     }
@@ -328,8 +328,6 @@ include $ROOTPATH.'config.php';
                     }
                 });
             }
-
-            debugger;
 
             if (validForm) {
 
