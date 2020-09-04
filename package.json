@@ -22,7 +22,7 @@
   "homepage": "https://github.com/jbdano/woorides#readme",
   "devDependencies": {
     "autoprefixer": "^9.4.10",
-    "node-sass": "^4.11.0",
+    "node-sass": "^4.13.1",
     "nodemon": "^1.18.10",
     "postcss-cli": "^6.1.2",
     "browserslist": "^4.6.6",
